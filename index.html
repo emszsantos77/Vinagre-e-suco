@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard de Vendas JBS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- SIDEBAR COM FILTROS -->
+        <aside class="sidebar">
+            <h2>🔍 Filtros</h2>
+            
+            <div class="filter-group">
+                <label>Mês:</label>
+                <select id="filtro-mes">
+                    <option value="">Todos</option>
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <label>Fornecedor:</label>
+                <select id="filtro-fornecedor">
+                    <option value="">Todos</option>
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <label>Cidade:</label>
+                <select id="filtro-cidade">
+                    <option value="">Todas</option>
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <label>Supervisor:</label>
+                <select id="filtro-supervisor">
+                    <option value="">Todos</option>
+                </select>
+            </div>
+
+            <button id="btn-limpar" class="btn-limpar">Limpar Filtros</button>
+        </aside>
+
+        <!-- CONTEÚDO PRINCIPAL -->
+        <main class="main-content">
+            <header>
+                <div class="header-content">
+                    <div class="logos">
+                        <img src="logo suco.png" alt="Logo Suco" class="logo">
+                        <img src="logo vinagre.png" alt="Logo Vinagre" class="logo">
+                    </div>
+                    <h1>📊 Acompanhamento de Vendas Jbs Frios - 4 Estações e Bella Itália</h1>
+                </div>
+            </header>
+
+            <!-- KPIs -->
+            <section class="kpis">
+                <div class="kpi-card">
+                    <div class="kpi-icon">💰</div>
+                    <div class="kpi-content">
+                        <h3>Faturamento Total</h3>
+                        <p class="kpi-value" id="kpi-faturamento">R$ 0,00</p>
+                    </div>
+                </div>
+                <div class="kpi-card">
+                    <div class="kpi-icon">👥</div>
+                    <div class="kpi-content">
+                        <h3>Positivação</h3>
+                        <p class="kpi-value" id="kpi-positivacao">0</p>
+                    </div>
+                </div>
+                <div class="kpi-card">
+                    <div class="kpi-icon">📦</div>
+                    <div class="kpi-content">
+                        <h3>Quantidade Vendida</h3>
+                        <p class="kpi-value" id="kpi-quantidade">0</p>
+                    </div>
+                </div>
+                <div class="kpi-card">
+                    <div class="kpi-icon">🎯</div>
+                    <div class="kpi-content">
+                        <h3>Ticket Médio</h3>
+                        <p class="kpi-value" id="kpi-ticket">R$ 0,00</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- RANKING VENDEDORES/SUPERVISORES -->
+            <section class="ranking-section">
+                <div class="ranking-header">
+                    <h2 id="ranking-titulo">🏆 Ranking de Vendedores</h2>
+                    <button id="btn-toggle-view" class="btn-toggle">Ver por Supervisor</button>
+                </div>
+                <div class="table-container">
+                    <table id="tabela-ranking">
+                        <thead id="thead-ranking">
+                            <!-- Preenchido via JavaScript -->
+                        </thead>
+                        <tbody id="tbody-ranking">
+                            <!-- Preenchido via JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- GRID DE TOPS -->
+            <div class="tops-grid">
+                <!-- TOP 5 PRODUTOS -->
+                <section class="top-section">
+                    <h2>⭐ Top 5 Produtos Mais Vendidos</h2>
+                    <div class="cards-container" id="produtos-grid">
+                        <!-- Preenchido via JavaScript -->
+                    </div>
+                </section>
+
+                <!-- TOP 5 CIDADES -->
+                <section class="top-section">
+                    <h2>🏙️ Top 5 Cidades com Maior Faturamento</h2>
+                    <div class="cards-container" id="cidades-grid">
+                        <!-- Preenchido via JavaScript -->
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
