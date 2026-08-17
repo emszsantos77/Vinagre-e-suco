@@ -121,6 +121,61 @@ header h1 {
     flex: 1;
 }
 
+/* ABAS */
+.tabs {
+    display: flex;
+    gap: 10px;
+    background: white;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.tab-btn {
+    flex: 1;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    background: #f0f0f5;
+    color: #555;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.tab-btn.active {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
+
+.view {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* BANNER CAMPANHA */
+.campanha-banner {
+    background: linear-gradient(135deg, #0b1f3a 0%, #16325c 100%);
+    color: white;
+    padding: 18px 20px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.campanha-banner h2 {
+    color: #ffd700;
+    margin-bottom: 6px;
+    font-size: 20px;
+}
+
+.campanha-banner p {
+    font-size: 13px;
+    color: #e0e0e0;
+}
+
 /* KPIs */
 .kpis {
     display: grid;
@@ -293,6 +348,25 @@ tbody tr:nth-child(3) {
     background: linear-gradient(90deg, #fafafa 0%, #ffffff 100%);
 }
 
+/* IMAGENS DE PRÊMIO */
+.premio-img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+}
+
+.premio-wrapper {
+    text-align: center;
+    font-size: 24px;
+}
+
+.linha-vencedora {
+    background: linear-gradient(90deg, #fff4cc 0%, #ffffff 100%) !important;
+    font-weight: bold;
+}
+
 /* GRID DE TOPS */
 .tops-grid {
     display: grid;
@@ -452,9 +526,7 @@ tbody tr:nth-child(3) {
     margin-left: 10px;
 }
 
-/* ================================================ */
-/* RESPONSIVO PARA TABLETS (menor que 1024px) */
-/* ================================================ */
+/* RESPONSIVO */
 @media (max-width: 1024px) {
     .kpis {
         grid-template-columns: repeat(2, 1fr);
@@ -470,54 +542,15 @@ tbody tr:nth-child(3) {
     }
 }
 
-/* ================================================ */
-/* RESPONSIVO PARA MOBILE (menor que 768px) */
-/* ================================================ */
 @media (max-width: 768px) {
-    body {
-        overflow-x: hidden;
-    }
-    
     .container {
         flex-direction: column;
     }
     
-    /* SIDEBAR NO TOPO NO MOBILE */
     .sidebar {
         width: 100%;
-        max-height: none;
         padding: 15px;
         border-bottom: 2px solid #667eea;
-        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-    }
-    
-    .sidebar h2 {
-        font-size: 18px;
-        margin-bottom: 15px;
-    }
-    
-    .filter-group {
-        margin-bottom: 12px;
-    }
-    
-    .filter-group label {
-        font-size: 12px;
-    }
-    
-    .filter-group select {
-        font-size: 14px;
-        padding: 10px;
-    }
-    
-    /* CONTEÚDO PRINCIPAL NO MOBILE */
-    .main-content {
-        padding: 10px;
-        gap: 10px;
-    }
-    
-    /* HEADER NO MOBILE */
-    header {
-        padding: 10px 15px;
     }
     
     .header-content {
@@ -526,21 +559,15 @@ tbody tr:nth-child(3) {
         text-align: center;
     }
     
-    .logos {
-        justify-content: center;
-    }
-    
-    .logo {
-        height: 35px;
-    }
-    
     header h1 {
         font-size: 14px;
         text-align: center;
-        line-height: 1.4;
     }
     
-    /* KPIS NO MOBILE - 2 COLUNAS */
+    .tabs {
+        flex-direction: column;
+    }
+    
     .kpis {
         grid-template-columns: repeat(2, 1fr);
         gap: 8px;
@@ -559,15 +586,10 @@ tbody tr:nth-child(3) {
         height: 40px;
     }
     
-    .kpi-content h3 {
-        font-size: 10px;
-    }
-    
     .kpi-value {
         font-size: 16px;
     }
     
-    /* RANKING NO MOBILE */
     .ranking-section {
         height: auto;
         min-height: 300px;
@@ -580,18 +602,12 @@ tbody tr:nth-child(3) {
         align-items: stretch;
     }
     
-    .ranking-header h2 {
-        font-size: 14px;
-        text-align: center;
-    }
-    
     .btn-toggle {
         width: 100%;
         padding: 10px;
         font-size: 13px;
     }
     
-    /* TABELA NO MOBILE */
     table {
         min-width: 600px;
         font-size: 10px;
@@ -602,11 +618,11 @@ tbody tr:nth-child(3) {
         font-size: 10px;
     }
     
-    th {
-        font-size: 9px;
+    .premio-img {
+        width: 35px;
+        height: 35px;
     }
     
-    /* TOPS NO MOBILE */
     .tops-grid {
         grid-template-columns: 1fr;
         gap: 10px;
@@ -618,79 +634,13 @@ tbody tr:nth-child(3) {
         max-height: 300px;
     }
     
-    .top-section h2 {
-        font-size: 13px;
-    }
-    
-    /* PRODUTOS NO MOBILE */
-    .produto-card {
-        padding: 8px;
-        gap: 8px;
-    }
-    
     .produto-card img {
         width: 40px;
         height: 40px;
     }
-    
-    .produto-info h4 {
-        font-size: 11px;
-    }
-    
-    .produto-codigo {
-        font-size: 8px;
-    }
-    
-    .produto-stats {
-        gap: 8px;
-    }
-    
-    .produto-stats p {
-        font-size: 10px;
-    }
-    
-    .valor-destaque {
-        font-size: 11px !important;
-    }
-    
-    /* CIDADES NO MOBILE */
-    .cidade-card {
-        padding: 10px;
-    }
-    
-    .cidade-info h4 {
-        font-size: 12px;
-    }
-    
-    .cidade-stats {
-        gap: 8px;
-    }
-    
-    .cidade-stats p {
-        font-size: 10px;
-    }
-    
-    .cidade-icon {
-        font-size: 24px;
-    }
 }
 
-/* ================================================ */
-/* RESPONSIVO PARA MOBILE PEQUENO (menor que 480px) */
-/* ================================================ */
 @media (max-width: 480px) {
-    .main-content {
-        padding: 8px;
-    }
-    
-    header h1 {
-        font-size: 12px;
-    }
-    
-    .logo {
-        height: 30px;
-    }
-    
     .kpis {
         grid-template-columns: 1fr;
         gap: 8px;

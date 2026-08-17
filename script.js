@@ -1,3 +1,13 @@
+// Configuração dos nomes das imagens de prêmio na raiz do projeto
+// Ajuste aqui se os arquivos na sua pasta tiverem nomes diferentes
+const PREMIOS_VENDEDOR = [
+    'premio-1-tablet.png',
+    'premio-2-sanduicheira.png',
+    'premio-3-liquidificador.png'
+];
+const PREMIO_SUPERVISOR = 'premio-supervisor.png';
+const PREMIO_GERENTE = 'premio-gerente.png';
+
 // Variáveis globais
 let dadosOriginais = null;
 let dadosFiltrados = null;
@@ -11,11 +21,12 @@ document.addEventListener('DOMContentLoaded', async () => {
         dadosFiltrados = JSON.parse(JSON.stringify(dadosOriginais));
         
         console.log('✅ Dados carregados:', dadosOriginais);
-        console.log('📊 Top Cidades:', dadosOriginais.top_cidades);
         
         inicializarFiltros();
         renderizarDashboard();
         configurarEventos();
+        configurarTabs();
+        renderizarCampanha();
     } catch (error) {
         console.error('❌ Erro ao carregar dados:', error);
         alert('Erro ao carregar os dados. Verifique se o arquivo dados.json existe.');
@@ -68,7 +79,7 @@ function configurarEventos() {
     document.getElementById('btn-toggle-view').addEventListener('click', toggleVisualizacao);
 }
 
-// Alternar visualização
+// Alternar visualização do ranking geral
 function toggleVisualizacao() {
     visualizacaoAtual = visualizacaoAtual === 'vendedores' ? 'supervisores' : 'vendedores';
     
@@ -86,25 +97,30 @@ function toggleVisualizacao() {
     renderizarRanking();
 }
 
+// Comparador de texto tolerante (trim, lowercase, sem acentos opcional)
+function normalizarTexto(texto) {
+    return String(texto).toLowerCase().trim().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+}
+
+function compararTexto(a, b) {
+    return normalizarTexto(a) === normalizarTexto(b);
+}
+
 // Aplicar filtros
 function aplicarFiltros() {
-    const mesSelecionado = document.getElementById('filtro-mes').value.trim();
-    const fornecedorSelecionado = document.getElementById('filtro-fornecedor').value.trim();
-    const cidadeSelecionada = document.getElementById('filtro-cidade').value.trim();
-    const supervisorSelecionado = document.getElementById('filtro-supervisor').value.trim();
-    
-    console.log('🔍 Filtros aplicados:', { mesSelecionado, fornecedorSelecionado, cidadeSelecionada, supervisorSelecionado });
+    const mesSelecionado = document.getElementById('filtro-mes').value;
+    const fornecedorSelecionado = document.getElementById('filtro-fornecedor').value;
+    const cidadeSelecionada = document.getElementById('filtro-cidade').value;
+    const supervisorSelecionado = document.getElementById('filtro-supervisor').value;
     
     let dadosFiltradosTemp = dadosOriginais.dados_completos.filter(item => {
-        const mesMatch = !mesSelecionado || item.mes.trim() === mesSelecionado;
-        const fornecedorMatch = !fornecedorSelecionado || item.fornecedor.trim() === fornecedorSelecionado;
-        const cidadeMatch = !cidadeSelecionada || item.cidade.trim() === cidadeSelecionada;
-        const supervisorMatch = !supervisorSelecionado || item.supervisor.trim() === supervisorSelecionado;
+        const mesMatch = !mesSelecionado || compararTexto(item.mes, mesSelecionado);
+        const fornecedorMatch = !fornecedorSelecionado || compararTexto(item.fornecedor, fornecedorSelecionado);
+        const cidadeMatch = !cidadeSelecionada || compararTexto(item.cidade, cidadeSelecionada);
+        const supervisorMatch = !supervisorSelecionado || compararTexto(item.supervisor, supervisorSelecionado);
         
         return mesMatch && fornecedorMatch && cidadeMatch && supervisorMatch;
     });
-    
-    console.log(`📊 Registros filtrados: ${dadosFiltradosTemp.length}`);
     
     // Recalcular KPIs
     const faturamentoTotal = dadosFiltradosTemp.reduce((sum, item) => sum + item.faturamento, 0);
@@ -113,113 +129,7 @@ function aplicarFiltros() {
     const quantidadeTotal = dadosFiltradosTemp.reduce((sum, item) => sum + item.quantidade, 0);
     const ticketMedio = positivacaoTotal > 0 ? faturamentoTotal / positivacaoTotal : 0;
     
-    // Recalcular ranking vendedores
-    const vendedoresMap = {};
-    dadosFiltradosTemp.forEach(item => {
-        if (!vendedoresMap[item.vendedor]) {
-            vendedoresMap[item.vendedor] = {
-                vendedor: item.vendedor,
-                supervisor: item.supervisor,
-                faturamento: 0,
-                cpfs: new Set(),
-                quantidade: 0
-            };
-        }
-        vendedoresMap[item.vendedor].faturamento += item.faturamento;
-        vendedoresMap[item.vendedor].cpfs.add(item.cpf_cnpj);
-        vendedoresMap[item.vendedor].quantidade += item.quantidade;
-    });
-    
-    const rankingVendedores = Object.values(vendedoresMap).map(v => ({
-        vendedor: v.vendedor,
-        supervisor: v.supervisor,
-        faturamento: v.faturamento,
-        positivacao: v.cpfs.size,
-        quantidade: v.quantidade,
-        ticket_medio: v.cpfs.size > 0 ? v.faturamento / v.cpfs.size : 0
-    })).sort((a, b) => {
-        // ORDENAR: Primeiro por supervisor (alfabético), depois por faturamento (decrescente)
-        if (a.supervisor < b.supervisor) return -1;
-        if (a.supervisor > b.supervisor) return 1;
-        return b.faturamento - a.faturamento;
-    });
-    
-    // Recalcular ranking supervisores
-    const supervisoresMap = {};
-    dadosFiltradosTemp.forEach(item => {
-        if (!supervisoresMap[item.supervisor]) {
-            supervisoresMap[item.supervisor] = {
-                supervisor: item.supervisor,
-                faturamento: 0,
-                cpfs: new Set(),
-                quantidade: 0
-            };
-        }
-        supervisoresMap[item.supervisor].faturamento += item.faturamento;
-        supervisoresMap[item.supervisor].cpfs.add(item.cpf_cnpj);
-        supervisoresMap[item.supervisor].quantidade += item.quantidade;
-    });
-    
-    const rankingSupervisores = Object.values(supervisoresMap).map(s => ({
-        supervisor: s.supervisor,
-        faturamento: s.faturamento,
-        positivacao: s.cpfs.size,
-        quantidade: s.quantidade,
-        ticket_medio: s.cpfs.size > 0 ? s.faturamento / s.cpfs.size : 0
-    })).sort((a, b) => b.faturamento - a.faturamento);
-    
-    // Recalcular top produtos
-    const produtosMap = {};
-    dadosFiltradosTemp.forEach(item => {
-        if (!produtosMap[item.produto]) {
-            produtosMap[item.produto] = {
-                produto: item.produto,
-                codigo: item.codigo,
-                faturamento: 0,
-                cpfs: new Set()
-            };
-        }
-        produtosMap[item.produto].faturamento += item.faturamento;
-        produtosMap[item.produto].cpfs.add(item.cpf_cnpj);
-    });
-    
-    const topProdutos = Object.values(produtosMap)
-        .map(p => ({
-            produto: p.produto,
-            codigo: p.codigo,
-            faturamento: p.faturamento,
-            positivacao: p.cpfs.size,
-            imagem: `imagens/${p.codigo}.png`
-        }))
-        .sort((a, b) => b.faturamento - a.faturamento)
-        .slice(0, 5);
-    
-    // Recalcular top cidades
-    const cidadesMap = {};
-    dadosFiltradosTemp.forEach(item => {
-        if (!cidadesMap[item.cidade]) {
-            cidadesMap[item.cidade] = {
-                cidade: item.cidade,
-                faturamento: 0,
-                cpfs: new Set()
-            };
-        }
-        cidadesMap[item.cidade].faturamento += item.faturamento;
-        cidadesMap[item.cidade].cpfs.add(item.cpf_cnpj);
-    });
-    
-    const topCidades = Object.values(cidadesMap)
-        .map(c => ({
-            cidade: c.cidade,
-            faturamento: c.faturamento,
-            positivacao: c.cpfs.size
-        }))
-        .sort((a, b) => b.faturamento - a.faturamento)
-        .slice(0, 5);
-    
-    console.log('🏙️ Top Cidades recalculado:', topCidades);
-    
-    // Atualizar dados filtrados
+    // Recalcular rankings
     dadosFiltrados = {
         kpis: {
             faturamento_total: faturamentoTotal,
@@ -227,10 +137,11 @@ function aplicarFiltros() {
             quantidade_total: quantidadeTotal,
             ticket_medio: ticketMedio
         },
-        ranking_vendedores: rankingVendedores,
-        ranking_supervisores: rankingSupervisores,
-        top_produtos: topProdutos,
-        top_cidades: topCidades
+        ranking_vendedores: calcularRankingVendedores(dadosFiltradosTemp),
+        ranking_supervisores: calcularRankingSupervisores(dadosFiltradosTemp),
+        ranking_gerentes: calcularRankingGerentes(dadosFiltradosTemp),
+        top_produtos: calcularTopProdutos(dadosFiltradosTemp),
+        top_cidades: calcularTopCidades(dadosFiltradosTemp)
     };
     
     renderizarDashboard();
@@ -247,6 +158,141 @@ function limparFiltros() {
     renderizarDashboard();
 }
 
+// Cálculos de ranking e tops
+function calcularRankingVendedores(dados) {
+    const map = {};
+    dados.forEach(item => {
+        if (!map[item.vendedor]) {
+            map[item.vendedor] = {
+                vendedor: item.vendedor,
+                supervisor: item.supervisor,
+                gerente: item.gerente,
+                faturamento: 0,
+                cpfs: new Set(),
+                quantidade: 0
+            };
+        }
+        map[item.vendedor].faturamento += item.faturamento;
+        map[item.vendedor].cpfs.add(item.cpf_cnpj);
+        map[item.vendedor].quantidade += item.quantidade;
+    });
+    
+    return Object.values(map).map(v => ({
+        vendedor: v.vendedor,
+        supervisor: v.supervisor,
+        gerente: v.gerente,
+        faturamento: v.faturamento,
+        positivacao: v.cpfs.size,
+        quantidade: v.quantidade,
+        ticket_medio: v.cpfs.size > 0 ? v.faturamento / v.cpfs.size : 0
+    })).sort((a, b) => {
+        if (a.supervisor < b.supervisor) return -1;
+        if (a.supervisor > b.supervisor) return 1;
+        return b.faturamento - a.faturamento;
+    });
+}
+
+function calcularRankingSupervisores(dados) {
+    const map = {};
+    dados.forEach(item => {
+        if (!map[item.supervisor]) {
+            map[item.supervisor] = {
+                supervisor: item.supervisor,
+                faturamento: 0,
+                cpfs: new Set(),
+                quantidade: 0
+            };
+        }
+        map[item.supervisor].faturamento += item.faturamento;
+        map[item.supervisor].cpfs.add(item.cpf_cnpj);
+        map[item.supervisor].quantidade += item.quantidade;
+    });
+    
+    return Object.values(map).map(s => ({
+        supervisor: s.supervisor,
+        faturamento: s.faturamento,
+        positivacao: s.cpfs.size,
+        quantidade: s.quantidade,
+        ticket_medio: s.cpfs.size > 0 ? s.faturamento / s.cpfs.size : 0
+    })).sort((a, b) => b.faturamento - a.faturamento);
+}
+
+function calcularRankingGerentes(dados) {
+    const map = {};
+    dados.forEach(item => {
+        if (!map[item.gerente]) {
+            map[item.gerente] = {
+                gerente: item.gerente,
+                faturamento: 0,
+                cpfs: new Set(),
+                quantidade: 0
+            };
+        }
+        map[item.gerente].faturamento += item.faturamento;
+        map[item.gerente].cpfs.add(item.cpf_cnpj);
+        map[item.gerente].quantidade += item.quantidade;
+    });
+    
+    return Object.values(map).map(g => ({
+        gerente: g.gerente,
+        faturamento: g.faturamento,
+        positivacao: g.cpfs.size,
+        quantidade: g.quantidade,
+        ticket_medio: g.cpfs.size > 0 ? g.faturamento / g.cpfs.size : 0
+    })).sort((a, b) => b.faturamento - a.faturamento);
+}
+
+function calcularTopProdutos(dados) {
+    const map = {};
+    dados.forEach(item => {
+        if (!map[item.produto]) {
+            map[item.produto] = {
+                produto: item.produto,
+                codigo: item.codigo,
+                faturamento: 0,
+                cpfs: new Set()
+            };
+        }
+        map[item.produto].faturamento += item.faturamento;
+        map[item.produto].cpfs.add(item.cpf_cnpj);
+    });
+    
+    return Object.values(map)
+        .map(p => ({
+            produto: p.produto,
+            codigo: p.codigo,
+            faturamento: p.faturamento,
+            positivacao: p.cpfs.size,
+            imagem: `imagens/${p.codigo}.png`
+        }))
+        .sort((a, b) => b.faturamento - a.faturamento)
+        .slice(0, 5);
+}
+
+function calcularTopCidades(dados) {
+    const map = {};
+    dados.forEach(item => {
+        if (!map[item.cidade]) {
+            map[item.cidade] = {
+                cidade: item.cidade,
+                faturamento: 0,
+                cpfs: new Set()
+            };
+        }
+        map[item.cidade].faturamento += item.faturamento;
+        map[item.cidade].cpfs.add(item.cpf_cnpj);
+    });
+    
+    return Object.values(map)
+        .map(c => ({
+            cidade: c.cidade,
+            faturamento: c.faturamento,
+            positivacao: c.cpfs.size
+        }))
+        .sort((a, b) => b.faturamento - a.faturamento)
+        .slice(0, 5);
+}
+
 // Renderizar dashboard
 function renderizarDashboard() {
     renderizarKPIs();
@@ -255,7 +301,7 @@ function renderizarDashboard() {
     renderizarTopCidades();
 }
 
-// Renderizar KPIs (SEM DECIMAIS NA QUANTIDADE)
+// Renderizar KPIs
 function renderizarKPIs() {
     document.getElementById('kpi-faturamento').textContent = 
         formatarMoeda(dadosFiltrados.kpis.faturamento_total);
@@ -267,7 +313,7 @@ function renderizarKPIs() {
         formatarMoeda(dadosFiltrados.kpis.ticket_medio);
 }
 
-// Renderizar ranking (SEM DECIMAIS NA QUANTIDADE)
+// Renderizar ranking geral
 function renderizarRanking() {
     const thead = document.getElementById('thead-ranking');
     const tbody = document.getElementById('tbody-ranking');
@@ -278,6 +324,7 @@ function renderizarRanking() {
                 <th>Posição</th>
                 <th>Vendedor</th>
                 <th>Supervisor</th>
+                <th>Gerente</th>
                 <th>Faturamento</th>
                 <th>Positivação</th>
                 <th>Quantidade</th>
@@ -292,6 +339,7 @@ function renderizarRanking() {
                 <td>${index + 1}º</td>
                 <td>${vendedor.vendedor}</td>
                 <td>${vendedor.supervisor}</td>
+                <td>${vendedor.gerente}</td>
                 <td>${formatarMoeda(vendedor.faturamento)}</td>
                 <td>${vendedor.positivacao.toLocaleString('pt-BR')}</td>
                 <td>${Math.round(vendedor.quantidade).toLocaleString('pt-BR')}</td>
@@ -357,8 +405,6 @@ function renderizarTopCidades() {
     
     const icones = ['🥇', '🥈', '🥉', '🏅', '🏅'];
     
-    console.log('🎨 Renderizando cidades:', dadosFiltrados.top_cidades);
-    
     if (!dadosFiltrados.top_cidades || dadosFiltrados.top_cidades.length === 0) {
         grid.innerHTML = '<p style="color: #999; text-align: center; padding: 20px;">Nenhuma cidade encontrada</p>';
         return;
@@ -378,6 +424,99 @@ function renderizarTopCidades() {
             <div class="cidade-icon">${icones[index]}</div>
         `;
         grid.appendChild(card);
+    });
+}
+
+// Alternar entre abas
+function configurarTabs() {
+    document.getElementById('tab-geral').addEventListener('click', () => {
+        document.getElementById('view-geral').style.display = 'flex';
+        document.getElementById('view-campanha').style.display = 'none';
+        document.getElementById('tab-geral').classList.add('active');
+        document.getElementById('tab-campanha').classList.remove('active');
+    });
+
+    document.getElementById('tab-campanha').addEventListener('click', () => {
+        document.getElementById('view-geral').style.display = 'none';
+        document.getElementById('view-campanha').style.display = 'flex';
+        document.getElementById('tab-campanha').classList.add('active');
+        document.getElementById('tab-geral').classList.remove('active');
+    });
+}
+
+// Renderizar campanha
+function renderizarCampanha() {
+    const camp = dadosOriginais.campanha;
+    if (!camp) {
+        console.warn('Nenhum dado de campanha encontrado no dados.json');
+        return;
+    }
+
+    // KPIs
+    document.getElementById('camp-kpi-faturamento').textContent = formatarMoeda(camp.kpis.faturamento_total);
+    document.getElementById('camp-kpi-positivacao').textContent = camp.kpis.positivacao_total.toLocaleString('pt-BR');
+    document.getElementById('camp-kpi-quantidade').textContent = Math.round(camp.kpis.quantidade_total).toLocaleString('pt-BR');
+    document.getElementById('camp-kpi-ticket').textContent = formatarMoeda(camp.kpis.ticket_medio);
+
+    // Ranking Vendedores
+    const tbodyVend = document.getElementById('tbody-campanha-vendedores');
+    tbodyVend.innerHTML = '';
+    camp.ranking_vendedores.forEach((v, index) => {
+        const tr = document.createElement('tr');
+        if (index < 3) tr.classList.add('linha-vencedora');
+        const imgHtml = index < 3
+            ? `<div class="premio-wrapper"><img src="${PREMIOS_VENDEDOR[index]}" class="premio-img" alt="Prêmio ${index + 1}º" onerror="this.parentElement.innerHTML='🏆'"></div>`
+            : '-';
+        tr.innerHTML = `
+            <td>${imgHtml}</td>
+            <td>${index + 1}º</td>
+            <td>${v.vendedor}</td>
+            <td>${v.supervisor}</td>
+            <td>${v.gerente}</td>
+            <td>${formatarMoeda(v.faturamento)}</td>
+            <td>${v.positivacao.toLocaleString('pt-BR')}</td>
+            <td>${Math.round(v.quantidade).toLocaleString('pt-BR')}</td>
+            <td>${formatarMoeda(v.ticket_medio)}</td>
+        `;
+        tbodyVend.appendChild(tr);
+    });
+
+    // Ranking Supervisores
+    const tbodySup = document.getElementById('tbody-campanha-supervisores');
+    tbodySup.innerHTML = '';
+    camp.ranking_supervisores.forEach((s, index) => {
+        const tr = document.createElement('tr');
+        if (index === 0) tr.classList.add('linha-vencedora');
+        const imgHtml = index === 0
+            ? `<div class="premio-wrapper"><img src="${PREMIO_SUPERVISOR}" class="premio-img" alt="Prêmio Supervisor" onerror="this.parentElement.innerHTML='🏆'"></div>`
+            : '-';
+        tr.innerHTML = `
+            <td>${imgHtml}</td>
+            <td>${index + 1}º</td>
+            <td>${s.supervisor}</td>
+            <td>${formatarMoeda(s.faturamento)}</td>
+            <td>${s.positivacao.toLocaleString('pt-BR')}</td>
+        `;
+        tbodySup.appendChild(tr);
+    });
+
+    // Ranking Gerentes
+    const tbodyGer = document.getElementById('tbody-campanha-gerentes');
+    tbodyGer.innerHTML = '';
+    camp.ranking_gerentes.forEach((g, index) => {
+        const tr = document.createElement('tr');
+        if (index === 0) tr.classList.add('linha-vencedora');
+        const imgHtml = index === 0
+            ? `<div class="premio-wrapper"><img src="${PREMIO_GERENTE}" class="premio-img" alt="Prêmio Gerente" onerror="this.parentElement.innerHTML='🏆'"></div>`
+            : '-';
+        tr.innerHTML = `
+            <td>${imgHtml}</td>
+            <td>${index + 1}º</td>
+            <td>${g.gerente}</td>
+            <td>${formatarMoeda(g.faturamento)}</td>
+            <td>${g.positivacao.toLocaleString('pt-BR')}</td>
+        `;
+        tbodyGer.appendChild(tr);
     });
 }
 
