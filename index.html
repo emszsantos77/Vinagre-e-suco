@@ -51,78 +51,181 @@
                         <img src="logo suco.png" alt="Logo Suco" class="logo">
                         <img src="logo vinagre.png" alt="Logo Vinagre" class="logo">
                     </div>
-                    <h1>📊 Acompanhamento de Vendas Jbs Frios - 4 Estações / Bella Itália / Frinordeste </h1>
+                    <h1>📊 Acompanhamento de Vendas Jbs Frios - 4 Estações / Bella Itália / Frinordeste</h1>
                 </div>
             </header>
 
-            <!-- KPIs -->
-            <section class="kpis">
-                <div class="kpi-card">
-                    <div class="kpi-icon">💰</div>
-                    <div class="kpi-content">
-                        <h3>Faturamento Total</h3>
-                        <p class="kpi-value" id="kpi-faturamento">R$ 0,00</p>
-                    </div>
-                </div>
-                <div class="kpi-card">
-                    <div class="kpi-icon">👥</div>
-                    <div class="kpi-content">
-                        <h3>Positivação</h3>
-                        <p class="kpi-value" id="kpi-positivacao">0</p>
-                    </div>
-                </div>
-                <div class="kpi-card">
-                    <div class="kpi-icon">📦</div>
-                    <div class="kpi-content">
-                        <h3>Quantidade Vendida</h3>
-                        <p class="kpi-value" id="kpi-quantidade">0</p>
-                    </div>
-                </div>
-                <div class="kpi-card">
-                    <div class="kpi-icon">🎯</div>
-                    <div class="kpi-content">
-                        <h3>Ticket Médio</h3>
-                        <p class="kpi-value" id="kpi-ticket">R$ 0,00</p>
-                    </div>
-                </div>
-            </section>
-
-            <!-- RANKING VENDEDORES/SUPERVISORES -->
-            <section class="ranking-section">
-                <div class="ranking-header">
-                    <h2 id="ranking-titulo">🏆 Ranking de Vendedores</h2>
-                    <button id="btn-toggle-view" class="btn-toggle">Ver por Supervisor</button>
-                </div>
-                <div class="table-container">
-                    <table id="tabela-ranking">
-                        <thead id="thead-ranking">
-                            <!-- Preenchido via JavaScript -->
-                        </thead>
-                        <tbody id="tbody-ranking">
-                            <!-- Preenchido via JavaScript -->
-                        </tbody>
-                    </table>
-                </div>
-            </section>
-
-            <!-- GRID DE TOPS -->
-            <div class="tops-grid">
-                <!-- TOP 5 PRODUTOS -->
-                <section class="top-section">
-                    <h2>⭐ Top 5 Produtos Mais Vendidos</h2>
-                    <div class="cards-container" id="produtos-grid">
-                        <!-- Preenchido via JavaScript -->
-                    </div>
-                </section>
-
-                <!-- TOP 5 CIDADES -->
-                <section class="top-section">
-                    <h2>🏙️ Top 5 Cidades com Maior Faturamento</h2>
-                    <div class="cards-container" id="cidades-grid">
-                        <!-- Preenchido via JavaScript -->
-                    </div>
-                </section>
+            <!-- ABAS -->
+            <div class="tabs">
+                <button id="tab-geral" class="tab-btn active">📊 Dashboard Geral</button>
+                <button id="tab-campanha" class="tab-btn">🏆 Campanha JBS Frios x 4 Estações</button>
             </div>
+
+            <!-- VIEW DASHBOARD GERAL -->
+            <div id="view-geral" class="view">
+                <!-- KPIs -->
+                <section class="kpis">
+                    <div class="kpi-card">
+                        <div class="kpi-icon">💰</div>
+                        <div class="kpi-content">
+                            <h3>Faturamento Total</h3>
+                            <p class="kpi-value" id="kpi-faturamento">R$ 0,00</p>
+                        </div>
+                    </div>
+                    <div class="kpi-card">
+                        <div class="kpi-icon">👥</div>
+                        <div class="kpi-content">
+                            <h3>Positivação</h3>
+                            <p class="kpi-value" id="kpi-positivacao">0</p>
+                        </div>
+                    </div>
+                    <div class="kpi-card">
+                        <div class="kpi-icon">📦</div>
+                        <div class="kpi-content">
+                            <h3>Quantidade Vendida</h3>
+                            <p class="kpi-value" id="kpi-quantidade">0</p>
+                        </div>
+                    </div>
+                    <div class="kpi-card">
+                        <div class="kpi-icon">🎯</div>
+                        <div class="kpi-content">
+                            <h3>Ticket Médio</h3>
+                            <p class="kpi-value" id="kpi-ticket">R$ 0,00</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- RANKING VENDEDORES/SUPERVISORES -->
+                <section class="ranking-section">
+                    <div class="ranking-header">
+                        <h2 id="ranking-titulo">🏆 Ranking de Vendedores</h2>
+                        <button id="btn-toggle-view" class="btn-toggle">Ver por Supervisor</button>
+                    </div>
+                    <div class="table-container">
+                        <table id="tabela-ranking">
+                            <thead id="thead-ranking"></thead>
+                            <tbody id="tbody-ranking"></tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <!-- GRID DE TOPS -->
+                <div class="tops-grid">
+                    <section class="top-section">
+                        <h2>⭐ Top 5 Produtos Mais Vendidos</h2>
+                        <div class="cards-container" id="produtos-grid"></div>
+                    </section>
+
+                    <section class="top-section">
+                        <h2>🏙️ Top 5 Cidades com Maior Faturamento</h2>
+                        <div class="cards-container" id="cidades-grid"></div>
+                    </section>
+                </div>
+            </div>
+
+            <!-- VIEW CAMPANHA -->
+            <div id="view-campanha" class="view" style="display:none;">
+
+                <div class="campanha-banner">
+                    <h2>🏆 Campanha de Vendas JBS Frios X 4 Estações</h2>
+                    <p>Período: <strong>14/08 a 14/09</strong> &nbsp;|&nbsp; Fornecedores: <strong>Bebidas Muterle</strong> e <strong>Vinícola Casa Muterle</strong></p>
+                </div>
+
+                <section class="kpis">
+                    <div class="kpi-card">
+                        <div class="kpi-icon">💰</div>
+                        <div class="kpi-content">
+                            <h3>Faturamento Campanha</h3>
+                            <p class="kpi-value" id="camp-kpi-faturamento">R$ 0,00</p>
+                        </div>
+                    </div>
+                    <div class="kpi-card">
+                        <div class="kpi-icon">👥</div>
+                        <div class="kpi-content">
+                            <h3>Positivação</h3>
+                            <p class="kpi-value" id="camp-kpi-positivacao">0</p>
+                        </div>
+                    </div>
+                    <div class="kpi-card">
+                        <div class="kpi-icon">📦</div>
+                        <div class="kpi-content">
+                            <h3>Quantidade Vendida</h3>
+                            <p class="kpi-value" id="camp-kpi-quantidade">0</p>
+                        </div>
+                    </div>
+                    <div class="kpi-card">
+                        <div class="kpi-icon">🎯</div>
+                        <div class="kpi-content">
+                            <h3>Ticket Médio</h3>
+                            <p class="kpi-value" id="camp-kpi-ticket">R$ 0,00</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="ranking-section">
+                    <div class="ranking-header">
+                        <h2>🥇 Ranking de Vendedores - Premiação</h2>
+                    </div>
+                    <div class="table-container">
+                        <table id="tabela-campanha-vendedores">
+                            <thead>
+                                <tr>
+                                    <th>Prêmio</th>
+                                    <th>Posição</th>
+                                    <th>Vendedor</th>
+                                    <th>Supervisor</th>
+                                    <th>Gerente</th>
+                                    <th>Faturamento</th>
+                                    <th>Positivação</th>
+                                    <th>Quantidade</th>
+                                    <th>Ticket Médio</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tbody-campanha-vendedores"></tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <div class="tops-grid">
+                    <section class="top-section">
+                        <h2>👔 Ranking de Supervisores - Premiação</h2>
+                        <div class="table-container">
+                            <table id="tabela-campanha-supervisores">
+                                <thead>
+                                    <tr>
+                                        <th>Prêmio</th>
+                                        <th>Posição</th>
+                                        <th>Supervisor</th>
+                                        <th>Faturamento</th>
+                                        <th>Positivação</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="tbody-campanha-supervisores"></tbody>
+                            </table>
+                        </div>
+                    </section>
+
+                    <section class="top-section">
+                        <h2>🧑‍💼 Ranking de Gerentes - Premiação</h2>
+                        <div class="table-container">
+                            <table id="tabela-campanha-gerentes">
+                                <thead>
+                                    <tr>
+                                        <th>Prêmio</th>
+                                        <th>Posição</th>
+                                        <th>Gerente</th>
+                                        <th>Faturamento</th>
+                                        <th>Positivação</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="tbody-campanha-gerentes"></tbody>
+                            </table>
+                        </div>
+                    </section>
+                </div>
+
+            </div>
+
         </main>
     </div>
 
