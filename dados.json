@@ -1,46 +1,46 @@
 {
   "kpis": {
-    "faturamento_total": 464972.31,
-    "positivacao_total": 1034,
-    "quantidade_total": 17451.0,
-    "ticket_medio": 449.68
+    "faturamento_total": 482666.86,
+    "positivacao_total": 1052,
+    "quantidade_total": 18051.0,
+    "ticket_medio": 458.81
   },
   "ranking_vendedores": [
     {
       "vendedor": "MARIA ELIZABETE",
       "supervisor": "ANDREIA MEDEIROS",
       "gerente": "MARIVALDO",
-      "faturamento": 30731.53,
+      "faturamento": 31883.47,
       "positivacao": 63,
-      "quantidade": 1387,
-      "ticket_medio": 487.8
+      "quantidade": 1423,
+      "ticket_medio": 506.09
     },
     {
       "vendedor": "EVANILSON NOVAIS (107)",
       "supervisor": "ANDREIA MEDEIROS",
       "gerente": "MARIVALDO",
-      "faturamento": 27132.67,
-      "positivacao": 72,
-      "quantidade": 1683,
-      "ticket_medio": 376.84
+      "faturamento": 27570.84,
+      "positivacao": 73,
+      "quantidade": 1716,
+      "ticket_medio": 377.68
     },
     {
       "vendedor": "AGNALDO SILVA (75 99889-0341)",
       "supervisor": "ANDREIA MEDEIROS",
       "gerente": "MARIVALDO",
-      "faturamento": 14334.73,
-      "positivacao": 49,
-      "quantidade": 537,
-      "ticket_medio": 292.55
+      "faturamento": 14901.63,
+      "positivacao": 50,
+      "quantidade": 547,
+      "ticket_medio": 298.03
     },
     {
       "vendedor": "LARISSA MENDES",
       "supervisor": "ANDREIA MEDEIROS",
       "gerente": "MARIVALDO",
-      "faturamento": 9213.32,
+      "faturamento": 9328.76,
       "positivacao": 27,
-      "quantidade": 458,
-      "ticket_medio": 341.23
+      "quantidade": 464,
+      "ticket_medio": 345.51
     },
     {
       "vendedor": "JOELSON MIRANDA",
@@ -55,19 +55,19 @@
       "vendedor": "HIAN RIBEIRO",
       "supervisor": "DANILO",
       "gerente": "MARIVALDO",
-      "faturamento": 9240.94,
-      "positivacao": 39,
-      "quantidade": 184,
-      "ticket_medio": 236.95
+      "faturamento": 9504.72,
+      "positivacao": 40,
+      "quantidade": 186,
+      "ticket_medio": 237.62
     },
     {
       "vendedor": "HELLEN GOMES",
       "supervisor": "DANILO",
       "gerente": "MARIVALDO",
-      "faturamento": 5455.38,
-      "positivacao": 26,
-      "quantidade": 228,
-      "ticket_medio": 209.82
+      "faturamento": 6004.72,
+      "positivacao": 27,
+      "quantidade": 234,
+      "ticket_medio": 222.4
     },
     {
       "vendedor": "CAMILA FERREIRA",
@@ -82,19 +82,19 @@
       "vendedor": "MARCOS JEAN",
       "supervisor": "DANILO",
       "gerente": "MARIVALDO",
-      "faturamento": 5103.38,
+      "faturamento": 5192.72,
       "positivacao": 16,
-      "quantidade": 302,
-      "ticket_medio": 318.96
+      "quantidade": 308,
+      "ticket_medio": 324.55
     },
     {
       "vendedor": "EDVALDO",
       "supervisor": "DANILO",
       "gerente": "MARIVALDO",
-      "faturamento": 2294.96,
-      "positivacao": 8,
-      "quantidade": 24,
-      "ticket_medio": 286.87
+      "faturamento": 2542.75,
+      "positivacao": 9,
+      "quantidade": 25,
+      "ticket_medio": 282.53
     },
     {
       "vendedor": "PEDRO HENRIQUE",
@@ -118,46 +118,55 @@
       "vendedor": "CAMILAIPIRA",
       "supervisor": "DANILO",
       "gerente": "MARIVALDO",
-      "faturamento": 341.24,
-      "positivacao": 4,
-      "quantidade": 26,
-      "ticket_medio": 85.31
+      "faturamento": 477.65,
+      "positivacao": 5,
+      "quantidade": 35,
+      "ticket_medio": 95.53
     },
     {
       "vendedor": "UELESSON OLIVEIRA (129)",
       "supervisor": "GLEIDSON FIENES",
       "gerente": "MARIVALDO",
-      "faturamento": 17187.93,
+      "faturamento": 17499.69,
       "positivacao": 27,
-      "quantidade": 807,
-      "ticket_medio": 636.59
+      "quantidade": 831,
+      "ticket_medio": 648.14
     },
     {
       "vendedor": "EDSON CORREIA (77 99165-5655)",
       "supervisor": "GLEIDSON FIENES",
       "gerente": "MARIVALDO",
-      "faturamento": 11537.5,
-      "positivacao": 34,
-      "quantidade": 612,
-      "ticket_medio": 339.34
-    },
-    {
-      "vendedor": "JONES FERNANDES",
-      "supervisor": "GLEIDSON FIENES",
-      "gerente": "MARIVALDO",
-      "faturamento": 7089.49,
-      "positivacao": 19,
-      "quantidade": 301,
-      "ticket_medio": 373.13
+      "faturamento": 11735.41,
+      "positivacao": 35,
+      "quantidade": 621,
+      "ticket_medio": 335.3
     },
     {
       "vendedor": "JEFERSON SILVA (130)",
       "supervisor": "GLEIDSON FIENES",
       "gerente": "MARIVALDO",
-      "faturamento": 5719.33,
+      "faturamento": 7192.69,
       "positivacao": 13,
-      "quantidade": 337,
-      "ticket_medio": 439.95
+      "quantidade": 421,
+      "ticket_medio": 553.28
+    },
+    {
+      "vendedor": "JONES FERNANDES",
+      "supervisor": "GLEIDSON FIENES",
+      "gerente": "MARIVALDO",
+      "faturamento": 7185.43,
+      "positivacao": 19,
+      "quantidade": 307,
+      "ticket_medio": 378.18
+    },
+    {
+      "vendedor": "CLAUBELINO SANTOS (125)",
+      "supervisor": "GLEIDSON FIENES",
+      "gerente": "MARIVALDO",
+      "faturamento": 4780.49,
+      "positivacao": 19,
+      "quantidade": 250,
+      "ticket_medio": 251.6
     },
     {
       "vendedor": "MATHEUS RIBEIRO",
@@ -169,15 +178,6 @@
       "ticket_medio": 371.64
     },
     {
-      "vendedor": "CLAUBELINO SANTOS (125)",
-      "supervisor": "GLEIDSON FIENES",
-      "gerente": "MARIVALDO",
-      "faturamento": 4384.67,
-      "positivacao": 19,
-      "quantidade": 232,
-      "ticket_medio": 230.77
-    },
-    {
       "vendedor": "ILMA MOURA",
       "supervisor": "GLEIDSON FIENES",
       "gerente": "MARIVALDO",
@@ -187,22 +187,31 @@
       "ticket_medio": 259.3
     },
     {
-      "vendedor": "CESAR DIAS",
-      "supervisor": "GLEIDSON FIENES",
-      "gerente": "MARIVALDO",
-      "faturamento": 2911.72,
-      "positivacao": 19,
-      "quantidade": 158,
-      "ticket_medio": 153.25
-    },
-    {
       "vendedor": "JORGE REIS (117)",
       "supervisor": "GLEIDSON FIENES",
       "gerente": "MARIVALDO",
-      "faturamento": 2427.08,
-      "positivacao": 18,
-      "quantidade": 132,
-      "ticket_medio": 134.84
+      "faturamento": 3291.05,
+      "positivacao": 21,
+      "quantidade": 145,
+      "ticket_medio": 156.72
+    },
+    {
+      "vendedor": "CESAR DIAS",
+      "supervisor": "GLEIDSON FIENES",
+      "gerente": "MARIVALDO",
+      "faturamento": 2930.71,
+      "positivacao": 20,
+      "quantidade": 159,
+      "ticket_medio": 146.54
+    },
+    {
+      "vendedor": "GABRIEL SODRE (120)",
+      "supervisor": "GLEIDSON FIENES",
+      "gerente": "MARIVALDO",
+      "faturamento": 2282.07,
+      "positivacao": 6,
+      "quantidade": 123,
+      "ticket_medio": 380.35
     },
     {
       "vendedor": "ROTA MACAUBAS (75 9102-0548)",
@@ -214,22 +223,13 @@
       "ticket_medio": 224.21
     },
     {
-      "vendedor": "GABRIEL SODRE (120)",
-      "supervisor": "GLEIDSON FIENES",
-      "gerente": "MARIVALDO",
-      "faturamento": 2103.39,
-      "positivacao": 6,
-      "quantidade": 111,
-      "ticket_medio": 350.56
-    },
-    {
       "vendedor": "PAULA RIBEIRO (101)",
       "supervisor": "GLEIDSON FIENES",
       "gerente": "MARIVALDO",
-      "faturamento": 1022.42,
+      "faturamento": 1136.36,
       "positivacao": 4,
-      "quantidade": 58,
-      "ticket_medio": 255.6
+      "quantidade": 64,
+      "ticket_medio": 284.09
     },
     {
       "vendedor": "JEAN CARLOS (77 99962-0649)",
@@ -244,19 +244,19 @@
       "vendedor": "WESCKEY FONTES",
       "supervisor": "JEIZIANE",
       "gerente": "SANDRO",
-      "faturamento": 30998.41,
+      "faturamento": 32414.67,
       "positivacao": 48,
-      "quantidade": 345,
-      "ticket_medio": 645.8
+      "quantidade": 379,
+      "ticket_medio": 675.31
     },
     {
       "vendedor": "ANDRE VINAGRE (123)",
       "supervisor": "JEIZIANE",
       "gerente": "SANDRO",
-      "faturamento": 12621.3,
-      "positivacao": 23,
-      "quantidade": 490,
-      "ticket_medio": 548.75
+      "faturamento": 13250.59,
+      "positivacao": 25,
+      "quantidade": 501,
+      "ticket_medio": 530.02
     },
     {
       "vendedor": "SHEILLA MARIANO",
@@ -271,19 +271,19 @@
       "vendedor": "DAGMAR SILVA (75 98201-9217)",
       "supervisor": "JEIZIANE",
       "gerente": "SANDRO",
-      "faturamento": 3047.48,
-      "positivacao": 11,
-      "quantidade": 132,
-      "ticket_medio": 277.04
+      "faturamento": 3295.27,
+      "positivacao": 12,
+      "quantidade": 133,
+      "ticket_medio": 274.61
     },
     {
       "vendedor": "JULIETE LIMA (122)",
       "supervisor": "JEIZIANE",
       "gerente": "SANDRO",
-      "faturamento": 1729.68,
+      "faturamento": 1793.64,
       "positivacao": 10,
-      "quantidade": 102,
-      "ticket_medio": 172.97
+      "quantidade": 106,
+      "ticket_medio": 179.36
     },
     {
       "vendedor": "ELICARLOS (138)",
@@ -316,100 +316,100 @@
       "vendedor": "CLARA ARAUJO",
       "supervisor": "LUCAS SILVA",
       "gerente": "SANDRO",
-      "faturamento": 11600.13,
-      "positivacao": 26,
-      "quantidade": 257,
-      "ticket_medio": 446.16
+      "faturamento": 12620.95,
+      "positivacao": 27,
+      "quantidade": 285,
+      "ticket_medio": 467.44
     },
     {
       "vendedor": "DIEGO SILVA",
       "supervisor": "LUCAS SILVA",
       "gerente": "SANDRO",
-      "faturamento": 11464.53,
+      "faturamento": 11777.93,
       "positivacao": 28,
-      "quantidade": 367,
-      "ticket_medio": 409.45
+      "quantidade": 387,
+      "ticket_medio": 420.64
     },
     {
       "vendedor": "EDENILSON FERREIRA",
       "supervisor": "LUCAS SILVA",
       "gerente": "SANDRO",
-      "faturamento": 10790.0,
-      "positivacao": 35,
-      "quantidade": 510,
-      "ticket_medio": 308.29
+      "faturamento": 11082.52,
+      "positivacao": 36,
+      "quantidade": 528,
+      "ticket_medio": 307.85
     },
     {
       "vendedor": "ANDERSON NASCIMENTO",
       "supervisor": "LUCAS SILVA",
       "gerente": "SANDRO",
-      "faturamento": 7649.09,
-      "positivacao": 9,
-      "quantidade": 161,
-      "ticket_medio": 849.9
+      "faturamento": 9135.83,
+      "positivacao": 10,
+      "quantidade": 167,
+      "ticket_medio": 913.58
     },
     {
       "vendedor": "CARMILTON GOMES (118)",
       "supervisor": "LUCAS SILVA",
       "gerente": "SANDRO",
-      "faturamento": 7428.48,
+      "faturamento": 7630.25,
       "positivacao": 30,
-      "quantidade": 280,
-      "ticket_medio": 247.62
+      "quantidade": 293,
+      "ticket_medio": 254.34
     },
     {
       "vendedor": "AROLDO",
       "supervisor": "LUCAS SILVA",
       "gerente": "SANDRO",
-      "faturamento": 2295.37,
+      "faturamento": 2414.49,
       "positivacao": 19,
-      "quantidade": 113,
-      "ticket_medio": 120.81
+      "quantidade": 121,
+      "ticket_medio": 127.08
     },
     {
       "vendedor": "HENRIQUE RAMON",
       "supervisor": "RODRIGO PINHEIRO",
       "gerente": "SANDRO",
-      "faturamento": 96992.03,
-      "positivacao": 85,
-      "quantidade": 2930,
-      "ticket_medio": 1141.08
+      "faturamento": 98752.98,
+      "positivacao": 86,
+      "quantidade": 2980,
+      "ticket_medio": 1148.29
     },
     {
       "vendedor": "ALLYS ARAUJO",
       "supervisor": "RODRIGO PINHEIRO",
       "gerente": "SANDRO",
-      "faturamento": 19839.45,
+      "faturamento": 20219.15,
       "positivacao": 41,
-      "quantidade": 695,
-      "ticket_medio": 483.89
-    },
-    {
-      "vendedor": "TADEU SANTOS",
-      "supervisor": "RODRIGO PINHEIRO",
-      "gerente": "SANDRO",
-      "faturamento": 16933.46,
-      "positivacao": 29,
-      "quantidade": 254,
-      "ticket_medio": 583.91
+      "quantidade": 725,
+      "ticket_medio": 493.15
     },
     {
       "vendedor": "CAIO VINICIUS",
       "supervisor": "RODRIGO PINHEIRO",
       "gerente": "SANDRO",
-      "faturamento": 16644.13,
-      "positivacao": 34,
-      "quantidade": 1017,
-      "ticket_medio": 489.53
+      "faturamento": 17673.58,
+      "positivacao": 35,
+      "quantidade": 1072,
+      "ticket_medio": 504.96
+    },
+    {
+      "vendedor": "TADEU SANTOS",
+      "supervisor": "RODRIGO PINHEIRO",
+      "gerente": "SANDRO",
+      "faturamento": 17231.75,
+      "positivacao": 29,
+      "quantidade": 275,
+      "ticket_medio": 594.2
     },
     {
       "vendedor": "JAILTON SANTOS (140)",
       "supervisor": "RODRIGO PINHEIRO",
       "gerente": "SANDRO",
-      "faturamento": 13291.68,
+      "faturamento": 14516.69,
       "positivacao": 29,
-      "quantidade": 537,
-      "ticket_medio": 458.33
+      "quantidade": 556,
+      "ticket_medio": 500.58
     },
     {
       "vendedor": "GILDASIO GAMA (128)",
@@ -424,97 +424,97 @@
   "ranking_supervisores": [
     {
       "supervisor": "RODRIGO PINHEIRO",
-      "faturamento": 175381.59,
-      "positivacao": 240,
-      "quantidade": 5722,
-      "ticket_medio": 730.76
+      "faturamento": 180074.99,
+      "positivacao": 242,
+      "quantidade": 5897,
+      "ticket_medio": 744.11
     },
     {
       "supervisor": "ANDREIA MEDEIROS",
-      "faturamento": 87030.21,
-      "positivacao": 226,
-      "quantidade": 4189,
-      "ticket_medio": 385.09
+      "faturamento": 89302.66,
+      "positivacao": 228,
+      "quantidade": 4274,
+      "ticket_medio": 391.68
     },
     {
       "supervisor": "GLEIDSON FIENES",
-      "faturamento": 64785.3,
-      "positivacao": 194,
-      "quantidade": 3421,
-      "ticket_medio": 333.94
+      "faturamento": 68435.67,
+      "positivacao": 199,
+      "quantidade": 3594,
+      "ticket_medio": 343.9
     },
     {
       "supervisor": "JEIZIANE",
-      "faturamento": 56218.59,
-      "positivacao": 109,
-      "quantidade": 1247,
-      "ticket_medio": 515.77
+      "faturamento": 58575.89,
+      "positivacao": 112,
+      "quantidade": 1297,
+      "ticket_medio": 523.0
     },
     {
       "supervisor": "LUCAS SILVA",
-      "faturamento": 51227.6,
-      "positivacao": 147,
-      "quantidade": 1688,
-      "ticket_medio": 348.49
+      "faturamento": 54661.97,
+      "positivacao": 150,
+      "quantidade": 1781,
+      "ticket_medio": 364.41
     },
     {
       "supervisor": "DANILO",
-      "faturamento": 30329.02,
-      "positivacao": 118,
-      "quantidade": 1184,
-      "ticket_medio": 257.03
+      "faturamento": 31615.68,
+      "positivacao": 121,
+      "quantidade": 1208,
+      "ticket_medio": 261.29
     }
   ],
   "ranking_gerentes": [
     {
       "gerente": "SANDRO",
-      "faturamento": 282827.78,
-      "positivacao": 496,
-      "quantidade": 8657,
-      "ticket_medio": 570.22
+      "faturamento": 293312.85,
+      "positivacao": 504,
+      "quantidade": 8975,
+      "ticket_medio": 581.97
     },
     {
       "gerente": "MARIVALDO",
-      "faturamento": 182144.53,
-      "positivacao": 538,
-      "quantidade": 8794,
-      "ticket_medio": 338.56
+      "faturamento": 189354.01,
+      "positivacao": 548,
+      "quantidade": 9076,
+      "ticket_medio": 345.54
     }
   ],
   "top_produtos": [
     {
       "produto": "FRINORDESTE CHARQUE BOVINO DIANTEIRO PC 5 KG",
       "codigo": "322166",
-      "faturamento": 123288.62,
-      "positivacao": 174,
+      "faturamento": 130494.33,
+      "positivacao": 182,
       "imagem": "imagens/322166.png"
     },
     {
       "produto": "JERKED BEEF BOV. P.A PC 05 KG",
       "codigo": "322234",
-      "faturamento": 75951.76000000001,
-      "positivacao": 105,
+      "faturamento": 77598.09,
+      "positivacao": 108,
       "imagem": "imagens/322234.png"
     },
     {
       "produto": "VINAGRE DA F. MAÇÃ ORGANICO 500ML 4 ESTAÇÕES",
       "codigo": "855412",
-      "faturamento": 56132.88,
-      "positivacao": 255,
+      "faturamento": 58727.7,
+      "positivacao": 261,
       "imagem": "imagens/855412.png"
     },
     {
       "produto": "VINAGRE DA F. MAÇÃ ORGANICO 450ML 4 ESTAÇÕES",
       "codigo": "855535",
-      "faturamento": 52647.75,
-      "positivacao": 381,
+      "faturamento": 55082.270000000004,
+      "positivacao": 390,
       "imagem": "imagens/855535.png"
     },
     {
       "produto": "BELA ITALIA SUCO DE UVA TINTO 1L",
       "codigo": "580894",
-      "faturamento": 45977.82,
-      "positivacao": 194,
+      "faturamento": 46623.479999999996,
+      "positivacao": 197,
       "imagem": "imagens/580894.png"
     }
   ],
@@ -526,8 +526,13 @@
     },
     {
       "cidade": "Feira de Santana",
-      "faturamento": 20005.2,
+      "faturamento": 20069.16,
       "positivacao": 43
+    },
+    {
+      "cidade": "BOM JESUS DA LAPA",
+      "faturamento": 13889.55,
+      "positivacao": 17
     },
     {
       "cidade": "CIPO",
@@ -535,14 +540,9 @@
       "positivacao": 10
     },
     {
-      "cidade": "BOM JESUS DA LAPA",
-      "faturamento": 13577.79,
-      "positivacao": 17
-    },
-    {
       "cidade": "Jacobina",
-      "faturamento": 11866.08,
-      "positivacao": 28
+      "faturamento": 12886.9,
+      "positivacao": 29
     }
   ],
   "filtros": {
@@ -560,6 +560,7 @@
     ],
     "cidades": [
       "ABAIRA",
+      "ADUSTINA",
       "AGUA FRIA",
       "AMARGOSA",
       "AMELIA RODRIGUES",
@@ -631,6 +632,7 @@
       "GUAJERU",
       "Guanambi",
       "HELIOPOLIS",
+      "IBIASSUCE",
       "IBICUI",
       "IBIPITANGA",
       "IBIQUERA",
@@ -703,6 +705,7 @@
       "PIATA",
       "PINTADAS",
       "PIRITIBA",
+      "PLANALTO",
       "POCOES",
       "POJUCA",
       "PONTO NOVO",
@@ -744,6 +747,7 @@
       "Serrinha",
       "TABOCAS BREJO VELHO",
       "TANQUE NOVO",
+      "TANQUINHO",
       "TAPIRAMUTA",
       "TEOFILANDIA",
       "TERRA NOVA",
@@ -1344,6 +1348,19 @@
       "cpf_cnpj": "24.175.506/0001-08"
     },
     {
+      "mes": "ago",
+      "fornecedor": "FRINORDESTE ALIMENTOS",
+      "cidade": "BONINAL",
+      "supervisor": "ANDREIA MEDEIROS",
+      "gerente": "MARIVALDO",
+      "vendedor": "MARIA ELIZABETE",
+      "produto": "FRINORDESTE CHARQUE BOVINO DIANTEIRO PC 5 KG",
+      "codigo": "322166",
+      "faturamento": 495.58,
+      "quantidade": 2.0,
+      "cpf_cnpj": "24.175.506/0001-08"
+    },
+    {
       "mes": "mai",
       "fornecedor": "FRINORDESTE ALIMENTOS",
       "cidade": "BONINAL",
@@ -1370,6 +1387,19 @@
       "cpf_cnpj": "24.175.506/0001-08"
     },
     {
+      "mes": "jun",
+      "fornecedor": "FRINORDESTE ALIMENTOS",
+      "cidade": "BONINAL",
+      "supervisor": "ANDREIA MEDEIROS",
+      "gerente": "MARIVALDO",
+      "vendedor": "MARIA ELIZABETE",
+      "produto": "JERKED BEEF BOV. P.A PC 05 KG",
+      "codigo": "322234",
+      "faturamento": 235.19,
+      "quantidade": 1.0,
+      "cpf_cnpj": "24.175.506/0001-08"
+    },
+    {
       "mes": "jul",
       "fornecedor": "FRINORDESTE ALIMENTOS",
       "cidade": "BONINAL",
@@ -1383,7 +1413,7 @@
       "cpf_cnpj": "24.175.506/0001-08"
     },
     {
-      "mes": "jun",
+      "mes": "ago",
       "fornecedor": "FRINORDESTE ALIMENTOS",
       "cidade": "BONINAL",
       "supervisor": "ANDREIA MEDEIROS",
@@ -2644,6 +2674,19 @@
       "cpf_cnpj": "32.668.162/0001-99"
     },
     {
+      "mes": "ago",
+      "fornecedor": "VINICOLA CASA MUTERLE",
+      "cidade": "CANARANA",
+      "supervisor": "ANDREIA MEDEIROS",
+      "gerente": "MARIVALDO",
+      "vendedor": "AGNALDO SILVA (75 99889-0341)",
+      "produto": "BELA ITALIA SUCO DE UVA TINTO 300ML",
+      "codigo": "581587",
+      "faturamento": 50.94,
+      "quantidade": 6.0,
+      "cpf_cnpj": "13.497.281/0001-81"
+    },
+    {
       "mes": "abr",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "CANARANA",
@@ -2678,8 +2721,8 @@
       "vendedor": "AGNALDO SILVA (75 99889-0341)",
       "produto": "VINAGRE DA F. MAÇÃ ORGANICO 450ML 4 ESTAÇÕES",
       "codigo": "855535",
-      "faturamento": 59.56,
-      "quantidade": 4.0,
+      "faturamento": 89.34,
+      "quantidade": 6.0,
       "cpf_cnpj": "01.684.256/0001-28"
     },
     {
@@ -2691,8 +2734,8 @@
       "vendedor": "AGNALDO SILVA (75 99889-0341)",
       "produto": "VINAGRE DA F. MAÇÃ ORGANICO 450ML 4 ESTAÇÕES",
       "codigo": "855535",
-      "faturamento": 89.34,
-      "quantidade": 6.0,
+      "faturamento": 59.56,
+      "quantidade": 4.0,
       "cpf_cnpj": "01.684.256/0001-28"
     },
     {
@@ -2904,6 +2947,19 @@
       "cpf_cnpj": "32.955.724/0001-85"
     },
     {
+      "mes": "ago",
+      "fornecedor": "VINICOLA CASA MUTERLE",
+      "cidade": "Ibitiara",
+      "supervisor": "ANDREIA MEDEIROS",
+      "gerente": "MARIVALDO",
+      "vendedor": "EVANILSON NOVAIS (107)",
+      "produto": "BELA ITALIA SUCO DE UVA TINTO 300ML",
+      "codigo": "581587",
+      "faturamento": 42.45,
+      "quantidade": 5.0,
+      "cpf_cnpj": "32.955.724/0001-85"
+    },
+    {
       "mes": "abr",
       "fornecedor": "VINICOLA CASA MUTERLE",
       "cidade": "Ibitiara",
@@ -3060,7 +3116,7 @@
       "cpf_cnpj": "15.436.055/0001-16"
     },
     {
-      "mes": "jul",
+      "mes": "jun",
       "fornecedor": "FRINORDESTE ALIMENTOS",
       "cidade": "ITAETE",
       "supervisor": "ANDREIA MEDEIROS",
@@ -3073,7 +3129,7 @@
       "cpf_cnpj": "15.436.055/0001-16"
     },
     {
-      "mes": "jun",
+      "mes": "jul",
       "fornecedor": "FRINORDESTE ALIMENTOS",
       "cidade": "ITAETE",
       "supervisor": "ANDREIA MEDEIROS",
@@ -3697,6 +3753,19 @@
       "cpf_cnpj": "60.860.935/0001-70"
     },
     {
+      "mes": "ago",
+      "fornecedor": "FRINORDESTE ALIMENTOS",
+      "cidade": "LENCOIS",
+      "supervisor": "ANDREIA MEDEIROS",
+      "gerente": "MARIVALDO",
+      "vendedor": "AGNALDO SILVA (75 99889-0341)",
+      "produto": "JERKED BEEF BOV. P.A PC 05 KG",
+      "codigo": "322234",
+      "faturamento": 235.19,
+      "quantidade": 1.0,
+      "cpf_cnpj": "60.860.935/0001-70"
+    },
+    {
       "mes": "abr",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "LENCOIS",
@@ -4202,71 +4271,6 @@
       "faturamento": 50.94,
       "quantidade": 6.0,
       "cpf_cnpj": "14.292.846/0001-57"
-    },
-    {
-      "mes": "jul",
-      "fornecedor": "BEBIDAS MUTERLE",
-      "cidade": "IRAQUARA",
-      "supervisor": "ANDREIA MEDEIROS",
-      "gerente": "MARIVALDO",
-      "vendedor": "MARIA ELIZABETE",
-      "produto": "VINAGRE DA F. MAÇÃ C/ EXT DE GENG E PROPOLIS 250ML ORIG 4 ESTAÇÕES",
-      "codigo": "855948",
-      "faturamento": 65.96,
-      "quantidade": 4.0,
-      "cpf_cnpj": "13.178.241/0001-77"
-    },
-    {
-      "mes": "mai",
-      "fornecedor": "BEBIDAS MUTERLE",
-      "cidade": "IRAQUARA",
-      "supervisor": "ANDREIA MEDEIROS",
-      "gerente": "MARIVALDO",
-      "vendedor": "MARIA ELIZABETE",
-      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 450ML 4 ESTAÇÕES",
-      "codigo": "855535",
-      "faturamento": 59.56,
-      "quantidade": 4.0,
-      "cpf_cnpj": "13.178.241/0001-77"
-    },
-    {
-      "mes": "jul",
-      "fornecedor": "BEBIDAS MUTERLE",
-      "cidade": "IRAQUARA",
-      "supervisor": "ANDREIA MEDEIROS",
-      "gerente": "MARIVALDO",
-      "vendedor": "MARIA ELIZABETE",
-      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 450ML 4 ESTAÇÕES",
-      "codigo": "855535",
-      "faturamento": 89.34,
-      "quantidade": 6.0,
-      "cpf_cnpj": "13.178.241/0001-77"
-    },
-    {
-      "mes": "jul",
-      "fornecedor": "BEBIDAS MUTERLE",
-      "cidade": "IRAQUARA",
-      "supervisor": "ANDREIA MEDEIROS",
-      "gerente": "MARIVALDO",
-      "vendedor": "MARIA ELIZABETE",
-      "produto": "VINAGRE DA F. MAÇÃ C/ EXT DE GENG E CURCUMA 250ML ORIG 4 ESTAÇÕES",
-      "codigo": "855979",
-      "faturamento": 65.96,
-      "quantidade": 4.0,
-      "cpf_cnpj": "13.178.241/0001-77"
-    },
-    {
-      "mes": "jul",
-      "fornecedor": "BEBIDAS MUTERLE",
-      "cidade": "IRAQUARA",
-      "supervisor": "ANDREIA MEDEIROS",
-      "gerente": "MARIVALDO",
-      "vendedor": "MARIA ELIZABETE",
-      "produto": "VINAGRE DA F. MAÇÃ C/ EXT DE GENG E CURCUMA 250ML ORIG 4 ESTAÇÕES",
-      "codigo": "855979",
-      "faturamento": 32.98,
-      "quantidade": 2.0,
-      "cpf_cnpj": "13.178.241/0001-77"
     },
     {
       "mes": "abr",
@@ -4800,6 +4804,71 @@
       "faturamento": 98.94,
       "quantidade": 6.0,
       "cpf_cnpj": "62.398.394/0001-35"
+    },
+    {
+      "mes": "jul",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "IRAQUARA",
+      "supervisor": "ANDREIA MEDEIROS",
+      "gerente": "MARIVALDO",
+      "vendedor": "MARIA ELIZABETE",
+      "produto": "VINAGRE DA F. MAÇÃ C/ EXT DE GENG E PROPOLIS 250ML ORIG 4 ESTAÇÕES",
+      "codigo": "855948",
+      "faturamento": 65.96,
+      "quantidade": 4.0,
+      "cpf_cnpj": "13.178.241/0001-77"
+    },
+    {
+      "mes": "mai",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "IRAQUARA",
+      "supervisor": "ANDREIA MEDEIROS",
+      "gerente": "MARIVALDO",
+      "vendedor": "MARIA ELIZABETE",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 450ML 4 ESTAÇÕES",
+      "codigo": "855535",
+      "faturamento": 59.56,
+      "quantidade": 4.0,
+      "cpf_cnpj": "13.178.241/0001-77"
+    },
+    {
+      "mes": "jul",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "IRAQUARA",
+      "supervisor": "ANDREIA MEDEIROS",
+      "gerente": "MARIVALDO",
+      "vendedor": "MARIA ELIZABETE",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 450ML 4 ESTAÇÕES",
+      "codigo": "855535",
+      "faturamento": 89.34,
+      "quantidade": 6.0,
+      "cpf_cnpj": "13.178.241/0001-77"
+    },
+    {
+      "mes": "jul",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "IRAQUARA",
+      "supervisor": "ANDREIA MEDEIROS",
+      "gerente": "MARIVALDO",
+      "vendedor": "MARIA ELIZABETE",
+      "produto": "VINAGRE DA F. MAÇÃ C/ EXT DE GENG E CURCUMA 250ML ORIG 4 ESTAÇÕES",
+      "codigo": "855979",
+      "faturamento": 65.96,
+      "quantidade": 4.0,
+      "cpf_cnpj": "13.178.241/0001-77"
+    },
+    {
+      "mes": "jul",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "IRAQUARA",
+      "supervisor": "ANDREIA MEDEIROS",
+      "gerente": "MARIVALDO",
+      "vendedor": "MARIA ELIZABETE",
+      "produto": "VINAGRE DA F. MAÇÃ C/ EXT DE GENG E CURCUMA 250ML ORIG 4 ESTAÇÕES",
+      "codigo": "855979",
+      "faturamento": 32.98,
+      "quantidade": 2.0,
+      "cpf_cnpj": "13.178.241/0001-77"
     },
     {
       "mes": "ago",
@@ -5452,6 +5521,19 @@
       "cpf_cnpj": "28.619.751/0001-00"
     },
     {
+      "mes": "mai",
+      "fornecedor": "VINICOLA CASA MUTERLE",
+      "cidade": "NOVO HORIZONTE",
+      "supervisor": "ANDREIA MEDEIROS",
+      "gerente": "MARIVALDO",
+      "vendedor": "EVANILSON NOVAIS (107)",
+      "produto": "BELA ITALIA SUCO DE UVA TINTO 1L",
+      "codigo": "580894",
+      "faturamento": 113.94,
+      "quantidade": 6.0,
+      "cpf_cnpj": "28.619.751/0001-00"
+    },
+    {
       "mes": "jul",
       "fornecedor": "VINICOLA CASA MUTERLE",
       "cidade": "NOVO HORIZONTE",
@@ -5465,7 +5547,7 @@
       "cpf_cnpj": "28.619.751/0001-00"
     },
     {
-      "mes": "mai",
+      "mes": "ago",
       "fornecedor": "VINICOLA CASA MUTERLE",
       "cidade": "NOVO HORIZONTE",
       "supervisor": "ANDREIA MEDEIROS",
@@ -5473,8 +5555,8 @@
       "vendedor": "EVANILSON NOVAIS (107)",
       "produto": "BELA ITALIA SUCO DE UVA TINTO 1L",
       "codigo": "580894",
-      "faturamento": 113.94,
-      "quantidade": 6.0,
+      "faturamento": 189.9,
+      "quantidade": 10.0,
       "cpf_cnpj": "28.619.751/0001-00"
     },
     {
@@ -6596,6 +6678,19 @@
       "cpf_cnpj": "37.768.142/0001-03"
     },
     {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "PALMEIRAS",
+      "supervisor": "ANDREIA MEDEIROS",
+      "gerente": "MARIVALDO",
+      "vendedor": "MARIA ELIZABETE",
+      "produto": "VINAGRE DA F. MAÇÃ 4,2% 450ML 4 ESTAÇÕES",
+      "codigo": "855986",
+      "faturamento": 41.94,
+      "quantidade": 6.0,
+      "cpf_cnpj": "01.519.100/0001-91"
+    },
+    {
       "mes": "mai",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "PALMEIRAS",
@@ -7116,6 +7211,19 @@
       "cpf_cnpj": "18.923.967/0001-00"
     },
     {
+      "mes": "ago",
+      "fornecedor": "VINICOLA CASA MUTERLE",
+      "cidade": "PALMEIRAS",
+      "supervisor": "ANDREIA MEDEIROS",
+      "gerente": "MARIVALDO",
+      "vendedor": "MARIA ELIZABETE",
+      "produto": "BELA ITALIA SUCO DE UVA TINTO 1L",
+      "codigo": "580894",
+      "faturamento": 227.88,
+      "quantidade": 12.0,
+      "cpf_cnpj": "18.923.967/0001-00"
+    },
+    {
       "mes": "abr",
       "fornecedor": "VINICOLA CASA MUTERLE",
       "cidade": "PALMEIRAS",
@@ -7246,19 +7354,6 @@
       "cpf_cnpj": "58.372.464/0001-09"
     },
     {
-      "mes": "jul",
-      "fornecedor": "VINICOLA CASA MUTERLE",
-      "cidade": "PALMEIRAS",
-      "supervisor": "ANDREIA MEDEIROS",
-      "gerente": "MARIVALDO",
-      "vendedor": "MARIA ELIZABETE",
-      "produto": "BELA ITALIA SUCO DE UVA TINTO 300ML",
-      "codigo": "581587",
-      "faturamento": 101.88,
-      "quantidade": 12.0,
-      "cpf_cnpj": "58.372.464/0001-09"
-    },
-    {
       "mes": "mai",
       "fornecedor": "VINICOLA CASA MUTERLE",
       "cidade": "PALMEIRAS",
@@ -7269,19 +7364,6 @@
       "codigo": "581587",
       "faturamento": 127.35,
       "quantidade": 15.0,
-      "cpf_cnpj": "58.372.464/0001-09"
-    },
-    {
-      "mes": "jul",
-      "fornecedor": "VINICOLA CASA MUTERLE",
-      "cidade": "PALMEIRAS",
-      "supervisor": "ANDREIA MEDEIROS",
-      "gerente": "MARIVALDO",
-      "vendedor": "MARIA ELIZABETE",
-      "produto": "BELA ITALIA SUCO DE UVA TINTO 300ML",
-      "codigo": "581587",
-      "faturamento": 101.88,
-      "quantidade": 12.0,
       "cpf_cnpj": "58.372.464/0001-09"
     },
     {
@@ -7299,6 +7381,45 @@
     },
     {
       "mes": "jun",
+      "fornecedor": "VINICOLA CASA MUTERLE",
+      "cidade": "PALMEIRAS",
+      "supervisor": "ANDREIA MEDEIROS",
+      "gerente": "MARIVALDO",
+      "vendedor": "MARIA ELIZABETE",
+      "produto": "BELA ITALIA SUCO DE UVA TINTO 300ML",
+      "codigo": "581587",
+      "faturamento": 101.88,
+      "quantidade": 12.0,
+      "cpf_cnpj": "58.372.464/0001-09"
+    },
+    {
+      "mes": "jul",
+      "fornecedor": "VINICOLA CASA MUTERLE",
+      "cidade": "PALMEIRAS",
+      "supervisor": "ANDREIA MEDEIROS",
+      "gerente": "MARIVALDO",
+      "vendedor": "MARIA ELIZABETE",
+      "produto": "BELA ITALIA SUCO DE UVA TINTO 300ML",
+      "codigo": "581587",
+      "faturamento": 101.88,
+      "quantidade": 12.0,
+      "cpf_cnpj": "58.372.464/0001-09"
+    },
+    {
+      "mes": "jul",
+      "fornecedor": "VINICOLA CASA MUTERLE",
+      "cidade": "PALMEIRAS",
+      "supervisor": "ANDREIA MEDEIROS",
+      "gerente": "MARIVALDO",
+      "vendedor": "MARIA ELIZABETE",
+      "produto": "BELA ITALIA SUCO DE UVA TINTO 300ML",
+      "codigo": "581587",
+      "faturamento": 101.88,
+      "quantidade": 12.0,
+      "cpf_cnpj": "58.372.464/0001-09"
+    },
+    {
+      "mes": "ago",
       "fornecedor": "VINICOLA CASA MUTERLE",
       "cidade": "PALMEIRAS",
       "supervisor": "ANDREIA MEDEIROS",
@@ -7334,6 +7455,19 @@
       "codigo": "855986",
       "faturamento": 27.96,
       "quantidade": 4.0,
+      "cpf_cnpj": "24.649.000/0001-85"
+    },
+    {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "PALMEIRAS",
+      "supervisor": "ANDREIA MEDEIROS",
+      "gerente": "MARIVALDO",
+      "vendedor": "MARIA ELIZABETE",
+      "produto": "VINAGRE DA F. MAÇÃ C/ EXT DE GENG E CURCUMA 250ML ORIG 4 ESTAÇÕES",
+      "codigo": "855979",
+      "faturamento": 49.47,
+      "quantidade": 3.0,
       "cpf_cnpj": "24.649.000/0001-85"
     },
     {
@@ -7478,6 +7612,19 @@
       "faturamento": 189.9,
       "quantidade": 10.0,
       "cpf_cnpj": "02.655.313/0001-03"
+    },
+    {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "PIATA",
+      "supervisor": "ANDREIA MEDEIROS",
+      "gerente": "MARIVALDO",
+      "vendedor": "EVANILSON NOVAIS (107)",
+      "produto": "VINAGRE DA F. MAÇÃ C/ EXT DE GENG E PROPOLIS 250ML ORIG 4 ESTAÇÕES",
+      "codigo": "855948",
+      "faturamento": 65.96,
+      "quantidade": 4.0,
+      "cpf_cnpj": "09.006.570/0001-63"
     },
     {
       "mes": "mai",
@@ -7688,6 +7835,19 @@
       "cpf_cnpj": "18.697.315/0001-03"
     },
     {
+      "mes": "ago",
+      "fornecedor": "VINICOLA CASA MUTERLE",
+      "cidade": "PIATA",
+      "supervisor": "ANDREIA MEDEIROS",
+      "gerente": "MARIVALDO",
+      "vendedor": "EVANILSON NOVAIS (107)",
+      "produto": "BELA ITALIA SUCO DE UVA TINTO 1L",
+      "codigo": "580894",
+      "faturamento": 37.98,
+      "quantidade": 2.0,
+      "cpf_cnpj": "13.675.657/0001-09"
+    },
+    {
       "mes": "mai",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "PIATA",
@@ -7827,6 +7987,19 @@
       "produto": "BELA ITALIA SUCO DE UVA TINTO 1L",
       "codigo": "580894",
       "faturamento": 227.88,
+      "quantidade": 12.0,
+      "cpf_cnpj": "27.219.272/0001-33"
+    },
+    {
+      "mes": "ago",
+      "fornecedor": "VINICOLA CASA MUTERLE",
+      "cidade": "PIATA",
+      "supervisor": "ANDREIA MEDEIROS",
+      "gerente": "MARIVALDO",
+      "vendedor": "EVANILSON NOVAIS (107)",
+      "produto": "BELA ITALIA SUCO DE UVA TINTO 300ML",
+      "codigo": "581587",
+      "faturamento": 101.88,
       "quantidade": 12.0,
       "cpf_cnpj": "27.219.272/0001-33"
     },
@@ -8429,6 +8602,19 @@
       "cpf_cnpj": "05.687.324/0001-63"
     },
     {
+      "mes": "jun",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "Seabra",
+      "supervisor": "ANDREIA MEDEIROS",
+      "gerente": "MARIVALDO",
+      "vendedor": "LARISSA MENDES",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 450ML 4 ESTAÇÕES",
+      "codigo": "855535",
+      "faturamento": 178.68,
+      "quantidade": 12.0,
+      "cpf_cnpj": "05.687.324/0001-63"
+    },
+    {
       "mes": "jul",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "Seabra",
@@ -8443,19 +8629,6 @@
     },
     {
       "mes": "ago",
-      "fornecedor": "BEBIDAS MUTERLE",
-      "cidade": "Seabra",
-      "supervisor": "ANDREIA MEDEIROS",
-      "gerente": "MARIVALDO",
-      "vendedor": "LARISSA MENDES",
-      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 450ML 4 ESTAÇÕES",
-      "codigo": "855535",
-      "faturamento": 178.68,
-      "quantidade": 12.0,
-      "cpf_cnpj": "05.687.324/0001-63"
-    },
-    {
-      "mes": "jun",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "Seabra",
       "supervisor": "ANDREIA MEDEIROS",
@@ -8637,19 +8810,6 @@
       "cpf_cnpj": "15.454.350/0001-03"
     },
     {
-      "mes": "jul",
-      "fornecedor": "BEBIDAS MUTERLE",
-      "cidade": "Seabra",
-      "supervisor": "ANDREIA MEDEIROS",
-      "gerente": "MARIVALDO",
-      "vendedor": "LARISSA MENDES",
-      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 450ML 4 ESTAÇÕES",
-      "codigo": "855535",
-      "faturamento": 89.34,
-      "quantidade": 6.0,
-      "cpf_cnpj": "15.454.350/0001-03"
-    },
-    {
       "mes": "jun",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "Seabra",
@@ -8660,6 +8820,19 @@
       "codigo": "855535",
       "faturamento": 74.45,
       "quantidade": 5.0,
+      "cpf_cnpj": "15.454.350/0001-03"
+    },
+    {
+      "mes": "jul",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "Seabra",
+      "supervisor": "ANDREIA MEDEIROS",
+      "gerente": "MARIVALDO",
+      "vendedor": "LARISSA MENDES",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 450ML 4 ESTAÇÕES",
+      "codigo": "855535",
+      "faturamento": 89.34,
+      "quantidade": 6.0,
       "cpf_cnpj": "15.454.350/0001-03"
     },
     {
@@ -8724,6 +8897,32 @@
       "produto": "VINAGRE DA F. MAÇÃ ORGANICO 250ML 4 ESTAÇÕES",
       "codigo": "855962",
       "faturamento": 47.97,
+      "quantidade": 3.0,
+      "cpf_cnpj": "03.327.169/0001-49"
+    },
+    {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "Seabra",
+      "supervisor": "ANDREIA MEDEIROS",
+      "gerente": "MARIVALDO",
+      "vendedor": "LARISSA MENDES",
+      "produto": "VINAGRE DA F. MAÇÃ C/ EXT DE GENG E CURCUMA 250ML ORIG 4 ESTAÇÕES",
+      "codigo": "855979",
+      "faturamento": 49.47,
+      "quantidade": 3.0,
+      "cpf_cnpj": "03.327.169/0001-49"
+    },
+    {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "Seabra",
+      "supervisor": "ANDREIA MEDEIROS",
+      "gerente": "MARIVALDO",
+      "vendedor": "LARISSA MENDES",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 500ML 4 ESTAÇÕES",
+      "codigo": "855412",
+      "faturamento": 65.97,
       "quantidade": 3.0,
       "cpf_cnpj": "03.327.169/0001-49"
     },
@@ -10255,6 +10454,19 @@
       "supervisor": "ANDREIA MEDEIROS",
       "gerente": "MARIVALDO",
       "vendedor": "AGNALDO SILVA (75 99889-0341)",
+      "produto": "FRINORDESTE CHARQUE BOVINO DIANTEIRO PC 5 KG",
+      "codigo": "322166",
+      "faturamento": 247.79,
+      "quantidade": 1.0,
+      "cpf_cnpj": "07.117.917/0001-10"
+    },
+    {
+      "mes": "ago",
+      "fornecedor": "FRINORDESTE ALIMENTOS",
+      "cidade": "WAGNER",
+      "supervisor": "ANDREIA MEDEIROS",
+      "gerente": "MARIVALDO",
+      "vendedor": "AGNALDO SILVA (75 99889-0341)",
       "produto": "JERKED BEEF BOV. P.A PC 05 KG",
       "codigo": "322234",
       "faturamento": 235.19,
@@ -10315,6 +10527,19 @@
     },
     {
       "mes": "jul",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "WAGNER",
+      "supervisor": "ANDREIA MEDEIROS",
+      "gerente": "MARIVALDO",
+      "vendedor": "AGNALDO SILVA (75 99889-0341)",
+      "produto": "VINAGRE DA F. MAÇÃ C/ EXT DE GENG E CURCUMA 250ML ORIG 4 ESTAÇÕES",
+      "codigo": "855979",
+      "faturamento": 32.98,
+      "quantidade": 2.0,
+      "cpf_cnpj": "45.615.871/0001-58"
+    },
+    {
+      "mes": "ago",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "WAGNER",
       "supervisor": "ANDREIA MEDEIROS",
@@ -10925,6 +11150,19 @@
       "cpf_cnpj": "52.824.002/0001-07"
     },
     {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "AMARGOSA",
+      "supervisor": "DANILO",
+      "gerente": "MARIVALDO",
+      "vendedor": "MARCOS JEAN",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 450ML 4 ESTAÇÕES",
+      "codigo": "855535",
+      "faturamento": 89.34,
+      "quantidade": 6.0,
+      "cpf_cnpj": "52.824.002/0001-07"
+    },
+    {
       "mes": "jun",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "AMARGOSA",
@@ -11170,6 +11408,32 @@
       "faturamento": 87.96,
       "quantidade": 4.0,
       "cpf_cnpj": "50.301.836/0001-02"
+    },
+    {
+      "mes": "ago",
+      "fornecedor": "FRINORDESTE ALIMENTOS",
+      "cidade": "Boa Vista do Tupim",
+      "supervisor": "DANILO",
+      "gerente": "MARIVALDO",
+      "vendedor": "HELLEN GOMES",
+      "produto": "FRINORDESTE CHARQUE BOVINO DIANTEIRO PC 5 KG",
+      "codigo": "322166",
+      "faturamento": 247.79,
+      "quantidade": 1.0,
+      "cpf_cnpj": "14.148.558/0001-23"
+    },
+    {
+      "mes": "ago",
+      "fornecedor": "FRINORDESTE ALIMENTOS",
+      "cidade": "Boa Vista do Tupim",
+      "supervisor": "DANILO",
+      "gerente": "MARIVALDO",
+      "vendedor": "HELLEN GOMES",
+      "produto": "FRINORDESTE CHARQUE BOVINO DIANTEIRO PC 5 KG",
+      "codigo": "322166",
+      "faturamento": 267.59,
+      "quantidade": 1.0,
+      "cpf_cnpj": "281.501.125-53"
     },
     {
       "mes": "mai",
@@ -11885,6 +12149,45 @@
       "faturamento": 74.45,
       "quantidade": 5.0,
       "cpf_cnpj": "48.035.860/0001-97"
+    },
+    {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "Ipira",
+      "supervisor": "DANILO",
+      "gerente": "MARIVALDO",
+      "vendedor": "CAMILAIPIRA",
+      "produto": "VINAGRE DA F. MAÇÃ C/ EXT DE GENG E PROPOLIS 250ML ORIG 4 ESTAÇÕES",
+      "codigo": "855948",
+      "faturamento": 49.47,
+      "quantidade": 3.0,
+      "cpf_cnpj": "084.205.465-00"
+    },
+    {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "Ipira",
+      "supervisor": "DANILO",
+      "gerente": "MARIVALDO",
+      "vendedor": "CAMILAIPIRA",
+      "produto": "VINAGRE DA F. MAÇÃ 4,2% 450ML 4 ESTAÇÕES",
+      "codigo": "855986",
+      "faturamento": 20.97,
+      "quantidade": 3.0,
+      "cpf_cnpj": "084.205.465-00"
+    },
+    {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "Ipira",
+      "supervisor": "DANILO",
+      "gerente": "MARIVALDO",
+      "vendedor": "CAMILAIPIRA",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 500ML 4 ESTAÇÕES",
+      "codigo": "855412",
+      "faturamento": 65.97,
+      "quantidade": 3.0,
+      "cpf_cnpj": "084.205.465-00"
     },
     {
       "mes": "ago",
@@ -13382,6 +13685,19 @@
       "cpf_cnpj": "54.169.902/0001-85"
     },
     {
+      "mes": "ago",
+      "fornecedor": "FRINORDESTE ALIMENTOS",
+      "cidade": "MARACAS",
+      "supervisor": "DANILO",
+      "gerente": "MARIVALDO",
+      "vendedor": "EDVALDO",
+      "produto": "FRINORDESTE CHARQUE BOVINO DIANTEIRO PC 5 KG",
+      "codigo": "322166",
+      "faturamento": 247.79,
+      "quantidade": 1.0,
+      "cpf_cnpj": "56.237.295/0001-79"
+    },
+    {
       "mes": "mai",
       "fornecedor": "VINICOLA CASA MUTERLE",
       "cidade": "MARCIONILIO SOUZA",
@@ -13444,6 +13760,19 @@
       "codigo": "581587",
       "faturamento": 50.94,
       "quantidade": 6.0,
+      "cpf_cnpj": "55.080.409/0001-57"
+    },
+    {
+      "mes": "ago",
+      "fornecedor": "VINICOLA CASA MUTERLE",
+      "cidade": "MARCIONILIO SOUZA",
+      "supervisor": "DANILO",
+      "gerente": "MARIVALDO",
+      "vendedor": "HELLEN GOMES",
+      "produto": "BELA ITALIA SUCO DE UVA TINTO 300ML",
+      "codigo": "581587",
+      "faturamento": 33.96,
+      "quantidade": 4.0,
       "cpf_cnpj": "55.080.409/0001-57"
     },
     {
@@ -13668,6 +13997,19 @@
       "cpf_cnpj": "23.256.816/0001-86"
     },
     {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "PLANALTO",
+      "supervisor": "DANILO",
+      "gerente": "MARIVALDO",
+      "vendedor": "HIAN RIBEIRO",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 250ML 4 ESTAÇÕES",
+      "codigo": "855962",
+      "faturamento": 15.99,
+      "quantidade": 1.0,
+      "cpf_cnpj": "29.680.401/0001-11"
+    },
+    {
       "mes": "mai",
       "fornecedor": "FRINORDESTE ALIMENTOS",
       "cidade": "POCOES",
@@ -13704,6 +14046,19 @@
       "codigo": "322166",
       "faturamento": 662.97,
       "quantidade": 3.0,
+      "cpf_cnpj": "19.551.155/0001-44"
+    },
+    {
+      "mes": "ago",
+      "fornecedor": "FRINORDESTE ALIMENTOS",
+      "cidade": "POCOES",
+      "supervisor": "DANILO",
+      "gerente": "MARIVALDO",
+      "vendedor": "HIAN RIBEIRO",
+      "produto": "FRINORDESTE CHARQUE BOVINO DIANTEIRO PC 5 KG",
+      "codigo": "322166",
+      "faturamento": 247.79,
+      "quantidade": 1.0,
       "cpf_cnpj": "19.551.155/0001-44"
     },
     {
@@ -14474,6 +14829,32 @@
       "cpf_cnpj": "21.016.743/0001-20"
     },
     {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "CARINHANHA",
+      "supervisor": "GLEIDSON FIENES",
+      "gerente": "MARIVALDO",
+      "vendedor": "JEFERSON SILVA (130)",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 450ML 4 ESTAÇÕES",
+      "codigo": "855535",
+      "faturamento": 357.36,
+      "quantidade": 24.0,
+      "cpf_cnpj": "15.426.255/0001-98"
+    },
+    {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "CARINHANHA",
+      "supervisor": "GLEIDSON FIENES",
+      "gerente": "MARIVALDO",
+      "vendedor": "JEFERSON SILVA (130)",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 500ML 4 ESTAÇÕES",
+      "codigo": "855412",
+      "faturamento": 263.88,
+      "quantidade": 12.0,
+      "cpf_cnpj": "15.426.255/0001-98"
+    },
+    {
       "mes": "jul",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "CANAPOLIS",
@@ -14526,7 +14907,7 @@
       "cpf_cnpj": "53.771.690/0001-49"
     },
     {
-      "mes": "mai",
+      "mes": "jul",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "LIVRAMENTO NSA SRA",
       "supervisor": "GLEIDSON FIENES",
@@ -14539,7 +14920,7 @@
       "cpf_cnpj": "53.771.690/0001-49"
     },
     {
-      "mes": "jul",
+      "mes": "mai",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "LIVRAMENTO NSA SRA",
       "supervisor": "GLEIDSON FIENES",
@@ -14708,19 +15089,6 @@
       "cpf_cnpj": "34.524.668/0002-30"
     },
     {
-      "mes": "jul",
-      "fornecedor": "BEBIDAS MUTERLE",
-      "cidade": "BOM JESUS DA LAPA",
-      "supervisor": "GLEIDSON FIENES",
-      "gerente": "MARIVALDO",
-      "vendedor": "UELESSON OLIVEIRA (129)",
-      "produto": "VINAGRE DA F. MAÇÃ 4,2% 450ML 4 ESTAÇÕES",
-      "codigo": "855986",
-      "faturamento": 83.88,
-      "quantidade": 12.0,
-      "cpf_cnpj": "34.524.668/0002-30"
-    },
-    {
       "mes": "ago",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "BOM JESUS DA LAPA",
@@ -14731,6 +15099,19 @@
       "codigo": "855986",
       "faturamento": 41.94,
       "quantidade": 6.0,
+      "cpf_cnpj": "34.524.668/0002-30"
+    },
+    {
+      "mes": "jul",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "BOM JESUS DA LAPA",
+      "supervisor": "GLEIDSON FIENES",
+      "gerente": "MARIVALDO",
+      "vendedor": "UELESSON OLIVEIRA (129)",
+      "produto": "VINAGRE DA F. MAÇÃ 4,2% 450ML 4 ESTAÇÕES",
+      "codigo": "855986",
+      "faturamento": 83.88,
+      "quantidade": 12.0,
       "cpf_cnpj": "34.524.668/0002-30"
     },
     {
@@ -15033,7 +15414,7 @@
       "cpf_cnpj": "03.661.393/0001-72"
     },
     {
-      "mes": "ago",
+      "mes": "jun",
       "fornecedor": "FRINORDESTE ALIMENTOS",
       "cidade": "BOM JESUS DA LAPA",
       "supervisor": "GLEIDSON FIENES",
@@ -15046,7 +15427,7 @@
       "cpf_cnpj": "03.661.393/0001-72"
     },
     {
-      "mes": "jun",
+      "mes": "ago",
       "fornecedor": "FRINORDESTE ALIMENTOS",
       "cidade": "BOM JESUS DA LAPA",
       "supervisor": "GLEIDSON FIENES",
@@ -15254,7 +15635,7 @@
       "cpf_cnpj": "34.524.668/0001-50"
     },
     {
-      "mes": "jul",
+      "mes": "jun",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "BOM JESUS DA LAPA",
       "supervisor": "GLEIDSON FIENES",
@@ -15267,7 +15648,7 @@
       "cpf_cnpj": "34.524.668/0001-50"
     },
     {
-      "mes": "jun",
+      "mes": "jul",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "BOM JESUS DA LAPA",
       "supervisor": "GLEIDSON FIENES",
@@ -15333,6 +15714,19 @@
     },
     {
       "mes": "jul",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "BOM JESUS DA LAPA",
+      "supervisor": "GLEIDSON FIENES",
+      "gerente": "MARIVALDO",
+      "vendedor": "UELESSON OLIVEIRA (129)",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 250ML 4 ESTAÇÕES",
+      "codigo": "855962",
+      "faturamento": 95.94,
+      "quantidade": 6.0,
+      "cpf_cnpj": "34.524.668/0001-50"
+    },
+    {
+      "mes": "ago",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "BOM JESUS DA LAPA",
       "supervisor": "GLEIDSON FIENES",
@@ -15475,6 +15869,19 @@
       "cpf_cnpj": "34.524.668/0001-50"
     },
     {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "BOM JESUS DA LAPA",
+      "supervisor": "GLEIDSON FIENES",
+      "gerente": "MARIVALDO",
+      "vendedor": "UELESSON OLIVEIRA (129)",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 500ML 4 ESTAÇÕES",
+      "codigo": "855412",
+      "faturamento": 131.94,
+      "quantidade": 6.0,
+      "cpf_cnpj": "34.524.668/0001-50"
+    },
+    {
       "mes": "jun",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "BOM JESUS DA LAPA",
@@ -15563,6 +15970,19 @@
       "codigo": "855948",
       "faturamento": 32.98,
       "quantidade": 2.0,
+      "cpf_cnpj": "56.421.227/0001-65"
+    },
+    {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "BOM JESUS DA LAPA",
+      "supervisor": "GLEIDSON FIENES",
+      "gerente": "MARIVALDO",
+      "vendedor": "UELESSON OLIVEIRA (129)",
+      "produto": "VINAGRE DA F. MAÇÃ 4,2% 450ML 4 ESTAÇÕES",
+      "codigo": "855986",
+      "faturamento": 83.88,
+      "quantidade": 12.0,
       "cpf_cnpj": "56.421.227/0001-65"
     },
     {
@@ -16776,6 +17196,19 @@
     },
     {
       "mes": "ago",
+      "fornecedor": "VINICOLA CASA MUTERLE",
+      "cidade": "Barra do Choca",
+      "supervisor": "GLEIDSON FIENES",
+      "gerente": "MARIVALDO",
+      "vendedor": "PAULA RIBEIRO (101)",
+      "produto": "BELA ITALIA SUCO DE UVA TINTO 1L",
+      "codigo": "580894",
+      "faturamento": 113.94,
+      "quantidade": 6.0,
+      "cpf_cnpj": "08.979.671/0001-58"
+    },
+    {
+      "mes": "ago",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "CORRENTINA",
       "supervisor": "GLEIDSON FIENES",
@@ -16801,7 +17234,7 @@
       "cpf_cnpj": "31.661.955/0001-13"
     },
     {
-      "mes": "jul",
+      "mes": "ago",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "CORRENTINA",
       "supervisor": "GLEIDSON FIENES",
@@ -16814,7 +17247,7 @@
       "cpf_cnpj": "31.661.955/0001-13"
     },
     {
-      "mes": "ago",
+      "mes": "jul",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "CORRENTINA",
       "supervisor": "GLEIDSON FIENES",
@@ -17230,6 +17663,19 @@
       "cpf_cnpj": "05.024.789/0003-04"
     },
     {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "CAETITE",
+      "supervisor": "GLEIDSON FIENES",
+      "gerente": "MARIVALDO",
+      "vendedor": "JEFERSON SILVA (130)",
+      "produto": "VINAGRE DA F. MAÇÃ C/ EXT DE GENG E CURCUMA 250ML ORIG 4 ESTAÇÕES",
+      "codigo": "855979",
+      "faturamento": 98.94,
+      "quantidade": 6.0,
+      "cpf_cnpj": "05.024.789/0003-04"
+    },
+    {
       "mes": "mai",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "CAETITE",
@@ -17240,6 +17686,19 @@
       "codigo": "855979",
       "faturamento": 49.47,
       "quantidade": 3.0,
+      "cpf_cnpj": "05.024.789/0003-04"
+    },
+    {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "CAETITE",
+      "supervisor": "GLEIDSON FIENES",
+      "gerente": "MARIVALDO",
+      "vendedor": "JEFERSON SILVA (130)",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 500ML 4 ESTAÇÕES",
+      "codigo": "855412",
+      "faturamento": 131.94,
+      "quantidade": 6.0,
       "cpf_cnpj": "05.024.789/0003-04"
     },
     {
@@ -17477,6 +17936,19 @@
       "cpf_cnpj": "15.426.255/0001-98"
     },
     {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "CARINHANHA",
+      "supervisor": "GLEIDSON FIENES",
+      "gerente": "MARIVALDO",
+      "vendedor": "JEFERSON SILVA (130)",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 450ML 4 ESTAÇÕES",
+      "codigo": "855535",
+      "faturamento": 357.36,
+      "quantidade": 24.0,
+      "cpf_cnpj": "15.426.255/0001-98"
+    },
+    {
       "mes": "mai",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "CARINHANHA",
@@ -17539,6 +18011,19 @@
       "codigo": "855412",
       "faturamento": 131.94,
       "quantidade": 6.0,
+      "cpf_cnpj": "15.426.255/0001-98"
+    },
+    {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "CARINHANHA",
+      "supervisor": "GLEIDSON FIENES",
+      "gerente": "MARIVALDO",
+      "vendedor": "JEFERSON SILVA (130)",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 500ML 4 ESTAÇÕES",
+      "codigo": "855412",
+      "faturamento": 263.88,
+      "quantidade": 12.0,
       "cpf_cnpj": "15.426.255/0001-98"
     },
     {
@@ -17607,19 +18092,6 @@
       "cpf_cnpj": "11.331.229/0001-25"
     },
     {
-      "mes": "jul",
-      "fornecedor": "BEBIDAS MUTERLE",
-      "cidade": "CATURAMA",
-      "supervisor": "GLEIDSON FIENES",
-      "gerente": "MARIVALDO",
-      "vendedor": "ROTA MACAUBAS (75 9102-0548)",
-      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 500ML 4 ESTAÇÕES",
-      "codigo": "855412",
-      "faturamento": 131.94,
-      "quantidade": 6.0,
-      "cpf_cnpj": "17.181.105/0001-97"
-    },
-    {
       "mes": "jun",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "CATURAMA",
@@ -17630,6 +18102,19 @@
       "codigo": "855412",
       "faturamento": 21.99,
       "quantidade": 1.0,
+      "cpf_cnpj": "17.181.105/0001-97"
+    },
+    {
+      "mes": "jul",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "CATURAMA",
+      "supervisor": "GLEIDSON FIENES",
+      "gerente": "MARIVALDO",
+      "vendedor": "ROTA MACAUBAS (75 9102-0548)",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 500ML 4 ESTAÇÕES",
+      "codigo": "855412",
+      "faturamento": 131.94,
+      "quantidade": 6.0,
       "cpf_cnpj": "17.181.105/0001-97"
     },
     {
@@ -17789,7 +18274,7 @@
       "cpf_cnpj": "63.421.643/0001-29"
     },
     {
-      "mes": "abr",
+      "mes": "mai",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "COCOS",
       "supervisor": "GLEIDSON FIENES",
@@ -17802,7 +18287,7 @@
       "cpf_cnpj": "63.421.643/0001-29"
     },
     {
-      "mes": "mai",
+      "mes": "abr",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "COCOS",
       "supervisor": "GLEIDSON FIENES",
@@ -17894,6 +18379,19 @@
     },
     {
       "mes": "jul",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "CANAPOLIS",
+      "supervisor": "GLEIDSON FIENES",
+      "gerente": "MARIVALDO",
+      "vendedor": "EDSON CORREIA (77 99165-5655)",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 500ML 4 ESTAÇÕES",
+      "codigo": "855412",
+      "faturamento": 131.94,
+      "quantidade": 6.0,
+      "cpf_cnpj": "64.260.244/0001-96"
+    },
+    {
+      "mes": "ago",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "CANAPOLIS",
       "supervisor": "GLEIDSON FIENES",
@@ -18452,6 +18950,19 @@
       "cpf_cnpj": "62.309.136/0001-35"
     },
     {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "Guanambi",
+      "supervisor": "GLEIDSON FIENES",
+      "gerente": "MARIVALDO",
+      "vendedor": "JONES FERNANDES",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 250ML 4 ESTAÇÕES",
+      "codigo": "855962",
+      "faturamento": 95.94,
+      "quantidade": 6.0,
+      "cpf_cnpj": "62.309.136/0001-35"
+    },
+    {
       "mes": "jul",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "Guanambi",
@@ -18517,6 +19028,19 @@
       "cpf_cnpj": "86.894.003/0001-31"
     },
     {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "ERICO CARDOSO",
+      "supervisor": "GLEIDSON FIENES",
+      "gerente": "MARIVALDO",
+      "vendedor": "CLAUBELINO SANTOS (125)",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 500ML 4 ESTAÇÕES",
+      "codigo": "855412",
+      "faturamento": 263.88,
+      "quantidade": 12.0,
+      "cpf_cnpj": "86.894.003/0001-31"
+    },
+    {
       "mes": "jun",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "ERICO CARDOSO",
@@ -18541,6 +19065,19 @@
       "faturamento": 31.98,
       "quantidade": 2.0,
       "cpf_cnpj": "14.696.918/0001-21"
+    },
+    {
+      "mes": "ago",
+      "fornecedor": "FRINORDESTE ALIMENTOS",
+      "cidade": "IBIASSUCE",
+      "supervisor": "GLEIDSON FIENES",
+      "gerente": "MARIVALDO",
+      "vendedor": "JORGE REIS (117)",
+      "produto": "FRINORDESTE CHARQUE BOVINO DIANTEIRO PC 5 KG",
+      "codigo": "322166",
+      "faturamento": 247.79,
+      "quantidade": 1.0,
+      "cpf_cnpj": "365.323.618-52"
     },
     {
       "mes": "jul",
@@ -18606,6 +19143,19 @@
       "faturamento": 29.78,
       "quantidade": 2.0,
       "cpf_cnpj": "31.845.891/0003-72"
+    },
+    {
+      "mes": "ago",
+      "fornecedor": "VINICOLA CASA MUTERLE",
+      "cidade": "Ituacu",
+      "supervisor": "GLEIDSON FIENES",
+      "gerente": "MARIVALDO",
+      "vendedor": "CESAR DIAS",
+      "produto": "BELA ITALIA SUCO DE UVA TINTO 1L",
+      "codigo": "580894",
+      "faturamento": 18.99,
+      "quantidade": 1.0,
+      "cpf_cnpj": "54.799.516/0001-77"
     },
     {
       "mes": "mai",
@@ -18972,6 +19522,19 @@
       "cpf_cnpj": "33.898.222/0001-22"
     },
     {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "LIVRAMENTO NSA SRA",
+      "supervisor": "GLEIDSON FIENES",
+      "gerente": "MARIVALDO",
+      "vendedor": "CLAUBELINO SANTOS (125)",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 500ML 4 ESTAÇÕES",
+      "codigo": "855412",
+      "faturamento": 131.94,
+      "quantidade": 6.0,
+      "cpf_cnpj": "33.898.222/0001-22"
+    },
+    {
       "mes": "jun",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "LIVRAMENTO NSA SRA",
@@ -19102,32 +19665,6 @@
       "cpf_cnpj": "53.771.690/0001-49"
     },
     {
-      "mes": "mai",
-      "fornecedor": "BEBIDAS MUTERLE",
-      "cidade": "LIVRAMENTO NSA SRA",
-      "supervisor": "GLEIDSON FIENES",
-      "gerente": "MARIVALDO",
-      "vendedor": "CLAUBELINO SANTOS (125)",
-      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 250ML 4 ESTAÇÕES",
-      "codigo": "855962",
-      "faturamento": 31.98,
-      "quantidade": 2.0,
-      "cpf_cnpj": "53.771.690/0001-49"
-    },
-    {
-      "mes": "mai",
-      "fornecedor": "BEBIDAS MUTERLE",
-      "cidade": "LIVRAMENTO NSA SRA",
-      "supervisor": "GLEIDSON FIENES",
-      "gerente": "MARIVALDO",
-      "vendedor": "CLAUBELINO SANTOS (125)",
-      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 250ML 4 ESTAÇÕES",
-      "codigo": "855962",
-      "faturamento": 31.98,
-      "quantidade": 2.0,
-      "cpf_cnpj": "53.771.690/0001-49"
-    },
-    {
       "mes": "jul",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "LIVRAMENTO NSA SRA",
@@ -19142,6 +19679,32 @@
     },
     {
       "mes": "jul",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "LIVRAMENTO NSA SRA",
+      "supervisor": "GLEIDSON FIENES",
+      "gerente": "MARIVALDO",
+      "vendedor": "CLAUBELINO SANTOS (125)",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 250ML 4 ESTAÇÕES",
+      "codigo": "855962",
+      "faturamento": 31.98,
+      "quantidade": 2.0,
+      "cpf_cnpj": "53.771.690/0001-49"
+    },
+    {
+      "mes": "mai",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "LIVRAMENTO NSA SRA",
+      "supervisor": "GLEIDSON FIENES",
+      "gerente": "MARIVALDO",
+      "vendedor": "CLAUBELINO SANTOS (125)",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 250ML 4 ESTAÇÕES",
+      "codigo": "855962",
+      "faturamento": 31.98,
+      "quantidade": 2.0,
+      "cpf_cnpj": "53.771.690/0001-49"
+    },
+    {
+      "mes": "mai",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "LIVRAMENTO NSA SRA",
       "supervisor": "GLEIDSON FIENES",
@@ -19999,6 +20562,32 @@
       "cpf_cnpj": "22.539.075/0001-88"
     },
     {
+      "mes": "ago",
+      "fornecedor": "FRINORDESTE ALIMENTOS",
+      "cidade": "RIO DO ANTONIO",
+      "supervisor": "GLEIDSON FIENES",
+      "gerente": "MARIVALDO",
+      "vendedor": "JORGE REIS (117)",
+      "produto": "FRINORDESTE CHARQUE BOVINO DIANTEIRO PC 5 KG",
+      "codigo": "322166",
+      "faturamento": 247.79,
+      "quantidade": 1.0,
+      "cpf_cnpj": "34.870.134/0001-85"
+    },
+    {
+      "mes": "ago",
+      "fornecedor": "FRINORDESTE ALIMENTOS",
+      "cidade": "RIO DO ANTONIO",
+      "supervisor": "GLEIDSON FIENES",
+      "gerente": "MARIVALDO",
+      "vendedor": "JORGE REIS (117)",
+      "produto": "FRINORDESTE CHARQUE BOVINO DIANTEIRO PC 5 KG",
+      "codigo": "322166",
+      "faturamento": 247.79,
+      "quantidade": 1.0,
+      "cpf_cnpj": "22.461.637/0001-18"
+    },
+    {
       "mes": "abr",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "RIO DO ANTONIO",
@@ -20051,6 +20640,32 @@
       "cpf_cnpj": "33.316.691/0001-96"
     },
     {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "RIO DO ANTONIO",
+      "supervisor": "GLEIDSON FIENES",
+      "gerente": "MARIVALDO",
+      "vendedor": "JORGE REIS (117)",
+      "produto": "VINAGRE DA F. MAÇÃ 4,2% 450ML 4 ESTAÇÕES",
+      "codigo": "855986",
+      "faturamento": 27.96,
+      "quantidade": 4.0,
+      "cpf_cnpj": "14.131.272/0001-35"
+    },
+    {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "RIO DO ANTONIO",
+      "supervisor": "GLEIDSON FIENES",
+      "gerente": "MARIVALDO",
+      "vendedor": "JORGE REIS (117)",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 450ML 4 ESTAÇÕES",
+      "codigo": "855535",
+      "faturamento": 44.67,
+      "quantidade": 3.0,
+      "cpf_cnpj": "14.131.272/0001-35"
+    },
+    {
       "mes": "jun",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "RIO DO ANTONIO",
@@ -20073,6 +20688,19 @@
       "produto": "VINAGRE DA F. MAÇÃ ORGANICO 450ML 4 ESTAÇÕES",
       "codigo": "855535",
       "faturamento": 44.67,
+      "quantidade": 3.0,
+      "cpf_cnpj": "14.131.272/0001-35"
+    },
+    {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "RIO DO ANTONIO",
+      "supervisor": "GLEIDSON FIENES",
+      "gerente": "MARIVALDO",
+      "vendedor": "JORGE REIS (117)",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 250ML 4 ESTAÇÕES",
+      "codigo": "855962",
+      "faturamento": 47.97,
       "quantidade": 3.0,
       "cpf_cnpj": "14.131.272/0001-35"
     },
@@ -20363,7 +20991,7 @@
       "cpf_cnpj": "08.071.116/0001-23"
     },
     {
-      "mes": "jul",
+      "mes": "ago",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "SANTA MARIA VITORIA",
       "supervisor": "GLEIDSON FIENES",
@@ -20376,7 +21004,7 @@
       "cpf_cnpj": "08.071.116/0001-23"
     },
     {
-      "mes": "ago",
+      "mes": "jul",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "SANTA MARIA VITORIA",
       "supervisor": "GLEIDSON FIENES",
@@ -20504,6 +21132,19 @@
       "faturamento": 235.19,
       "quantidade": 1.0,
       "cpf_cnpj": "28.591.406/0001-05"
+    },
+    {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "SANTA MARIA VITORIA",
+      "supervisor": "GLEIDSON FIENES",
+      "gerente": "MARIVALDO",
+      "vendedor": "EDSON CORREIA (77 99165-5655)",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 500ML 4 ESTAÇÕES",
+      "codigo": "855412",
+      "faturamento": 65.97,
+      "quantidade": 3.0,
+      "cpf_cnpj": "07.627.914/0001-26"
     },
     {
       "mes": "mai",
@@ -20844,19 +21485,6 @@
       "cpf_cnpj": "15.629.970/0001-28"
     },
     {
-      "mes": "jul",
-      "fornecedor": "BEBIDAS MUTERLE",
-      "cidade": "TABOCAS BREJO VELHO",
-      "supervisor": "GLEIDSON FIENES",
-      "gerente": "MARIVALDO",
-      "vendedor": "EDSON CORREIA (77 99165-5655)",
-      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 500ML 4 ESTAÇÕES",
-      "codigo": "855412",
-      "faturamento": 65.97,
-      "quantidade": 3.0,
-      "cpf_cnpj": "15.629.970/0001-28"
-    },
-    {
       "mes": "ago",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "TABOCAS BREJO VELHO",
@@ -20867,6 +21495,19 @@
       "codigo": "855412",
       "faturamento": 43.98,
       "quantidade": 2.0,
+      "cpf_cnpj": "15.629.970/0001-28"
+    },
+    {
+      "mes": "jul",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "TABOCAS BREJO VELHO",
+      "supervisor": "GLEIDSON FIENES",
+      "gerente": "MARIVALDO",
+      "vendedor": "EDSON CORREIA (77 99165-5655)",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 500ML 4 ESTAÇÕES",
+      "codigo": "855412",
+      "faturamento": 65.97,
+      "quantidade": 3.0,
       "cpf_cnpj": "15.629.970/0001-28"
     },
     {
@@ -21416,7 +22057,7 @@
       "cpf_cnpj": "54.513.151/0002-53"
     },
     {
-      "mes": "jul",
+      "mes": "mai",
       "fornecedor": "VINICOLA CASA MUTERLE",
       "cidade": "Vitoria da Conquista",
       "supervisor": "GLEIDSON FIENES",
@@ -21429,7 +22070,7 @@
       "cpf_cnpj": "54.513.151/0002-53"
     },
     {
-      "mes": "mai",
+      "mes": "jul",
       "fornecedor": "VINICOLA CASA MUTERLE",
       "cidade": "Vitoria da Conquista",
       "supervisor": "GLEIDSON FIENES",
@@ -21625,6 +22266,19 @@
     },
     {
       "mes": "mai",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "Vitoria da Conquista",
+      "supervisor": "GLEIDSON FIENES",
+      "gerente": "MARIVALDO",
+      "vendedor": "GABRIEL SODRE (120)",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 450ML 4 ESTAÇÕES",
+      "codigo": "855535",
+      "faturamento": 178.68,
+      "quantidade": 12.0,
+      "cpf_cnpj": "00.339.050/0001-06"
+    },
+    {
+      "mes": "ago",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "Vitoria da Conquista",
       "supervisor": "GLEIDSON FIENES",
@@ -22092,6 +22746,19 @@
       "cpf_cnpj": "60.018.936/0001-71"
     },
     {
+      "mes": "ago",
+      "fornecedor": "FRINORDESTE ALIMENTOS",
+      "cidade": "TEOFILANDIA",
+      "supervisor": "JEIZIANE",
+      "gerente": "SANDRO",
+      "vendedor": "WESCKEY FONTES",
+      "produto": "FRINORDESTE CHARQUE BOVINO DIANTEIRO PC 5 KG",
+      "codigo": "322166",
+      "faturamento": 495.58,
+      "quantidade": 2.0,
+      "cpf_cnpj": "09.430.487/0001-17"
+    },
+    {
       "mes": "jul",
       "fornecedor": "FRINORDESTE ALIMENTOS",
       "cidade": "ANTONIO CARDOSO",
@@ -22118,7 +22785,33 @@
       "cpf_cnpj": "28.753.959/0001-17"
     },
     {
+      "mes": "ago",
+      "fornecedor": "FRINORDESTE ALIMENTOS",
+      "cidade": "ANTONIO CARDOSO",
+      "supervisor": "JEIZIANE",
+      "gerente": "SANDRO",
+      "vendedor": "ANDRE VINAGRE (123)",
+      "produto": "FRINORDESTE CHARQUE BOVINO DIANTEIRO PC 5 KG",
+      "codigo": "322166",
+      "faturamento": 247.79,
+      "quantidade": 1.0,
+      "cpf_cnpj": "28.753.959/0001-17"
+    },
+    {
       "mes": "jul",
+      "fornecedor": "FRINORDESTE ALIMENTOS",
+      "cidade": "ANTONIO CARDOSO",
+      "supervisor": "JEIZIANE",
+      "gerente": "SANDRO",
+      "vendedor": "ANDRE VINAGRE (123)",
+      "produto": "JERKED BEEF BOV. P.A PC 05 KG",
+      "codigo": "322234",
+      "faturamento": 235.19,
+      "quantidade": 1.0,
+      "cpf_cnpj": "28.753.959/0001-17"
+    },
+    {
+      "mes": "ago",
       "fornecedor": "FRINORDESTE ALIMENTOS",
       "cidade": "ANTONIO CARDOSO",
       "supervisor": "JEIZIANE",
@@ -22482,6 +23175,45 @@
       "cpf_cnpj": "23.527.477/0001-25"
     },
     {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "ARACI",
+      "supervisor": "JEIZIANE",
+      "gerente": "SANDRO",
+      "vendedor": "WESCKEY FONTES",
+      "produto": "VINAGRE DA F. MAÇÃ C/ EXT DE GENG E PROPOLIS 250ML ORIG 4 ESTAÇÕES",
+      "codigo": "855948",
+      "faturamento": 98.94,
+      "quantidade": 6.0,
+      "cpf_cnpj": "23.527.477/0001-25"
+    },
+    {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "ARACI",
+      "supervisor": "JEIZIANE",
+      "gerente": "SANDRO",
+      "vendedor": "WESCKEY FONTES",
+      "produto": "VINAGRE DA F. MAÇÃ 4,2% 450ML 4 ESTAÇÕES",
+      "codigo": "855986",
+      "faturamento": 41.94,
+      "quantidade": 6.0,
+      "cpf_cnpj": "23.527.477/0001-25"
+    },
+    {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "ARACI",
+      "supervisor": "JEIZIANE",
+      "gerente": "SANDRO",
+      "vendedor": "WESCKEY FONTES",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 450ML 4 ESTAÇÕES",
+      "codigo": "855535",
+      "faturamento": 89.34,
+      "quantidade": 6.0,
+      "cpf_cnpj": "23.527.477/0001-25"
+    },
+    {
       "mes": "mai",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "ARACI",
@@ -22495,7 +23227,33 @@
       "cpf_cnpj": "23.527.477/0001-25"
     },
     {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "ARACI",
+      "supervisor": "JEIZIANE",
+      "gerente": "SANDRO",
+      "vendedor": "WESCKEY FONTES",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 250ML 4 ESTAÇÕES",
+      "codigo": "855962",
+      "faturamento": 95.94,
+      "quantidade": 6.0,
+      "cpf_cnpj": "23.527.477/0001-25"
+    },
+    {
       "mes": "mai",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "ARACI",
+      "supervisor": "JEIZIANE",
+      "gerente": "SANDRO",
+      "vendedor": "WESCKEY FONTES",
+      "produto": "VINAGRE DA F. MAÇÃ C/ EXT DE GENG E CURCUMA 250ML ORIG 4 ESTAÇÕES",
+      "codigo": "855979",
+      "faturamento": 98.94,
+      "quantidade": 6.0,
+      "cpf_cnpj": "23.527.477/0001-25"
+    },
+    {
+      "mes": "ago",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "ARACI",
       "supervisor": "JEIZIANE",
@@ -22534,7 +23292,7 @@
       "cpf_cnpj": "10.145.161/0001-27"
     },
     {
-      "mes": "jul",
+      "mes": "jun",
       "fornecedor": "FRINORDESTE ALIMENTOS",
       "cidade": "AGUA FRIA",
       "supervisor": "JEIZIANE",
@@ -22547,7 +23305,7 @@
       "cpf_cnpj": "07.783.992/0001-10"
     },
     {
-      "mes": "jun",
+      "mes": "jul",
       "fornecedor": "FRINORDESTE ALIMENTOS",
       "cidade": "AGUA FRIA",
       "supervisor": "JEIZIANE",
@@ -23119,7 +23877,7 @@
       "cpf_cnpj": "44.967.173/0001-59"
     },
     {
-      "mes": "jul",
+      "mes": "ago",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "Conceicao do Jacuipe",
       "supervisor": "JEIZIANE",
@@ -23132,7 +23890,7 @@
       "cpf_cnpj": "44.967.173/0001-59"
     },
     {
-      "mes": "ago",
+      "mes": "jul",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "Conceicao do Jacuipe",
       "supervisor": "JEIZIANE",
@@ -23405,6 +24163,19 @@
       "cpf_cnpj": "12.138.732/0002-02"
     },
     {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "Feira de Santana",
+      "supervisor": "JEIZIANE",
+      "gerente": "SANDRO",
+      "vendedor": "JULIETE LIMA (122)",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 250ML 4 ESTAÇÕES",
+      "codigo": "855962",
+      "faturamento": 63.96,
+      "quantidade": 4.0,
+      "cpf_cnpj": "12.138.732/0002-02"
+    },
+    {
       "mes": "jul",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "Feira de Santana",
@@ -23522,7 +24293,7 @@
       "cpf_cnpj": "40.856.848/0001-31"
     },
     {
-      "mes": "mai",
+      "mes": "jul",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "Feira de Santana",
       "supervisor": "JEIZIANE",
@@ -23535,7 +24306,7 @@
       "cpf_cnpj": "52.855.164/0001-02"
     },
     {
-      "mes": "jul",
+      "mes": "mai",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "Feira de Santana",
       "supervisor": "JEIZIANE",
@@ -23626,7 +24397,7 @@
       "cpf_cnpj": "57.897.854/0001-30"
     },
     {
-      "mes": "ago",
+      "mes": "abr",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "Feira de Santana",
       "supervisor": "JEIZIANE",
@@ -23639,7 +24410,7 @@
       "cpf_cnpj": "12.138.732/0004-74"
     },
     {
-      "mes": "abr",
+      "mes": "ago",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "Feira de Santana",
       "supervisor": "JEIZIANE",
@@ -24575,19 +25346,6 @@
       "cpf_cnpj": "13.176.187/0001-20"
     },
     {
-      "mes": "mai",
-      "fornecedor": "BEBIDAS MUTERLE",
-      "cidade": "IRARA",
-      "supervisor": "JEIZIANE",
-      "gerente": "SANDRO",
-      "vendedor": "DAGMAR SILVA (75 98201-9217)",
-      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 250ML 4 ESTAÇÕES",
-      "codigo": "855962",
-      "faturamento": 31.98,
-      "quantidade": 2.0,
-      "cpf_cnpj": "03.627.602/0001-61"
-    },
-    {
       "mes": "jun",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "IRARA",
@@ -24598,6 +25356,19 @@
       "codigo": "855962",
       "faturamento": 47.97,
       "quantidade": 3.0,
+      "cpf_cnpj": "03.627.602/0001-61"
+    },
+    {
+      "mes": "mai",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "IRARA",
+      "supervisor": "JEIZIANE",
+      "gerente": "SANDRO",
+      "vendedor": "DAGMAR SILVA (75 98201-9217)",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 250ML 4 ESTAÇÕES",
+      "codigo": "855962",
+      "faturamento": 31.98,
+      "quantidade": 2.0,
       "cpf_cnpj": "03.627.602/0001-61"
     },
     {
@@ -24731,6 +25502,19 @@
       "cpf_cnpj": "57.933.034/0001-56"
     },
     {
+      "mes": "ago",
+      "fornecedor": "VINICOLA CASA MUTERLE",
+      "cidade": "Santo Estevao",
+      "supervisor": "JEIZIANE",
+      "gerente": "SANDRO",
+      "vendedor": "ANDRE VINAGRE (123)",
+      "produto": "BELA ITALIA SUCO DE UVA TINTO 1L",
+      "codigo": "580894",
+      "faturamento": 56.97,
+      "quantidade": 3.0,
+      "cpf_cnpj": "63.585.031/0001-71"
+    },
+    {
       "mes": "jul",
       "fornecedor": "FRINORDESTE ALIMENTOS",
       "cidade": "Santo Estevao",
@@ -24742,6 +25526,19 @@
       "faturamento": 235.19,
       "quantidade": 1.0,
       "cpf_cnpj": "017.045.805-95"
+    },
+    {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "Santo Estevao",
+      "supervisor": "JEIZIANE",
+      "gerente": "SANDRO",
+      "vendedor": "ANDRE VINAGRE (123)",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 450ML 4 ESTAÇÕES",
+      "codigo": "855535",
+      "faturamento": 89.34,
+      "quantidade": 6.0,
+      "cpf_cnpj": "53.064.966/0001-59"
     },
     {
       "mes": "mai",
@@ -25238,6 +26035,19 @@
       "cpf_cnpj": "60.018.936/0001-71"
     },
     {
+      "mes": "ago",
+      "fornecedor": "FRINORDESTE ALIMENTOS",
+      "cidade": "TANQUINHO",
+      "supervisor": "JEIZIANE",
+      "gerente": "SANDRO",
+      "vendedor": "DAGMAR SILVA (75 98201-9217)",
+      "produto": "FRINORDESTE CHARQUE BOVINO DIANTEIRO PC 5 KG",
+      "codigo": "322166",
+      "faturamento": 247.79,
+      "quantidade": 1.0,
+      "cpf_cnpj": "18.586.540/0001-64"
+    },
+    {
       "mes": "mai",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "TEOFILANDIA",
@@ -25356,6 +26166,19 @@
     },
     {
       "mes": "jul",
+      "fornecedor": "FRINORDESTE ALIMENTOS",
+      "cidade": "TEOFILANDIA",
+      "supervisor": "JEIZIANE",
+      "gerente": "SANDRO",
+      "vendedor": "WESCKEY FONTES",
+      "produto": "FRINORDESTE CHARQUE BOVINO DIANTEIRO PC 5 KG",
+      "codigo": "322166",
+      "faturamento": 495.58,
+      "quantidade": 2.0,
+      "cpf_cnpj": "09.430.487/0001-17"
+    },
+    {
+      "mes": "ago",
       "fornecedor": "FRINORDESTE ALIMENTOS",
       "cidade": "TEOFILANDIA",
       "supervisor": "JEIZIANE",
@@ -25537,6 +26360,19 @@
       "cpf_cnpj": "54.512.871/0001-13"
     },
     {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "CALDEIRAO GRANDE",
+      "supervisor": "LUCAS SILVA",
+      "gerente": "SANDRO",
+      "vendedor": "DIEGO SILVA",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 450ML 4 ESTAÇÕES",
+      "codigo": "855535",
+      "faturamento": 59.56,
+      "quantidade": 4.0,
+      "cpf_cnpj": "54.512.871/0001-13"
+    },
+    {
       "mes": "mai",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "CALDEIRAO GRANDE",
@@ -25546,6 +26382,32 @@
       "produto": "VINAGRE DA F. MAÇÃ ORGANICO 250ML 4 ESTAÇÕES",
       "codigo": "855962",
       "faturamento": 47.97,
+      "quantidade": 3.0,
+      "cpf_cnpj": "54.512.871/0001-13"
+    },
+    {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "CALDEIRAO GRANDE",
+      "supervisor": "LUCAS SILVA",
+      "gerente": "SANDRO",
+      "vendedor": "DIEGO SILVA",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 250ML 4 ESTAÇÕES",
+      "codigo": "855962",
+      "faturamento": 31.98,
+      "quantidade": 2.0,
+      "cpf_cnpj": "54.512.871/0001-13"
+    },
+    {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "CALDEIRAO GRANDE",
+      "supervisor": "LUCAS SILVA",
+      "gerente": "SANDRO",
+      "vendedor": "DIEGO SILVA",
+      "produto": "VINAGRE DA F. MAÇÃ C/ EXT DE GENG E CURCUMA 250ML ORIG 4 ESTAÇÕES",
+      "codigo": "855979",
+      "faturamento": 49.47,
       "quantidade": 3.0,
       "cpf_cnpj": "54.512.871/0001-13"
     },
@@ -25561,6 +26423,32 @@
       "faturamento": 32.98,
       "quantidade": 2.0,
       "cpf_cnpj": "38.027.825/0001-72"
+    },
+    {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "BAIXA GRANDE",
+      "supervisor": "LUCAS SILVA",
+      "gerente": "SANDRO",
+      "vendedor": "EDENILSON FERREIRA",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 450ML 4 ESTAÇÕES",
+      "codigo": "855535",
+      "faturamento": 44.67,
+      "quantidade": 3.0,
+      "cpf_cnpj": "33.344.216/0001-23"
+    },
+    {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "BAIXA GRANDE",
+      "supervisor": "LUCAS SILVA",
+      "gerente": "SANDRO",
+      "vendedor": "EDENILSON FERREIRA",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 500ML 4 ESTAÇÕES",
+      "codigo": "855412",
+      "faturamento": 65.97,
+      "quantidade": 3.0,
+      "cpf_cnpj": "33.344.216/0001-23"
     },
     {
       "mes": "mai",
@@ -25966,19 +26854,6 @@
       "cpf_cnpj": "51.878.154/0001-11"
     },
     {
-      "mes": "ago",
-      "fornecedor": "BEBIDAS MUTERLE",
-      "cidade": "CAPELA ALTO ALEGRE",
-      "supervisor": "LUCAS SILVA",
-      "gerente": "SANDRO",
-      "vendedor": "DIEGO SILVA",
-      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 500ML 4 ESTAÇÕES",
-      "codigo": "855412",
-      "faturamento": 43.98,
-      "quantidade": 2.0,
-      "cpf_cnpj": "51.878.154/0001-11"
-    },
-    {
       "mes": "jun",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "CAPELA ALTO ALEGRE",
@@ -25989,6 +26864,19 @@
       "codigo": "855412",
       "faturamento": 65.97,
       "quantidade": 3.0,
+      "cpf_cnpj": "51.878.154/0001-11"
+    },
+    {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "CAPELA ALTO ALEGRE",
+      "supervisor": "LUCAS SILVA",
+      "gerente": "SANDRO",
+      "vendedor": "DIEGO SILVA",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 500ML 4 ESTAÇÕES",
+      "codigo": "855412",
+      "faturamento": 43.98,
+      "quantidade": 2.0,
       "cpf_cnpj": "51.878.154/0001-11"
     },
     {
@@ -26133,6 +27021,19 @@
       "faturamento": 32.98,
       "quantidade": 2.0,
       "cpf_cnpj": "37.803.064/0001-30"
+    },
+    {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "Capim Grosso",
+      "supervisor": "LUCAS SILVA",
+      "gerente": "SANDRO",
+      "vendedor": "CARMILTON GOMES (118)",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 450ML 4 ESTAÇÕES",
+      "codigo": "855535",
+      "faturamento": 104.23,
+      "quantidade": 7.0,
+      "cpf_cnpj": "11.810.493/0001-41"
     },
     {
       "mes": "jul",
@@ -26291,19 +27192,6 @@
       "cpf_cnpj": "41.747.028/0001-74"
     },
     {
-      "mes": "jul",
-      "fornecedor": "BEBIDAS MUTERLE",
-      "cidade": "Capim Grosso",
-      "supervisor": "LUCAS SILVA",
-      "gerente": "SANDRO",
-      "vendedor": "CARMILTON GOMES (118)",
-      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 500ML 4 ESTAÇÕES",
-      "codigo": "855412",
-      "faturamento": 65.97,
-      "quantidade": 3.0,
-      "cpf_cnpj": "55.798.767/0001-08"
-    },
-    {
       "mes": "ago",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "Capim Grosso",
@@ -26314,6 +27202,19 @@
       "codigo": "855412",
       "faturamento": 43.98,
       "quantidade": 2.0,
+      "cpf_cnpj": "55.798.767/0001-08"
+    },
+    {
+      "mes": "jul",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "Capim Grosso",
+      "supervisor": "LUCAS SILVA",
+      "gerente": "SANDRO",
+      "vendedor": "CARMILTON GOMES (118)",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 500ML 4 ESTAÇÕES",
+      "codigo": "855412",
+      "faturamento": 65.97,
+      "quantidade": 3.0,
       "cpf_cnpj": "55.798.767/0001-08"
     },
     {
@@ -26395,19 +27296,6 @@
       "cpf_cnpj": "65.692.583/0001-04"
     },
     {
-      "mes": "jul",
-      "fornecedor": "FRINORDESTE ALIMENTOS",
-      "cidade": "Capim Grosso",
-      "supervisor": "LUCAS SILVA",
-      "gerente": "SANDRO",
-      "vendedor": "CARMILTON GOMES (118)",
-      "produto": "JERKED BEEF BOV. P.A PC 05 KG",
-      "codigo": "322234",
-      "faturamento": 470.38,
-      "quantidade": 2.0,
-      "cpf_cnpj": "65.692.583/0001-04"
-    },
-    {
       "mes": "jun",
       "fornecedor": "FRINORDESTE ALIMENTOS",
       "cidade": "Capim Grosso",
@@ -26418,6 +27306,19 @@
       "codigo": "322234",
       "faturamento": 235.19,
       "quantidade": 1.0,
+      "cpf_cnpj": "65.692.583/0001-04"
+    },
+    {
+      "mes": "jul",
+      "fornecedor": "FRINORDESTE ALIMENTOS",
+      "cidade": "Capim Grosso",
+      "supervisor": "LUCAS SILVA",
+      "gerente": "SANDRO",
+      "vendedor": "CARMILTON GOMES (118)",
+      "produto": "JERKED BEEF BOV. P.A PC 05 KG",
+      "codigo": "322234",
+      "faturamento": 470.38,
+      "quantidade": 2.0,
       "cpf_cnpj": "65.692.583/0001-04"
     },
     {
@@ -26471,6 +27372,19 @@
       "faturamento": 238.69,
       "quantidade": 1.0,
       "cpf_cnpj": "104.893.935-94"
+    },
+    {
+      "mes": "ago",
+      "fornecedor": "FRINORDESTE ALIMENTOS",
+      "cidade": "Conceicao do Coite",
+      "supervisor": "LUCAS SILVA",
+      "gerente": "SANDRO",
+      "vendedor": "ANDERSON NASCIMENTO",
+      "produto": "FRINORDESTE CHARQUE BOVINO DIANTEIRO PC 5 KG",
+      "codigo": "322166",
+      "faturamento": 1486.74,
+      "quantidade": 6.0,
+      "cpf_cnpj": "13.955.448/0001-00"
     },
     {
       "mes": "jul",
@@ -26668,19 +27582,6 @@
       "cpf_cnpj": "36.102.728/0001-71"
     },
     {
-      "mes": "jul",
-      "fornecedor": "VINICOLA CASA MUTERLE",
-      "cidade": "Jacobina",
-      "supervisor": "LUCAS SILVA",
-      "gerente": "SANDRO",
-      "vendedor": "CLARA ARAUJO",
-      "produto": "BELA ITALIA SUCO DE UVA TINTO 300ML",
-      "codigo": "581587",
-      "faturamento": 33.96,
-      "quantidade": 4.0,
-      "cpf_cnpj": "36.102.728/0001-71"
-    },
-    {
       "mes": "mai",
       "fornecedor": "VINICOLA CASA MUTERLE",
       "cidade": "Jacobina",
@@ -26691,6 +27592,19 @@
       "codigo": "581587",
       "faturamento": 25.47,
       "quantidade": 3.0,
+      "cpf_cnpj": "36.102.728/0001-71"
+    },
+    {
+      "mes": "jul",
+      "fornecedor": "VINICOLA CASA MUTERLE",
+      "cidade": "Jacobina",
+      "supervisor": "LUCAS SILVA",
+      "gerente": "SANDRO",
+      "vendedor": "CLARA ARAUJO",
+      "produto": "BELA ITALIA SUCO DE UVA TINTO 300ML",
+      "codigo": "581587",
+      "faturamento": 33.96,
+      "quantidade": 4.0,
       "cpf_cnpj": "36.102.728/0001-71"
     },
     {
@@ -26850,6 +27764,19 @@
       "cpf_cnpj": "03.576.860/0001-66"
     },
     {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "Jacobina",
+      "supervisor": "LUCAS SILVA",
+      "gerente": "SANDRO",
+      "vendedor": "CLARA ARAUJO",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 450ML 4 ESTAÇÕES",
+      "codigo": "855535",
+      "faturamento": 29.78,
+      "quantidade": 2.0,
+      "cpf_cnpj": "05.910.569/0001-08"
+    },
+    {
       "mes": "jul",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "Jacobina",
@@ -26899,6 +27826,19 @@
       "codigo": "855948",
       "faturamento": 49.47,
       "quantidade": 3.0,
+      "cpf_cnpj": "09.263.426/0002-93"
+    },
+    {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "Jacobina",
+      "supervisor": "LUCAS SILVA",
+      "gerente": "SANDRO",
+      "vendedor": "CLARA ARAUJO",
+      "produto": "VINAGRE DA F. MAÇÃ 4,2% 450ML 4 ESTAÇÕES",
+      "codigo": "855986",
+      "faturamento": 83.88,
+      "quantidade": 12.0,
       "cpf_cnpj": "09.263.426/0002-93"
     },
     {
@@ -27058,19 +27998,6 @@
       "cpf_cnpj": "09.263.426/0002-93"
     },
     {
-      "mes": "jul",
-      "fornecedor": "VINICOLA CASA MUTERLE",
-      "cidade": "Jacobina",
-      "supervisor": "LUCAS SILVA",
-      "gerente": "SANDRO",
-      "vendedor": "CLARA ARAUJO",
-      "produto": "BELA ITALIA SUCO DE UVA TINTO 1L",
-      "codigo": "580894",
-      "faturamento": 113.94,
-      "quantidade": 6.0,
-      "cpf_cnpj": "09.263.426/0002-93"
-    },
-    {
       "mes": "ago",
       "fornecedor": "VINICOLA CASA MUTERLE",
       "cidade": "Jacobina",
@@ -27094,6 +28021,19 @@
       "codigo": "580894",
       "faturamento": 56.97,
       "quantidade": 3.0,
+      "cpf_cnpj": "09.263.426/0002-93"
+    },
+    {
+      "mes": "jul",
+      "fornecedor": "VINICOLA CASA MUTERLE",
+      "cidade": "Jacobina",
+      "supervisor": "LUCAS SILVA",
+      "gerente": "SANDRO",
+      "vendedor": "CLARA ARAUJO",
+      "produto": "BELA ITALIA SUCO DE UVA TINTO 1L",
+      "codigo": "580894",
+      "faturamento": 113.94,
+      "quantidade": 6.0,
       "cpf_cnpj": "09.263.426/0002-93"
     },
     {
@@ -27162,6 +28102,19 @@
       "cpf_cnpj": "09.263.426/0002-93"
     },
     {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "Jacobina",
+      "supervisor": "LUCAS SILVA",
+      "gerente": "SANDRO",
+      "vendedor": "CLARA ARAUJO",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 450ML 4 ESTAÇÕES",
+      "codigo": "855535",
+      "faturamento": 44.67,
+      "quantidade": 3.0,
+      "cpf_cnpj": "25.036.124/0001-58"
+    },
+    {
       "mes": "jun",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "Jacobina",
@@ -27211,6 +28164,19 @@
       "codigo": "855535",
       "faturamento": 59.56,
       "quantidade": 4.0,
+      "cpf_cnpj": "19.704.286/0001-14"
+    },
+    {
+      "mes": "ago",
+      "fornecedor": "FRINORDESTE ALIMENTOS",
+      "cidade": "Jacobina",
+      "supervisor": "LUCAS SILVA",
+      "gerente": "SANDRO",
+      "vendedor": "CLARA ARAUJO",
+      "produto": "FRINORDESTE CHARQUE BOVINO DIANTEIRO PC 5 KG",
+      "codigo": "322166",
+      "faturamento": 247.79,
+      "quantidade": 1.0,
       "cpf_cnpj": "19.704.286/0001-14"
     },
     {
@@ -27318,6 +28284,19 @@
       "cpf_cnpj": "17.932.399/0001-41"
     },
     {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "Jacobina",
+      "supervisor": "LUCAS SILVA",
+      "gerente": "SANDRO",
+      "vendedor": "CLARA ARAUJO",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 450ML 4 ESTAÇÕES",
+      "codigo": "855535",
+      "faturamento": 29.78,
+      "quantidade": 2.0,
+      "cpf_cnpj": "51.003.643/0001-20"
+    },
+    {
       "mes": "mai",
       "fornecedor": "FRINORDESTE ALIMENTOS",
       "cidade": "Jacobina",
@@ -27406,6 +28385,19 @@
       "codigo": "322166",
       "faturamento": 247.79,
       "quantidade": 1.0,
+      "cpf_cnpj": "60.892.641/0001-20"
+    },
+    {
+      "mes": "ago",
+      "fornecedor": "FRINORDESTE ALIMENTOS",
+      "cidade": "Jacobina",
+      "supervisor": "LUCAS SILVA",
+      "gerente": "SANDRO",
+      "vendedor": "CLARA ARAUJO",
+      "produto": "FRINORDESTE CHARQUE BOVINO DIANTEIRO PC 5 KG",
+      "codigo": "322166",
+      "faturamento": 495.58,
+      "quantidade": 2.0,
       "cpf_cnpj": "60.892.641/0001-20"
     },
     {
@@ -27552,6 +28544,19 @@
       "cpf_cnpj": "60.912.249/0001-03"
     },
     {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "Jacobina",
+      "supervisor": "LUCAS SILVA",
+      "gerente": "SANDRO",
+      "vendedor": "CLARA ARAUJO",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 450ML 4 ESTAÇÕES",
+      "codigo": "855535",
+      "faturamento": 89.34,
+      "quantidade": 6.0,
+      "cpf_cnpj": "51.826.312/0001-90"
+    },
+    {
       "mes": "mai",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "Jacobina",
@@ -27565,19 +28570,6 @@
       "cpf_cnpj": "11.958.855/0001-46"
     },
     {
-      "mes": "jul",
-      "fornecedor": "VINICOLA CASA MUTERLE",
-      "cidade": "Jacobina",
-      "supervisor": "LUCAS SILVA",
-      "gerente": "SANDRO",
-      "vendedor": "CLARA ARAUJO",
-      "produto": "BELA ITALIA SUCO DE UVA TINTO 300ML",
-      "codigo": "581587",
-      "faturamento": 25.47,
-      "quantidade": 3.0,
-      "cpf_cnpj": "60.243.027/0001-37"
-    },
-    {
       "mes": "mai",
       "fornecedor": "VINICOLA CASA MUTERLE",
       "cidade": "Jacobina",
@@ -27588,6 +28580,19 @@
       "codigo": "581587",
       "faturamento": 16.98,
       "quantidade": 2.0,
+      "cpf_cnpj": "60.243.027/0001-37"
+    },
+    {
+      "mes": "jul",
+      "fornecedor": "VINICOLA CASA MUTERLE",
+      "cidade": "Jacobina",
+      "supervisor": "LUCAS SILVA",
+      "gerente": "SANDRO",
+      "vendedor": "CLARA ARAUJO",
+      "produto": "BELA ITALIA SUCO DE UVA TINTO 300ML",
+      "codigo": "581587",
+      "faturamento": 25.47,
+      "quantidade": 3.0,
       "cpf_cnpj": "60.243.027/0001-37"
     },
     {
@@ -27695,7 +28700,33 @@
       "cpf_cnpj": "01.041.960/0001-62"
     },
     {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "Morro do Chapeu",
+      "supervisor": "LUCAS SILVA",
+      "gerente": "SANDRO",
+      "vendedor": "AROLDO",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 450ML 4 ESTAÇÕES",
+      "codigo": "855535",
+      "faturamento": 44.67,
+      "quantidade": 3.0,
+      "cpf_cnpj": "01.041.960/0001-62"
+    },
+    {
       "mes": "mai",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "Morro do Chapeu",
+      "supervisor": "LUCAS SILVA",
+      "gerente": "SANDRO",
+      "vendedor": "AROLDO",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 450ML 4 ESTAÇÕES",
+      "codigo": "855535",
+      "faturamento": 74.45,
+      "quantidade": 5.0,
+      "cpf_cnpj": "46.272.452/0001-23"
+    },
+    {
+      "mes": "ago",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "Morro do Chapeu",
       "supervisor": "LUCAS SILVA",
@@ -27786,6 +28817,19 @@
       "cpf_cnpj": "13.244.891/0001-73"
     },
     {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "MACAJUBA",
+      "supervisor": "LUCAS SILVA",
+      "gerente": "SANDRO",
+      "vendedor": "EDENILSON FERREIRA",
+      "produto": "VINAGRE DA F. MAÇÃ C/ EXT DE GENG E PROPOLIS 250ML ORIG 4 ESTAÇÕES",
+      "codigo": "855948",
+      "faturamento": 16.49,
+      "quantidade": 1.0,
+      "cpf_cnpj": "13.244.891/0001-73"
+    },
+    {
       "mes": "jun",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "MACAJUBA",
@@ -27812,7 +28856,20 @@
       "cpf_cnpj": "13.244.891/0001-73"
     },
     {
-      "mes": "jun",
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "MACAJUBA",
+      "supervisor": "LUCAS SILVA",
+      "gerente": "SANDRO",
+      "vendedor": "EDENILSON FERREIRA",
+      "produto": "VINAGRE DA F. MAÇÃ C/ EXT DE GENG E CURCUMA 250ML ORIG 4 ESTAÇÕES",
+      "codigo": "855979",
+      "faturamento": 16.49,
+      "quantidade": 1.0,
+      "cpf_cnpj": "13.244.891/0001-73"
+    },
+    {
+      "mes": "mai",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "MACAJUBA",
       "supervisor": "LUCAS SILVA",
@@ -27825,7 +28882,7 @@
       "cpf_cnpj": "13.244.891/0001-73"
     },
     {
-      "mes": "mai",
+      "mes": "jun",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "MACAJUBA",
       "supervisor": "LUCAS SILVA",
@@ -28314,6 +29371,19 @@
       "vendedor": "EDENILSON FERREIRA",
       "produto": "VINAGRE DA F. MAÇÃ ORGANICO 450ML 4 ESTAÇÕES",
       "codigo": "855535",
+      "faturamento": 89.34,
+      "quantidade": 6.0,
+      "cpf_cnpj": "04.804.982/0001-25"
+    },
+    {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "MIGUEL CALMON",
+      "supervisor": "LUCAS SILVA",
+      "gerente": "SANDRO",
+      "vendedor": "EDENILSON FERREIRA",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 450ML 4 ESTAÇÕES",
+      "codigo": "855535",
       "faturamento": 29.78,
       "quantidade": 2.0,
       "cpf_cnpj": "01.411.393/0005-12"
@@ -28576,6 +29646,19 @@
       "codigo": "855535",
       "faturamento": 44.67,
       "quantidade": 3.0,
+      "cpf_cnpj": "57.548.688/0001-66"
+    },
+    {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "MIGUEL CALMON",
+      "supervisor": "LUCAS SILVA",
+      "gerente": "SANDRO",
+      "vendedor": "EDENILSON FERREIRA",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 450ML 4 ESTAÇÕES",
+      "codigo": "855535",
+      "faturamento": 29.78,
+      "quantidade": 2.0,
       "cpf_cnpj": "57.548.688/0001-66"
     },
     {
@@ -28904,6 +29987,19 @@
       "cpf_cnpj": "17.200.311/0001-05"
     },
     {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "PIRITIBA",
+      "supervisor": "LUCAS SILVA",
+      "gerente": "SANDRO",
+      "vendedor": "EDENILSON FERREIRA",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 450ML 4 ESTAÇÕES",
+      "codigo": "855535",
+      "faturamento": 29.78,
+      "quantidade": 2.0,
+      "cpf_cnpj": "17.200.311/0001-05"
+    },
+    {
       "mes": "jun",
       "fornecedor": "FRINORDESTE ALIMENTOS",
       "cidade": "PIRITIBA",
@@ -28943,19 +30039,6 @@
       "cpf_cnpj": "01.411.393/0001-99"
     },
     {
-      "mes": "ago",
-      "fornecedor": "BEBIDAS MUTERLE",
-      "cidade": "PIRITIBA",
-      "supervisor": "LUCAS SILVA",
-      "gerente": "SANDRO",
-      "vendedor": "EDENILSON FERREIRA",
-      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 500ML 4 ESTAÇÕES",
-      "codigo": "855412",
-      "faturamento": 65.97,
-      "quantidade": 3.0,
-      "cpf_cnpj": "01.411.393/0001-99"
-    },
-    {
       "mes": "jun",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "PIRITIBA",
@@ -28966,6 +30049,19 @@
       "codigo": "855412",
       "faturamento": 87.96,
       "quantidade": 4.0,
+      "cpf_cnpj": "01.411.393/0001-99"
+    },
+    {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "PIRITIBA",
+      "supervisor": "LUCAS SILVA",
+      "gerente": "SANDRO",
+      "vendedor": "EDENILSON FERREIRA",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 500ML 4 ESTAÇÕES",
+      "codigo": "855412",
+      "faturamento": 65.97,
+      "quantidade": 3.0,
       "cpf_cnpj": "01.411.393/0001-99"
     },
     {
@@ -29268,7 +30364,7 @@
       "cpf_cnpj": "59.576.289/0001-34"
     },
     {
-      "mes": "jul",
+      "mes": "ago",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "PIRITIBA",
       "supervisor": "LUCAS SILVA",
@@ -29281,7 +30377,7 @@
       "cpf_cnpj": "23.497.543/0001-61"
     },
     {
-      "mes": "ago",
+      "mes": "jul",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "PIRITIBA",
       "supervisor": "LUCAS SILVA",
@@ -29593,7 +30689,7 @@
       "cpf_cnpj": "48.769.444/0001-12"
     },
     {
-      "mes": "jul",
+      "mes": "ago",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "QUIXABEIRA",
       "supervisor": "LUCAS SILVA",
@@ -29612,9 +30708,48 @@
       "supervisor": "LUCAS SILVA",
       "gerente": "SANDRO",
       "vendedor": "CARMILTON GOMES (118)",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 450ML 4 ESTAÇÕES",
+      "codigo": "855535",
+      "faturamento": 29.78,
+      "quantidade": 2.0,
+      "cpf_cnpj": "860.569.915-98"
+    },
+    {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "QUIXABEIRA",
+      "supervisor": "LUCAS SILVA",
+      "gerente": "SANDRO",
+      "vendedor": "CARMILTON GOMES (118)",
       "produto": "VINAGRE DA F. MAÇÃ ORGANICO 250ML 4 ESTAÇÕES",
       "codigo": "855962",
       "faturamento": 15.99,
+      "quantidade": 1.0,
+      "cpf_cnpj": "860.569.915-98"
+    },
+    {
+      "mes": "jul",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "QUIXABEIRA",
+      "supervisor": "LUCAS SILVA",
+      "gerente": "SANDRO",
+      "vendedor": "CARMILTON GOMES (118)",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 250ML 4 ESTAÇÕES",
+      "codigo": "855962",
+      "faturamento": 15.99,
+      "quantidade": 1.0,
+      "cpf_cnpj": "860.569.915-98"
+    },
+    {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "QUIXABEIRA",
+      "supervisor": "LUCAS SILVA",
+      "gerente": "SANDRO",
+      "vendedor": "CARMILTON GOMES (118)",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 500ML 4 ESTAÇÕES",
+      "codigo": "855412",
+      "faturamento": 21.99,
       "quantidade": 1.0,
       "cpf_cnpj": "860.569.915-98"
     },
@@ -29983,6 +31118,58 @@
       "cpf_cnpj": "29.202.748/0002-30"
     },
     {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "RIACHAO DO JACUIPE",
+      "supervisor": "LUCAS SILVA",
+      "gerente": "SANDRO",
+      "vendedor": "DIEGO SILVA",
+      "produto": "VINAGRE DA F. MAÇÃ C/ EXT DE GENG E PROPOLIS 250ML ORIG 4 ESTAÇÕES",
+      "codigo": "855948",
+      "faturamento": 32.98,
+      "quantidade": 2.0,
+      "cpf_cnpj": "29.202.748/0002-30"
+    },
+    {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "RIACHAO DO JACUIPE",
+      "supervisor": "LUCAS SILVA",
+      "gerente": "SANDRO",
+      "vendedor": "DIEGO SILVA",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 450ML 4 ESTAÇÕES",
+      "codigo": "855535",
+      "faturamento": 74.45,
+      "quantidade": 5.0,
+      "cpf_cnpj": "29.202.748/0002-30"
+    },
+    {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "RIACHAO DO JACUIPE",
+      "supervisor": "LUCAS SILVA",
+      "gerente": "SANDRO",
+      "vendedor": "DIEGO SILVA",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 250ML 4 ESTAÇÕES",
+      "codigo": "855962",
+      "faturamento": 31.98,
+      "quantidade": 2.0,
+      "cpf_cnpj": "29.202.748/0002-30"
+    },
+    {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "RIACHAO DO JACUIPE",
+      "supervisor": "LUCAS SILVA",
+      "gerente": "SANDRO",
+      "vendedor": "DIEGO SILVA",
+      "produto": "VINAGRE DA F. MAÇÃ C/ EXT DE GENG E CURCUMA 250ML ORIG 4 ESTAÇÕES",
+      "codigo": "855979",
+      "faturamento": 32.98,
+      "quantidade": 2.0,
+      "cpf_cnpj": "29.202.748/0002-30"
+    },
+    {
       "mes": "jul",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "SANTALUZ",
@@ -30266,6 +31453,19 @@
       "codigo": "855535",
       "faturamento": 14.89,
       "quantidade": 1.0,
+      "cpf_cnpj": "40.903.308/0001-61"
+    },
+    {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "SAUDE",
+      "supervisor": "LUCAS SILVA",
+      "gerente": "SANDRO",
+      "vendedor": "CARMILTON GOMES (118)",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 450ML 4 ESTAÇÕES",
+      "codigo": "855535",
+      "faturamento": 29.78,
+      "quantidade": 2.0,
       "cpf_cnpj": "40.903.308/0001-61"
     },
     {
@@ -30568,6 +31768,19 @@
       "cpf_cnpj": "17.273.744/0001-82"
     },
     {
+      "mes": "jun",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "VALENTE",
+      "supervisor": "LUCAS SILVA",
+      "gerente": "SANDRO",
+      "vendedor": "ANDERSON NASCIMENTO",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 250ML 4 ESTAÇÕES",
+      "codigo": "855962",
+      "faturamento": 63.96,
+      "quantidade": 4.0,
+      "cpf_cnpj": "17.273.744/0001-82"
+    },
+    {
       "mes": "jul",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "VALENTE",
@@ -30591,19 +31804,6 @@
       "codigo": "855962",
       "faturamento": 191.88,
       "quantidade": 12.0,
-      "cpf_cnpj": "17.273.744/0001-82"
-    },
-    {
-      "mes": "jun",
-      "fornecedor": "BEBIDAS MUTERLE",
-      "cidade": "VALENTE",
-      "supervisor": "LUCAS SILVA",
-      "gerente": "SANDRO",
-      "vendedor": "ANDERSON NASCIMENTO",
-      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 250ML 4 ESTAÇÕES",
-      "codigo": "855962",
-      "faturamento": 63.96,
-      "quantidade": 4.0,
       "cpf_cnpj": "17.273.744/0001-82"
     },
     {
@@ -30763,7 +31963,7 @@
       "cpf_cnpj": "53.070.928/0001-09"
     },
     {
-      "mes": "jul",
+      "mes": "mai",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "Varzea da Roca",
       "supervisor": "LUCAS SILVA",
@@ -30776,7 +31976,7 @@
       "cpf_cnpj": "53.070.928/0001-09"
     },
     {
-      "mes": "mai",
+      "mes": "jul",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "Varzea da Roca",
       "supervisor": "LUCAS SILVA",
@@ -30919,19 +32119,6 @@
       "cpf_cnpj": "26.194.496/0001-75"
     },
     {
-      "mes": "ago",
-      "fornecedor": "BEBIDAS MUTERLE",
-      "cidade": "Varzea do Poco",
-      "supervisor": "LUCAS SILVA",
-      "gerente": "SANDRO",
-      "vendedor": "CARMILTON GOMES (118)",
-      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 500ML 4 ESTAÇÕES",
-      "codigo": "855412",
-      "faturamento": 43.98,
-      "quantidade": 2.0,
-      "cpf_cnpj": "26.194.496/0001-75"
-    },
-    {
       "mes": "jun",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "Varzea do Poco",
@@ -30942,6 +32129,19 @@
       "codigo": "855412",
       "faturamento": 65.97,
       "quantidade": 3.0,
+      "cpf_cnpj": "26.194.496/0001-75"
+    },
+    {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "Varzea do Poco",
+      "supervisor": "LUCAS SILVA",
+      "gerente": "SANDRO",
+      "vendedor": "CARMILTON GOMES (118)",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 500ML 4 ESTAÇÕES",
+      "codigo": "855412",
+      "faturamento": 43.98,
+      "quantidade": 2.0,
       "cpf_cnpj": "26.194.496/0001-75"
     },
     {
@@ -31922,6 +33122,19 @@
     {
       "mes": "ago",
       "fornecedor": "FRINORDESTE ALIMENTOS",
+      "cidade": "ANTAS",
+      "supervisor": "RODRIGO PINHEIRO",
+      "gerente": "SANDRO",
+      "vendedor": "HENRIQUE RAMON",
+      "produto": "JERKED BEEF BOV. P.A PC 05 KG",
+      "codigo": "322234",
+      "faturamento": 235.19,
+      "quantidade": 1.0,
+      "cpf_cnpj": "25.183.337/0001-02"
+    },
+    {
+      "mes": "ago",
+      "fornecedor": "FRINORDESTE ALIMENTOS",
       "cidade": "APORA",
       "supervisor": "RODRIGO PINHEIRO",
       "gerente": "SANDRO",
@@ -32219,19 +33432,6 @@
       "cpf_cnpj": "18.936.499/0001-09"
     },
     {
-      "mes": "jul",
-      "fornecedor": "BEBIDAS MUTERLE",
-      "cidade": "Acajutiba",
-      "supervisor": "RODRIGO PINHEIRO",
-      "gerente": "SANDRO",
-      "vendedor": "ALLYS ARAUJO",
-      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 450ML 4 ESTAÇÕES",
-      "codigo": "855535",
-      "faturamento": 59.56,
-      "quantidade": 4.0,
-      "cpf_cnpj": "18.936.499/0001-09"
-    },
-    {
       "mes": "jun",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "Acajutiba",
@@ -32242,6 +33442,19 @@
       "codigo": "855535",
       "faturamento": 89.34,
       "quantidade": 6.0,
+      "cpf_cnpj": "18.936.499/0001-09"
+    },
+    {
+      "mes": "jul",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "Acajutiba",
+      "supervisor": "RODRIGO PINHEIRO",
+      "gerente": "SANDRO",
+      "vendedor": "ALLYS ARAUJO",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 450ML 4 ESTAÇÕES",
+      "codigo": "855535",
+      "faturamento": 59.56,
+      "quantidade": 4.0,
       "cpf_cnpj": "18.936.499/0001-09"
     },
     {
@@ -32386,6 +33599,32 @@
       "faturamento": 83.88,
       "quantidade": 12.0,
       "cpf_cnpj": "66.904.595/0001-18"
+    },
+    {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "ADUSTINA",
+      "supervisor": "RODRIGO PINHEIRO",
+      "gerente": "SANDRO",
+      "vendedor": "HENRIQUE RAMON",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 450ML 4 ESTAÇÕES",
+      "codigo": "855535",
+      "faturamento": 89.34,
+      "quantidade": 6.0,
+      "cpf_cnpj": "07.501.977/0001-31"
+    },
+    {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "ADUSTINA",
+      "supervisor": "RODRIGO PINHEIRO",
+      "gerente": "SANDRO",
+      "vendedor": "HENRIQUE RAMON",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 500ML 4 ESTAÇÕES",
+      "codigo": "855412",
+      "faturamento": 131.94,
+      "quantidade": 6.0,
+      "cpf_cnpj": "07.501.977/0001-31"
     },
     {
       "mes": "jun",
@@ -33311,6 +34550,19 @@
       "cpf_cnpj": "48.565.306/0001-11"
     },
     {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "CATU",
+      "supervisor": "RODRIGO PINHEIRO",
+      "gerente": "SANDRO",
+      "vendedor": "TADEU SANTOS",
+      "produto": "VINAGRE DA F. MAÇÃ C/ EXT DE GENG E PROPOLIS 250ML ORIG 4 ESTAÇÕES",
+      "codigo": "855948",
+      "faturamento": 98.94,
+      "quantidade": 6.0,
+      "cpf_cnpj": "26.132.023/0001-43"
+    },
+    {
       "mes": "jul",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "CATU",
@@ -33321,6 +34573,19 @@
       "codigo": "855948",
       "faturamento": 49.47,
       "quantidade": 3.0,
+      "cpf_cnpj": "26.132.023/0001-43"
+    },
+    {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "CATU",
+      "supervisor": "RODRIGO PINHEIRO",
+      "gerente": "SANDRO",
+      "vendedor": "TADEU SANTOS",
+      "produto": "VINAGRE DA F. MAÇÃ C/ EXT DE GENG E CURCUMA 250ML ORIG 4 ESTAÇÕES",
+      "codigo": "855979",
+      "faturamento": 98.94,
+      "quantidade": 6.0,
       "cpf_cnpj": "26.132.023/0001-43"
     },
     {
@@ -33377,6 +34642,19 @@
     },
     {
       "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "CATU",
+      "supervisor": "RODRIGO PINHEIRO",
+      "gerente": "SANDRO",
+      "vendedor": "TADEU SANTOS",
+      "produto": "VINAGRE DA F. MAÇÃ C/ EXT DE GENG E PROPOLIS 250ML ORIG 4 ESTAÇÕES",
+      "codigo": "855948",
+      "faturamento": 49.47,
+      "quantidade": 3.0,
+      "cpf_cnpj": "16.800.993/0001-16"
+    },
+    {
+      "mes": "ago",
       "fornecedor": "FRINORDESTE ALIMENTOS",
       "cidade": "CATU",
       "supervisor": "RODRIGO PINHEIRO",
@@ -33385,6 +34663,19 @@
       "produto": "FRINORDESTE CHARQUE BOVINO DIANTEIRO PC 5 KG",
       "codigo": "322166",
       "faturamento": 1486.74,
+      "quantidade": 6.0,
+      "cpf_cnpj": "16.800.993/0001-16"
+    },
+    {
+      "mes": "ago",
+      "fornecedor": "VINICOLA CASA MUTERLE",
+      "cidade": "CATU",
+      "supervisor": "RODRIGO PINHEIRO",
+      "gerente": "SANDRO",
+      "vendedor": "TADEU SANTOS",
+      "produto": "BELA ITALIA SUCO DE UVA TINTO 300ML",
+      "codigo": "581587",
+      "faturamento": 50.94,
       "quantidade": 6.0,
       "cpf_cnpj": "16.800.993/0001-16"
     },
@@ -33623,19 +34914,6 @@
       "cpf_cnpj": "01.299.433/0001-52"
     },
     {
-      "mes": "ago",
-      "fornecedor": "BEBIDAS MUTERLE",
-      "cidade": "Cicero Dantas",
-      "supervisor": "RODRIGO PINHEIRO",
-      "gerente": "SANDRO",
-      "vendedor": "HENRIQUE RAMON",
-      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 500ML 4 ESTAÇÕES",
-      "codigo": "855412",
-      "faturamento": 131.94,
-      "quantidade": 6.0,
-      "cpf_cnpj": "01.299.433/0001-52"
-    },
-    {
       "mes": "jun",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "Cicero Dantas",
@@ -33646,6 +34924,19 @@
       "codigo": "855412",
       "faturamento": 65.97,
       "quantidade": 3.0,
+      "cpf_cnpj": "01.299.433/0001-52"
+    },
+    {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "Cicero Dantas",
+      "supervisor": "RODRIGO PINHEIRO",
+      "gerente": "SANDRO",
+      "vendedor": "HENRIQUE RAMON",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 500ML 4 ESTAÇÕES",
+      "codigo": "855412",
+      "faturamento": 131.94,
+      "quantidade": 6.0,
       "cpf_cnpj": "01.299.433/0001-52"
     },
     {
@@ -34793,7 +36084,7 @@
       "cpf_cnpj": "29.327.099/0001-12"
     },
     {
-      "mes": "abr",
+      "mes": "mai",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "CANSANCAO",
       "supervisor": "RODRIGO PINHEIRO",
@@ -34806,7 +36097,7 @@
       "cpf_cnpj": "23.718.725/0001-15"
     },
     {
-      "mes": "mai",
+      "mes": "abr",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "CANSANCAO",
       "supervisor": "RODRIGO PINHEIRO",
@@ -34962,6 +36253,19 @@
       "cpf_cnpj": "24.297.480/0002-43"
     },
     {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "CANUDOS",
+      "supervisor": "RODRIGO PINHEIRO",
+      "gerente": "SANDRO",
+      "vendedor": "CAIO VINICIUS",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 250ML 4 ESTAÇÕES",
+      "codigo": "855962",
+      "faturamento": 63.96,
+      "quantidade": 4.0,
+      "cpf_cnpj": "38.059.638/0001-70"
+    },
+    {
       "mes": "jun",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "CANUDOS",
@@ -35075,6 +36379,19 @@
       "produto": "VINAGRE DA F. MAÇÃ ORGANICO 250ML 4 ESTAÇÕES",
       "codigo": "855962",
       "faturamento": 191.88,
+      "quantidade": 12.0,
+      "cpf_cnpj": "07.264.264/0001-00"
+    },
+    {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "CANUDOS",
+      "supervisor": "RODRIGO PINHEIRO",
+      "gerente": "SANDRO",
+      "vendedor": "CAIO VINICIUS",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 500ML 4 ESTAÇÕES",
+      "codigo": "855412",
+      "faturamento": 263.88,
       "quantidade": 12.0,
       "cpf_cnpj": "07.264.264/0001-00"
     },
@@ -35272,6 +36589,19 @@
       "faturamento": 50.94,
       "quantidade": 6.0,
       "cpf_cnpj": "63.353.622/0001-13"
+    },
+    {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "CANUDOS",
+      "supervisor": "RODRIGO PINHEIRO",
+      "gerente": "SANDRO",
+      "vendedor": "CAIO VINICIUS",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 250ML 4 ESTAÇÕES",
+      "codigo": "855962",
+      "faturamento": 47.97,
+      "quantidade": 3.0,
+      "cpf_cnpj": "52.552.302/0001-76"
     },
     {
       "mes": "jul",
@@ -35560,6 +36890,19 @@
       "cpf_cnpj": "07.238.894/0001-00"
     },
     {
+      "mes": "ago",
+      "fornecedor": "FRINORDESTE ALIMENTOS",
+      "cidade": "Inhambupe",
+      "supervisor": "RODRIGO PINHEIRO",
+      "gerente": "SANDRO",
+      "vendedor": "JAILTON SANTOS (140)",
+      "produto": "FRINORDESTE CHARQUE BOVINO DIANTEIRO PC 5 KG",
+      "codigo": "322166",
+      "faturamento": 495.58,
+      "quantidade": 2.0,
+      "cpf_cnpj": "07.238.894/0001-00"
+    },
+    {
       "mes": "jul",
       "fornecedor": "FRINORDESTE ALIMENTOS",
       "cidade": "Inhambupe",
@@ -35584,6 +36927,19 @@
       "faturamento": 235.19,
       "quantidade": 1.0,
       "cpf_cnpj": "28.263.732/0001-93"
+    },
+    {
+      "mes": "ago",
+      "fornecedor": "FRINORDESTE ALIMENTOS",
+      "cidade": "Inhambupe",
+      "supervisor": "RODRIGO PINHEIRO",
+      "gerente": "SANDRO",
+      "vendedor": "JAILTON SANTOS (140)",
+      "produto": "FRINORDESTE CHARQUE BOVINO DIANTEIRO PC 5 KG",
+      "codigo": "322166",
+      "faturamento": 495.58,
+      "quantidade": 2.0,
+      "cpf_cnpj": "47.218.543/0001-43"
     },
     {
       "mes": "jul",
@@ -35659,8 +37015,8 @@
       "vendedor": "JAILTON SANTOS (140)",
       "produto": "VINAGRE DA F. MAÇÃ ORGANICO 500ML 4 ESTAÇÕES",
       "codigo": "855412",
-      "faturamento": 131.94,
-      "quantidade": 6.0,
+      "faturamento": 219.9,
+      "quantidade": 10.0,
       "cpf_cnpj": "45.645.085/0001-01"
     },
     {
@@ -35672,8 +37028,8 @@
       "vendedor": "JAILTON SANTOS (140)",
       "produto": "VINAGRE DA F. MAÇÃ ORGANICO 500ML 4 ESTAÇÕES",
       "codigo": "855412",
-      "faturamento": 219.9,
-      "quantidade": 10.0,
+      "faturamento": 131.94,
+      "quantidade": 6.0,
       "cpf_cnpj": "45.645.085/0001-01"
     },
     {
@@ -35815,19 +37171,6 @@
       "vendedor": "JAILTON SANTOS (140)",
       "produto": "VINAGRE DA F. MAÇÃ ORGANICO 500ML 4 ESTAÇÕES",
       "codigo": "855412",
-      "faturamento": 87.96,
-      "quantidade": 4.0,
-      "cpf_cnpj": "39.404.171/0001-11"
-    },
-    {
-      "mes": "mai",
-      "fornecedor": "BEBIDAS MUTERLE",
-      "cidade": "ENTRE RIOS",
-      "supervisor": "RODRIGO PINHEIRO",
-      "gerente": "SANDRO",
-      "vendedor": "JAILTON SANTOS (140)",
-      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 500ML 4 ESTAÇÕES",
-      "codigo": "855412",
       "faturamento": 1055.52,
       "quantidade": 48.0,
       "cpf_cnpj": "39.404.171/0001-11"
@@ -35859,6 +37202,19 @@
       "cpf_cnpj": "39.404.171/0001-11"
     },
     {
+      "mes": "mai",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "ENTRE RIOS",
+      "supervisor": "RODRIGO PINHEIRO",
+      "gerente": "SANDRO",
+      "vendedor": "JAILTON SANTOS (140)",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 500ML 4 ESTAÇÕES",
+      "codigo": "855412",
+      "faturamento": 87.96,
+      "quantidade": 4.0,
+      "cpf_cnpj": "39.404.171/0001-11"
+    },
+    {
       "mes": "jun",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "ENTRE RIOS",
@@ -35872,7 +37228,20 @@
       "cpf_cnpj": "39.404.171/0001-11"
     },
     {
-      "mes": "jul",
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "ENTRE RIOS",
+      "supervisor": "RODRIGO PINHEIRO",
+      "gerente": "SANDRO",
+      "vendedor": "JAILTON SANTOS (140)",
+      "produto": "VINAGRE DA F. MAÇÃ C/ EXT DE GENG E PROPOLIS 250ML ORIG 4 ESTAÇÕES",
+      "codigo": "855948",
+      "faturamento": 49.47,
+      "quantidade": 3.0,
+      "cpf_cnpj": "55.364.805/0001-06"
+    },
+    {
+      "mes": "ago",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "ENTRE RIOS",
       "supervisor": "RODRIGO PINHEIRO",
@@ -35907,6 +37276,32 @@
       "produto": "VINAGRE DA F. MAÇÃ 4,2% 450ML 4 ESTAÇÕES",
       "codigo": "855986",
       "faturamento": 20.97,
+      "quantidade": 3.0,
+      "cpf_cnpj": "55.364.805/0001-06"
+    },
+    {
+      "mes": "jul",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "ENTRE RIOS",
+      "supervisor": "RODRIGO PINHEIRO",
+      "gerente": "SANDRO",
+      "vendedor": "JAILTON SANTOS (140)",
+      "produto": "VINAGRE DA F. MAÇÃ 4,2% 450ML 4 ESTAÇÕES",
+      "codigo": "855986",
+      "faturamento": 20.97,
+      "quantidade": 3.0,
+      "cpf_cnpj": "55.364.805/0001-06"
+    },
+    {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "ENTRE RIOS",
+      "supervisor": "RODRIGO PINHEIRO",
+      "gerente": "SANDRO",
+      "vendedor": "JAILTON SANTOS (140)",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 250ML 4 ESTAÇÕES",
+      "codigo": "855962",
+      "faturamento": 47.97,
       "quantidade": 3.0,
       "cpf_cnpj": "55.364.805/0001-06"
     },
@@ -35963,6 +37358,19 @@
       "cpf_cnpj": "55.364.805/0001-06"
     },
     {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "ENTRE RIOS",
+      "supervisor": "RODRIGO PINHEIRO",
+      "gerente": "SANDRO",
+      "vendedor": "JAILTON SANTOS (140)",
+      "produto": "VINAGRE DA F. MAÇÃ C/ EXT DE GENG E CURCUMA 250ML ORIG 4 ESTAÇÕES",
+      "codigo": "855979",
+      "faturamento": 49.47,
+      "quantidade": 3.0,
+      "cpf_cnpj": "55.364.805/0001-06"
+    },
+    {
       "mes": "jul",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "ENTRE RIOS",
@@ -36003,6 +37411,19 @@
     },
     {
       "mes": "abr",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "ENTRE RIOS",
+      "supervisor": "RODRIGO PINHEIRO",
+      "gerente": "SANDRO",
+      "vendedor": "JAILTON SANTOS (140)",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 500ML 4 ESTAÇÕES",
+      "codigo": "855412",
+      "faturamento": 65.97,
+      "quantidade": 3.0,
+      "cpf_cnpj": "55.364.805/0001-06"
+    },
+    {
+      "mes": "ago",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "ENTRE RIOS",
       "supervisor": "RODRIGO PINHEIRO",
@@ -36379,6 +37800,19 @@
       "cpf_cnpj": "34.404.590/0001-30"
     },
     {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "Euclides da Cunha",
+      "supervisor": "RODRIGO PINHEIRO",
+      "gerente": "SANDRO",
+      "vendedor": "CAIO VINICIUS",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 250ML 4 ESTAÇÕES",
+      "codigo": "855962",
+      "faturamento": 191.88,
+      "quantidade": 12.0,
+      "cpf_cnpj": "34.404.590/0001-30"
+    },
+    {
       "mes": "jun",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "Euclides da Cunha",
@@ -36414,6 +37848,32 @@
       "produto": "VINAGRE DA F. MAÇÃ C/ EXT DE GENG E CURCUMA 250ML ORIG 4 ESTAÇÕES",
       "codigo": "855979",
       "faturamento": 197.88,
+      "quantidade": 12.0,
+      "cpf_cnpj": "34.404.590/0001-30"
+    },
+    {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "Euclides da Cunha",
+      "supervisor": "RODRIGO PINHEIRO",
+      "gerente": "SANDRO",
+      "vendedor": "CAIO VINICIUS",
+      "produto": "VINAGRE DA F. MAÇÃ C/ EXT DE GENG E CURCUMA 250ML ORIG 4 ESTAÇÕES",
+      "codigo": "855979",
+      "faturamento": 197.88,
+      "quantidade": 12.0,
+      "cpf_cnpj": "34.404.590/0001-30"
+    },
+    {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "Euclides da Cunha",
+      "supervisor": "RODRIGO PINHEIRO",
+      "gerente": "SANDRO",
+      "vendedor": "CAIO VINICIUS",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 500ML 4 ESTAÇÕES",
+      "codigo": "855412",
+      "faturamento": 263.88,
       "quantidade": 12.0,
       "cpf_cnpj": "34.404.590/0001-30"
     },
@@ -36938,6 +38398,19 @@
       "cpf_cnpj": "68.182.175/0001-09"
     },
     {
+      "mes": "jun",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "HELIOPOLIS",
+      "supervisor": "RODRIGO PINHEIRO",
+      "gerente": "SANDRO",
+      "vendedor": "HENRIQUE RAMON",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 450ML 4 ESTAÇÕES",
+      "codigo": "855535",
+      "faturamento": 59.56,
+      "quantidade": 4.0,
+      "cpf_cnpj": "09.013.779/0001-54"
+    },
+    {
       "mes": "jul",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "HELIOPOLIS",
@@ -36957,23 +38430,23 @@
       "supervisor": "RODRIGO PINHEIRO",
       "gerente": "SANDRO",
       "vendedor": "HENRIQUE RAMON",
-      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 450ML 4 ESTAÇÕES",
-      "codigo": "855535",
-      "faturamento": 59.56,
-      "quantidade": 4.0,
-      "cpf_cnpj": "09.013.779/0001-54"
-    },
-    {
-      "mes": "jun",
-      "fornecedor": "BEBIDAS MUTERLE",
-      "cidade": "HELIOPOLIS",
-      "supervisor": "RODRIGO PINHEIRO",
-      "gerente": "SANDRO",
-      "vendedor": "HENRIQUE RAMON",
       "produto": "VINAGRE DA F. MAÇÃ ORGANICO 500ML 4 ESTAÇÕES",
       "codigo": "855412",
       "faturamento": 87.96,
       "quantidade": 4.0,
+      "cpf_cnpj": "09.013.779/0001-54"
+    },
+    {
+      "mes": "ago",
+      "fornecedor": "FRINORDESTE ALIMENTOS",
+      "cidade": "HELIOPOLIS",
+      "supervisor": "RODRIGO PINHEIRO",
+      "gerente": "SANDRO",
+      "vendedor": "HENRIQUE RAMON",
+      "produto": "JERKED BEEF BOV. P.A PC 05 KG",
+      "codigo": "322234",
+      "faturamento": 705.57,
+      "quantidade": 3.0,
       "cpf_cnpj": "09.013.779/0001-54"
     },
     {
@@ -37120,6 +38593,19 @@
       "cpf_cnpj": "22.326.016/0001-21"
     },
     {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "HELIOPOLIS",
+      "supervisor": "RODRIGO PINHEIRO",
+      "gerente": "SANDRO",
+      "vendedor": "HENRIQUE RAMON",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 450ML 4 ESTAÇÕES",
+      "codigo": "855535",
+      "faturamento": 178.68,
+      "quantidade": 12.0,
+      "cpf_cnpj": "22.326.016/0001-21"
+    },
+    {
       "mes": "abr",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "HELIOPOLIS",
@@ -37143,6 +38629,19 @@
       "codigo": "855979",
       "faturamento": 49.47,
       "quantidade": 3.0,
+      "cpf_cnpj": "22.326.016/0001-21"
+    },
+    {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "HELIOPOLIS",
+      "supervisor": "RODRIGO PINHEIRO",
+      "gerente": "SANDRO",
+      "vendedor": "HENRIQUE RAMON",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 500ML 4 ESTAÇÕES",
+      "codigo": "855412",
+      "faturamento": 263.88,
+      "quantidade": 12.0,
       "cpf_cnpj": "22.326.016/0001-21"
     },
     {
@@ -37354,7 +38853,7 @@
       "cpf_cnpj": "03.956.708/0001-09"
     },
     {
-      "mes": "abr",
+      "mes": "mai",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "ITAPICURU",
       "supervisor": "RODRIGO PINHEIRO",
@@ -37367,7 +38866,7 @@
       "cpf_cnpj": "03.956.708/0001-09"
     },
     {
-      "mes": "mai",
+      "mes": "abr",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "ITAPICURU",
       "supervisor": "RODRIGO PINHEIRO",
@@ -38264,6 +39763,19 @@
       "cpf_cnpj": "12.497.604/0001-74"
     },
     {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "Olindina",
+      "supervisor": "RODRIGO PINHEIRO",
+      "gerente": "SANDRO",
+      "vendedor": "ALLYS ARAUJO",
+      "produto": "VINAGRE DA F. MAÇÃ C/ EXT DE GENG E PROPOLIS 250ML ORIG 4 ESTAÇÕES",
+      "codigo": "855948",
+      "faturamento": 98.94,
+      "quantidade": 6.0,
+      "cpf_cnpj": "12.497.604/0001-74"
+    },
+    {
       "mes": "jul",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "Olindina",
@@ -38274,6 +39786,19 @@
       "codigo": "855948",
       "faturamento": 98.94,
       "quantidade": 6.0,
+      "cpf_cnpj": "12.497.604/0001-74"
+    },
+    {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "Olindina",
+      "supervisor": "RODRIGO PINHEIRO",
+      "gerente": "SANDRO",
+      "vendedor": "ALLYS ARAUJO",
+      "produto": "VINAGRE DA F. MAÇÃ 4,2% 450ML 4 ESTAÇÕES",
+      "codigo": "855986",
+      "faturamento": 83.88,
+      "quantidade": 12.0,
       "cpf_cnpj": "12.497.604/0001-74"
     },
     {
@@ -38391,6 +39916,19 @@
       "codigo": "855979",
       "faturamento": 49.47,
       "quantidade": 3.0,
+      "cpf_cnpj": "12.497.604/0001-74"
+    },
+    {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "Olindina",
+      "supervisor": "RODRIGO PINHEIRO",
+      "gerente": "SANDRO",
+      "vendedor": "ALLYS ARAUJO",
+      "produto": "VINAGRE DA F. MAÇÃ C/ EXT DE GENG E CURCUMA 250ML ORIG 4 ESTAÇÕES",
+      "codigo": "855979",
+      "faturamento": 98.94,
+      "quantidade": 6.0,
       "cpf_cnpj": "12.497.604/0001-74"
     },
     {
@@ -38628,7 +40166,7 @@
       "cpf_cnpj": "24.176.764/0001-09"
     },
     {
-      "mes": "jul",
+      "mes": "jun",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "Monte Santo",
       "supervisor": "RODRIGO PINHEIRO",
@@ -38641,7 +40179,7 @@
       "cpf_cnpj": "04.192.966/0001-29"
     },
     {
-      "mes": "jun",
+      "mes": "jul",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "Monte Santo",
       "supervisor": "RODRIGO PINHEIRO",
@@ -39070,6 +40608,19 @@
       "cpf_cnpj": "13.738.828/0001-93"
     },
     {
+      "mes": "jun",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "Ribeira do Pombal",
+      "supervisor": "RODRIGO PINHEIRO",
+      "gerente": "SANDRO",
+      "vendedor": "HENRIQUE RAMON",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 500ML 4 ESTAÇÕES",
+      "codigo": "855412",
+      "faturamento": 65.97,
+      "quantidade": 3.0,
+      "cpf_cnpj": "13.738.828/0001-93"
+    },
+    {
       "mes": "jul",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "Ribeira do Pombal",
@@ -39106,19 +40657,6 @@
       "codigo": "855412",
       "faturamento": 527.76,
       "quantidade": 24.0,
-      "cpf_cnpj": "13.738.828/0001-93"
-    },
-    {
-      "mes": "jun",
-      "fornecedor": "BEBIDAS MUTERLE",
-      "cidade": "Ribeira do Pombal",
-      "supervisor": "RODRIGO PINHEIRO",
-      "gerente": "SANDRO",
-      "vendedor": "HENRIQUE RAMON",
-      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 500ML 4 ESTAÇÕES",
-      "codigo": "855412",
-      "faturamento": 65.97,
-      "quantidade": 3.0,
       "cpf_cnpj": "13.738.828/0001-93"
     },
     {
@@ -39616,19 +41154,6 @@
       "cpf_cnpj": "04.167.977/0001-59"
     },
     {
-      "mes": "jul",
-      "fornecedor": "BEBIDAS MUTERLE",
-      "cidade": "Ribeira do Pombal",
-      "supervisor": "RODRIGO PINHEIRO",
-      "gerente": "SANDRO",
-      "vendedor": "HENRIQUE RAMON",
-      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 500ML 4 ESTAÇÕES",
-      "codigo": "855412",
-      "faturamento": 131.94,
-      "quantidade": 6.0,
-      "cpf_cnpj": "07.333.912/0001-24"
-    },
-    {
       "mes": "abr",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "Ribeira do Pombal",
@@ -39639,6 +41164,19 @@
       "codigo": "855412",
       "faturamento": 65.97,
       "quantidade": 3.0,
+      "cpf_cnpj": "07.333.912/0001-24"
+    },
+    {
+      "mes": "jul",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "Ribeira do Pombal",
+      "supervisor": "RODRIGO PINHEIRO",
+      "gerente": "SANDRO",
+      "vendedor": "HENRIQUE RAMON",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 500ML 4 ESTAÇÕES",
+      "codigo": "855412",
+      "faturamento": 131.94,
+      "quantidade": 6.0,
       "cpf_cnpj": "07.333.912/0001-24"
     },
     {
@@ -39850,7 +41388,7 @@
       "cpf_cnpj": "35.438.260/0004-70"
     },
     {
-      "mes": "jul",
+      "mes": "mai",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "Ribeira do Pombal",
       "supervisor": "RODRIGO PINHEIRO",
@@ -39863,7 +41401,7 @@
       "cpf_cnpj": "35.438.260/0004-70"
     },
     {
-      "mes": "mai",
+      "mes": "jul",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "Ribeira do Pombal",
       "supervisor": "RODRIGO PINHEIRO",
@@ -40058,19 +41596,6 @@
       "cpf_cnpj": "66.148.100/0001-78"
     },
     {
-      "mes": "jun",
-      "fornecedor": "VINICOLA CASA MUTERLE",
-      "cidade": "Ribeira do Pombal",
-      "supervisor": "RODRIGO PINHEIRO",
-      "gerente": "SANDRO",
-      "vendedor": "HENRIQUE RAMON",
-      "produto": "BELA ITALIA SUCO DE UVA TINTO 300ML",
-      "codigo": "581587",
-      "faturamento": 101.88,
-      "quantidade": 12.0,
-      "cpf_cnpj": "48.210.681/0001-49"
-    },
-    {
       "mes": "mai",
       "fornecedor": "VINICOLA CASA MUTERLE",
       "cidade": "Ribeira do Pombal",
@@ -40084,7 +41609,7 @@
       "cpf_cnpj": "48.210.681/0001-49"
     },
     {
-      "mes": "jul",
+      "mes": "jun",
       "fornecedor": "VINICOLA CASA MUTERLE",
       "cidade": "Ribeira do Pombal",
       "supervisor": "RODRIGO PINHEIRO",
@@ -40107,6 +41632,19 @@
       "codigo": "581587",
       "faturamento": 50.94,
       "quantidade": 6.0,
+      "cpf_cnpj": "48.210.681/0001-49"
+    },
+    {
+      "mes": "jul",
+      "fornecedor": "VINICOLA CASA MUTERLE",
+      "cidade": "Ribeira do Pombal",
+      "supervisor": "RODRIGO PINHEIRO",
+      "gerente": "SANDRO",
+      "vendedor": "HENRIQUE RAMON",
+      "produto": "BELA ITALIA SUCO DE UVA TINTO 300ML",
+      "codigo": "581587",
+      "faturamento": 101.88,
+      "quantidade": 12.0,
       "cpf_cnpj": "48.210.681/0001-49"
     },
     {
@@ -40175,7 +41713,7 @@
       "cpf_cnpj": "54.639.114/0001-05"
     },
     {
-      "mes": "jul",
+      "mes": "jun",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "Ribeira do Pombal",
       "supervisor": "RODRIGO PINHEIRO",
@@ -40188,7 +41726,7 @@
       "cpf_cnpj": "54.639.114/0001-05"
     },
     {
-      "mes": "jun",
+      "mes": "jul",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "Ribeira do Pombal",
       "supervisor": "RODRIGO PINHEIRO",
@@ -40565,6 +42103,19 @@
       "cpf_cnpj": "23.444.348/0001-73"
     },
     {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "Rio Real",
+      "supervisor": "RODRIGO PINHEIRO",
+      "gerente": "SANDRO",
+      "vendedor": "ALLYS ARAUJO",
+      "produto": "VINAGRE DA F. MAÇÃ C/ EXT DE GENG E PROPOLIS 250ML ORIG 4 ESTAÇÕES",
+      "codigo": "855948",
+      "faturamento": 32.98,
+      "quantidade": 2.0,
+      "cpf_cnpj": "58.952.455/0001-97"
+    },
+    {
       "mes": "jul",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "Rio Real",
@@ -40588,6 +42139,32 @@
       "codigo": "855986",
       "faturamento": 83.88,
       "quantidade": 12.0,
+      "cpf_cnpj": "58.952.455/0001-97"
+    },
+    {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "Rio Real",
+      "supervisor": "RODRIGO PINHEIRO",
+      "gerente": "SANDRO",
+      "vendedor": "ALLYS ARAUJO",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 250ML 4 ESTAÇÕES",
+      "codigo": "855962",
+      "faturamento": 31.98,
+      "quantidade": 2.0,
+      "cpf_cnpj": "58.952.455/0001-97"
+    },
+    {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "Rio Real",
+      "supervisor": "RODRIGO PINHEIRO",
+      "gerente": "SANDRO",
+      "vendedor": "ALLYS ARAUJO",
+      "produto": "VINAGRE DA F. MAÇÃ C/ EXT DE GENG E CURCUMA 250ML ORIG 4 ESTAÇÕES",
+      "codigo": "855979",
+      "faturamento": 32.98,
+      "quantidade": 2.0,
       "cpf_cnpj": "58.952.455/0001-97"
     },
     {
@@ -40812,7 +42389,7 @@
       "cpf_cnpj": "07.585.602/0001-05"
     },
     {
-      "mes": "jul",
+      "mes": "ago",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "TUCANO",
       "supervisor": "RODRIGO PINHEIRO",
@@ -40825,7 +42402,7 @@
       "cpf_cnpj": "00.243.988/0001-10"
     },
     {
-      "mes": "ago",
+      "mes": "jul",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "TUCANO",
       "supervisor": "RODRIGO PINHEIRO",
@@ -41397,6 +42974,19 @@
       "cpf_cnpj": "092.260.215-89"
     },
     {
+      "mes": "ago",
+      "fornecedor": "BEBIDAS MUTERLE",
+      "cidade": "SITIO DO QUINTO",
+      "supervisor": "RODRIGO PINHEIRO",
+      "gerente": "SANDRO",
+      "vendedor": "HENRIQUE RAMON",
+      "produto": "VINAGRE DA F. MAÇÃ ORGANICO 450ML 4 ESTAÇÕES",
+      "codigo": "855535",
+      "faturamento": 156.35,
+      "quantidade": 10.0,
+      "cpf_cnpj": "092.260.215-89"
+    },
+    {
       "mes": "jul",
       "fornecedor": "BEBIDAS MUTERLE",
       "cidade": "SITIO DO QUINTO",
@@ -41416,101 +43006,164 @@
       "fim": "14/09/2026"
     },
     "kpis": {
-      "faturamento_total": 28068.09,
-      "positivacao_total": 142,
-      "quantidade_total": 1762.0,
-      "ticket_medio": 197.66
+      "faturamento_total": 36910.6,
+      "positivacao_total": 198,
+      "quantidade_total": 2326.0,
+      "ticket_medio": 186.42
     },
     "ranking_vendedores": [
       {
         "vendedor": "HENRIQUE RAMON",
         "supervisor": "RODRIGO PINHEIRO",
         "gerente": "SANDRO",
-        "faturamento": 10675.08,
-        "positivacao": 20,
-        "quantidade": 635,
-        "ticket_medio": 533.75
+        "faturamento": 11495.27,
+        "positivacao": 23,
+        "quantidade": 681,
+        "ticket_medio": 499.79
       },
       {
         "vendedor": "UELESSON OLIVEIRA (129)",
         "supervisor": "GLEIDSON FIENES",
         "gerente": "MARIVALDO",
-        "faturamento": 2576.7,
-        "positivacao": 9,
-        "quantidade": 180,
-        "ticket_medio": 286.3
-      },
-      {
-        "vendedor": "MARIA ELIZABETE",
-        "supervisor": "ANDREIA MEDEIROS",
-        "gerente": "MARIVALDO",
-        "faturamento": 1324.09,
-        "positivacao": 7,
-        "quantidade": 91,
-        "ticket_medio": 189.16
+        "faturamento": 2888.46,
+        "positivacao": 10,
+        "quantidade": 204,
+        "ticket_medio": 288.85
       },
       {
         "vendedor": "JEFERSON SILVA (130)",
         "supervisor": "GLEIDSON FIENES",
         "gerente": "MARIVALDO",
-        "faturamento": 1011.0,
-        "positivacao": 2,
-        "quantidade": 60,
-        "ticket_medio": 505.5
+        "faturamento": 2484.36,
+        "positivacao": 3,
+        "quantidade": 144,
+        "ticket_medio": 828.12
       },
       {
         "vendedor": "CAIO VINICIUS",
         "supervisor": "RODRIGO PINHEIRO",
         "gerente": "SANDRO",
-        "faturamento": 960.24,
-        "positivacao": 3,
-        "quantidade": 56,
-        "ticket_medio": 320.08
+        "faturamento": 1989.69,
+        "positivacao": 7,
+        "quantidade": 111,
+        "ticket_medio": 284.24
       },
       {
-        "vendedor": "MARCOS JEAN",
-        "supervisor": "DANILO",
+        "vendedor": "MARIA ELIZABETE",
+        "supervisor": "ANDREIA MEDEIROS",
         "gerente": "MARIVALDO",
-        "faturamento": 766.32,
-        "positivacao": 1,
-        "quantidade": 48,
-        "ticket_medio": 766.32
-      },
-      {
-        "vendedor": "EDSON CORREIA (77 99165-5655)",
-        "supervisor": "GLEIDSON FIENES",
-        "gerente": "MARIVALDO",
-        "faturamento": 754.41,
-        "positivacao": 8,
-        "quantidade": 39,
-        "ticket_medio": 94.3
+        "faturamento": 1745.26,
+        "positivacao": 10,
+        "quantidade": 124,
+        "ticket_medio": 174.53
       },
       {
         "vendedor": "EVANILSON NOVAIS (107)",
         "supervisor": "ANDREIA MEDEIROS",
         "gerente": "MARIVALDO",
-        "faturamento": 698.61,
-        "positivacao": 11,
-        "quantidade": 49,
-        "ticket_medio": 63.51
-      },
-      {
-        "vendedor": "LARISSA MENDES",
-        "supervisor": "ANDREIA MEDEIROS",
-        "gerente": "MARIVALDO",
-        "faturamento": 698.45,
-        "positivacao": 5,
-        "quantidade": 45,
-        "ticket_medio": 139.69
+        "faturamento": 1136.78,
+        "positivacao": 15,
+        "quantidade": 82,
+        "ticket_medio": 75.79
       },
       {
         "vendedor": "ALLYS ARAUJO",
         "supervisor": "RODRIGO PINHEIRO",
         "gerente": "SANDRO",
-        "faturamento": 650.96,
-        "positivacao": 3,
+        "faturamento": 1030.66,
+        "positivacao": 5,
+        "quantidade": 74,
+        "ticket_medio": 206.13
+      },
+      {
+        "vendedor": "EDSON CORREIA (77 99165-5655)",
+        "supervisor": "GLEIDSON FIENES",
+        "gerente": "MARIVALDO",
+        "faturamento": 952.32,
+        "positivacao": 10,
+        "quantidade": 48,
+        "ticket_medio": 95.23
+      },
+      {
+        "vendedor": "WESCKEY FONTES",
+        "supervisor": "JEIZIANE",
+        "gerente": "SANDRO",
+        "faturamento": 931.17,
+        "positivacao": 4,
+        "quantidade": 63,
+        "ticket_medio": 232.79
+      },
+      {
+        "vendedor": "MARCOS JEAN",
+        "supervisor": "DANILO",
+        "gerente": "MARIVALDO",
+        "faturamento": 855.66,
+        "positivacao": 2,
+        "quantidade": 54,
+        "ticket_medio": 427.83
+      },
+      {
+        "vendedor": "EDENILSON FERREIRA",
+        "supervisor": "LUCAS SILVA",
+        "gerente": "SANDRO",
+        "faturamento": 837.9,
+        "positivacao": 10,
+        "quantidade": 48,
+        "ticket_medio": 83.79
+      },
+      {
+        "vendedor": "LARISSA MENDES",
+        "supervisor": "ANDREIA MEDEIROS",
+        "gerente": "MARIVALDO",
+        "faturamento": 813.89,
+        "positivacao": 6,
+        "quantidade": 51,
+        "ticket_medio": 135.65
+      },
+      {
+        "vendedor": "CLAUBELINO SANTOS (125)",
+        "supervisor": "GLEIDSON FIENES",
+        "gerente": "MARIVALDO",
+        "faturamento": 791.82,
+        "positivacao": 4,
+        "quantidade": 48,
+        "ticket_medio": 197.95
+      },
+      {
+        "vendedor": "CLARA ARAUJO",
+        "supervisor": "LUCAS SILVA",
+        "gerente": "SANDRO",
+        "faturamento": 788.24,
+        "positivacao": 7,
+        "quantidade": 56,
+        "ticket_medio": 112.61
+      },
+      {
+        "vendedor": "DIEGO SILVA",
+        "supervisor": "LUCAS SILVA",
+        "gerente": "SANDRO",
+        "faturamento": 696.86,
+        "positivacao": 7,
         "quantidade": 44,
-        "ticket_medio": 216.99
+        "ticket_medio": 99.55
+      },
+      {
+        "vendedor": "JONES FERNANDES",
+        "supervisor": "GLEIDSON FIENES",
+        "gerente": "MARIVALDO",
+        "faturamento": 638.58,
+        "positivacao": 4,
+        "quantidade": 42,
+        "ticket_medio": 159.65
+      },
+      {
+        "vendedor": "GABRIEL SODRE (120)",
+        "supervisor": "GLEIDSON FIENES",
+        "gerente": "MARIVALDO",
+        "faturamento": 634.44,
+        "positivacao": 2,
+        "quantidade": 36,
+        "ticket_medio": 317.22
       },
       {
         "vendedor": "CAMILA FERREIRA",
@@ -41522,22 +43175,13 @@
         "ticket_medio": 155.26
       },
       {
-        "vendedor": "EDENILSON FERREIRA",
-        "supervisor": "LUCAS SILVA",
+        "vendedor": "ANDRE VINAGRE (123)",
+        "supervisor": "JEIZIANE",
         "gerente": "SANDRO",
-        "faturamento": 545.38,
+        "faturamento": 578.12,
         "positivacao": 5,
-        "quantidade": 30,
-        "ticket_medio": 109.08
-      },
-      {
-        "vendedor": "JONES FERNANDES",
-        "supervisor": "GLEIDSON FIENES",
-        "gerente": "MARIVALDO",
-        "faturamento": 542.64,
-        "positivacao": 3,
-        "quantidade": 36,
-        "ticket_medio": 180.88
+        "quantidade": 38,
+        "ticket_medio": 115.62
       },
       {
         "vendedor": "DAGMAR SILVA (75 98201-9217)",
@@ -41549,94 +43193,58 @@
         "ticket_medio": 179.87
       },
       {
-        "vendedor": "CLARA ARAUJO",
-        "supervisor": "LUCAS SILVA",
-        "gerente": "SANDRO",
-        "faturamento": 510.79,
-        "positivacao": 3,
-        "quantidade": 31,
-        "ticket_medio": 170.26
-      },
-      {
-        "vendedor": "WESCKEY FONTES",
-        "supervisor": "JEIZIANE",
-        "gerente": "SANDRO",
-        "faturamento": 506.07,
-        "positivacao": 3,
-        "quantidade": 33,
-        "ticket_medio": 168.69
-      },
-      {
-        "vendedor": "GABRIEL SODRE (120)",
-        "supervisor": "GLEIDSON FIENES",
-        "gerente": "MARIVALDO",
-        "faturamento": 455.76,
-        "positivacao": 1,
-        "quantidade": 24,
-        "ticket_medio": 455.76
-      },
-      {
-        "vendedor": "ANDRE VINAGRE (123)",
-        "supervisor": "JEIZIANE",
-        "gerente": "SANDRO",
-        "faturamento": 431.81,
-        "positivacao": 3,
-        "quantidade": 29,
-        "ticket_medio": 143.94
-      },
-      {
-        "vendedor": "CLAUBELINO SANTOS (125)",
-        "supervisor": "GLEIDSON FIENES",
-        "gerente": "MARIVALDO",
-        "faturamento": 396.0,
-        "positivacao": 3,
-        "quantidade": 30,
-        "ticket_medio": 132.0
-      },
-      {
-        "vendedor": "DIEGO SILVA",
-        "supervisor": "LUCAS SILVA",
-        "gerente": "SANDRO",
-        "faturamento": 383.46,
-        "positivacao": 5,
-        "quantidade": 24,
-        "ticket_medio": 76.69
-      },
-      {
-        "vendedor": "AGNALDO SILVA (75 99889-0341)",
-        "supervisor": "ANDREIA MEDEIROS",
-        "gerente": "MARIVALDO",
-        "faturamento": 342.2,
-        "positivacao": 5,
-        "quantidade": 20,
-        "ticket_medio": 68.44
-      },
-      {
-        "vendedor": "HELLEN GOMES",
-        "supervisor": "DANILO",
-        "gerente": "MARIVALDO",
-        "faturamento": 336.16,
-        "positivacao": 3,
-        "quantidade": 24,
-        "ticket_medio": 112.05
-      },
-      {
         "vendedor": "CARMILTON GOMES (118)",
         "supervisor": "LUCAS SILVA",
         "gerente": "SANDRO",
-        "faturamento": 321.9,
+        "faturamento": 523.67,
+        "positivacao": 6,
+        "quantidade": 33,
+        "ticket_medio": 87.28
+      },
+      {
+        "vendedor": "TADEU SANTOS",
+        "supervisor": "RODRIGO PINHEIRO",
+        "gerente": "SANDRO",
+        "faturamento": 504.76,
         "positivacao": 3,
-        "quantidade": 20,
-        "ticket_medio": 107.3
+        "quantidade": 34,
+        "ticket_medio": 168.25
+      },
+      {
+        "vendedor": "JAILTON SANTOS (140)",
+        "supervisor": "RODRIGO PINHEIRO",
+        "gerente": "SANDRO",
+        "faturamento": 498.09,
+        "positivacao": 5,
+        "quantidade": 31,
+        "ticket_medio": 99.62
       },
       {
         "vendedor": "CAMILAIPIRA",
         "supervisor": "DANILO",
         "gerente": "MARIVALDO",
-        "faturamento": 290.3,
-        "positivacao": 3,
-        "quantidade": 20,
-        "ticket_medio": 96.77
+        "faturamento": 426.71,
+        "positivacao": 4,
+        "quantidade": 29,
+        "ticket_medio": 106.68
+      },
+      {
+        "vendedor": "AGNALDO SILVA (75 99889-0341)",
+        "supervisor": "ANDREIA MEDEIROS",
+        "gerente": "MARIVALDO",
+        "faturamento": 426.12,
+        "positivacao": 7,
+        "quantidade": 28,
+        "ticket_medio": 60.87
+      },
+      {
+        "vendedor": "HELLEN GOMES",
+        "supervisor": "DANILO",
+        "gerente": "MARIVALDO",
+        "faturamento": 370.12,
+        "positivacao": 4,
+        "quantidade": 28,
+        "ticket_medio": 92.53
       },
       {
         "vendedor": "PEDRO HENRIQUE",
@@ -41648,40 +43256,31 @@
         "ticket_medio": 57.45
       },
       {
-        "vendedor": "JAILTON SANTOS (140)",
-        "supervisor": "RODRIGO PINHEIRO",
-        "gerente": "SANDRO",
-        "faturamento": 264.24,
-        "positivacao": 4,
-        "quantidade": 16,
-        "ticket_medio": 66.06
-      },
-      {
         "vendedor": "JULIETE LIMA (122)",
         "supervisor": "JEIZIANE",
         "gerente": "SANDRO",
-        "faturamento": 209.57,
-        "positivacao": 2,
-        "quantidade": 13,
-        "ticket_medio": 104.78
-      },
-      {
-        "vendedor": "TADEU SANTOS",
-        "supervisor": "RODRIGO PINHEIRO",
-        "gerente": "SANDRO",
-        "faturamento": 206.47,
-        "positivacao": 1,
-        "quantidade": 13,
-        "ticket_medio": 206.47
+        "faturamento": 273.53,
+        "positivacao": 3,
+        "quantidade": 17,
+        "ticket_medio": 91.18
       },
       {
         "vendedor": "AROLDO",
         "supervisor": "LUCAS SILVA",
         "gerente": "SANDRO",
-        "faturamento": 148.9,
+        "faturamento": 268.02,
+        "positivacao": 5,
+        "quantidade": 18,
+        "ticket_medio": 53.6
+      },
+      {
+        "vendedor": "JORGE REIS (117)",
+        "supervisor": "GLEIDSON FIENES",
+        "gerente": "MARIVALDO",
+        "faturamento": 198.35,
         "positivacao": 3,
-        "quantidade": 10,
-        "ticket_medio": 49.63
+        "quantidade": 15,
+        "ticket_medio": 66.12
       },
       {
         "vendedor": "GILDASIO GAMA (128)",
@@ -41693,6 +43292,24 @@
         "ticket_medio": 131.94
       },
       {
+        "vendedor": "CESAR DIAS",
+        "supervisor": "GLEIDSON FIENES",
+        "gerente": "MARIVALDO",
+        "faturamento": 114.93,
+        "positivacao": 2,
+        "quantidade": 7,
+        "ticket_medio": 57.46
+      },
+      {
+        "vendedor": "PAULA RIBEIRO (101)",
+        "supervisor": "GLEIDSON FIENES",
+        "gerente": "MARIVALDO",
+        "faturamento": 113.94,
+        "positivacao": 1,
+        "quantidade": 6,
+        "ticket_medio": 113.94
+      },
+      {
         "vendedor": "ILMA MOURA",
         "supervisor": "GLEIDSON FIENES",
         "gerente": "MARIVALDO",
@@ -41700,24 +43317,6 @@
         "positivacao": 1,
         "quantidade": 7,
         "ticket_medio": 107.53
-      },
-      {
-        "vendedor": "CESAR DIAS",
-        "supervisor": "GLEIDSON FIENES",
-        "gerente": "MARIVALDO",
-        "faturamento": 95.94,
-        "positivacao": 1,
-        "quantidade": 6,
-        "ticket_medio": 95.94
-      },
-      {
-        "vendedor": "JORGE REIS (117)",
-        "supervisor": "GLEIDSON FIENES",
-        "gerente": "MARIVALDO",
-        "faturamento": 77.75,
-        "positivacao": 2,
-        "quantidade": 5,
-        "ticket_medio": 38.88
       },
       {
         "vendedor": "JEAN CARLOS (77 99962-0649)",
@@ -41738,6 +43337,15 @@
         "ticket_medio": 50.94
       },
       {
+        "vendedor": "HIAN RIBEIRO",
+        "supervisor": "DANILO",
+        "gerente": "MARIVALDO",
+        "faturamento": 32.97,
+        "positivacao": 2,
+        "quantidade": 3,
+        "ticket_medio": 16.48
+      },
+      {
         "vendedor": "JOELSON MIRANDA",
         "supervisor": "ANDREIA MEDEIROS",
         "gerente": "MARIVALDO",
@@ -41754,75 +43362,66 @@
         "positivacao": 1,
         "quantidade": 2,
         "ticket_medio": 29.78
-      },
-      {
-        "vendedor": "HIAN RIBEIRO",
-        "supervisor": "DANILO",
-        "gerente": "MARIVALDO",
-        "faturamento": 16.98,
-        "positivacao": 1,
-        "quantidade": 2,
-        "ticket_medio": 16.98
       }
     ],
     "ranking_supervisores": [
       {
         "supervisor": "RODRIGO PINHEIRO",
-        "faturamento": 12888.93,
-        "positivacao": 32,
-        "quantidade": 770,
-        "ticket_medio": 402.78
+        "faturamento": 15650.41,
+        "positivacao": 44,
+        "quantidade": 937,
+        "ticket_medio": 355.69
       },
       {
         "supervisor": "GLEIDSON FIENES",
-        "faturamento": 6138.52,
-        "positivacao": 33,
-        "quantidade": 398,
-        "ticket_medio": 186.02
+        "faturamento": 9045.52,
+        "positivacao": 43,
+        "quantidade": 568,
+        "ticket_medio": 210.36
       },
       {
         "supervisor": "ANDREIA MEDEIROS",
-        "faturamento": 3095.33,
-        "positivacao": 29,
-        "quantidade": 207,
-        "ticket_medio": 106.74
-      },
-      {
-        "supervisor": "DANILO",
-        "faturamento": 2318.05,
-        "positivacao": 17,
-        "quantidade": 155,
-        "ticket_medio": 136.36
+        "faturamento": 4154.03,
+        "positivacao": 39,
+        "quantidade": 287,
+        "ticket_medio": 106.51
       },
       {
         "supervisor": "LUCAS SILVA",
-        "faturamento": 1940.21,
-        "positivacao": 20,
-        "quantidade": 117,
-        "ticket_medio": 97.01
+        "faturamento": 3144.47,
+        "positivacao": 36,
+        "quantidade": 201,
+        "ticket_medio": 87.35
+      },
+      {
+        "supervisor": "DANILO",
+        "faturamento": 2593.75,
+        "positivacao": 21,
+        "quantidade": 175,
+        "ticket_medio": 123.51
       },
       {
         "supervisor": "JEIZIANE",
-        "faturamento": 1687.05,
-        "positivacao": 11,
-        "quantidade": 115,
-        "ticket_medio": 153.37
+        "faturamento": 2322.42,
+        "positivacao": 15,
+        "quantidade": 158,
+        "ticket_medio": 154.83
       }
     ],
     "ranking_gerentes": [
       {
         "gerente": "SANDRO",
-        "faturamento": 16516.19,
-        "positivacao": 63,
-        "quantidade": 1002,
-        "ticket_medio": 262.16
+        "faturamento": 21117.3,
+        "positivacao": 95,
+        "quantidade": 1296,
+        "ticket_medio": 222.29
       },
       {
         "gerente": "MARIVALDO",
-        "faturamento": 11551.9,
-        "positivacao": 79,
-        "quantidade": 760,
-        "ticket_medio": 146.23
+        "faturamento": 15793.3,
+        "positivacao": 103,
+        "quantidade": 1030,
+        "ticket_medio": 153.33
       }
     ]
   }
