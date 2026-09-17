@@ -1,5 +1,4 @@
 // Configuração dos nomes das imagens de prêmio na raiz do projeto
-// Ajuste aqui se os arquivos na sua pasta tiverem nomes diferentes
 const PREMIOS_VENDEDOR = [
     'premio-1-tablet.png',
     'premio-2-sanduicheira.png',
@@ -97,7 +96,7 @@ function toggleVisualizacao() {
     renderizarRanking();
 }
 
-// Comparador de texto tolerante (trim, lowercase, sem acentos opcional)
+// Comparador de texto tolerante
 function normalizarTexto(texto) {
     return String(texto).toLowerCase().trim().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
 }
